@@ -1,0 +1,3 @@
+C:/Users/amrut/CLionProjects/Airlines/cmake-build-debug/CMakeFiles/Airlines.dir
+C:/Users/amrut/CLionProjects/Airlines/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/amrut/CLionProjects/Airlines/cmake-build-debug/CMakeFiles/rebuild_cache.dir
