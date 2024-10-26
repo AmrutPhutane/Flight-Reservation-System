@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/amrut/CLionProjects/Airlines
+# Install script for directory: C:/Users/amrut/CLionProjects/Flight-Reservation-System-3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/amrut/CLionProjects/Airlines/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/amrut/CLionProjects/Flight-Reservation-System-3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
