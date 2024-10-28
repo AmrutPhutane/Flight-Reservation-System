@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include "keywords.h"
 
-int main(void)
+
+void main()
 {
-    printf("Hello, World!\n");
-    return 0;
+    char text[100];
+    printf("Enter text: ");
+    gets(text);
+    cleaned_text(text);
 }
