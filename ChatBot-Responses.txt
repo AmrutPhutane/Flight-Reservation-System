@@ -1,0 +1,55 @@
+Welcome to our Airline Services. How may I help you?
+
+***Responses for Greetings***
+
+hi|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hello|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hey|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hi there|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hello there|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hey there|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+good morning|Good Morning! How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+good afternoon|Good Afternoon! How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+good evening|Good Evening! How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+what's up|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hola|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+bonjour|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+namaste|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hello bot|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hello chatbot|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hello friend|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+hey buddy|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+what's going on|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+what's new|How can I assist you today? Whether you need help with booking or any other inquiries, I'm here to help!
+
+***Responses for Ticket View***
+
+I want to check my ticket|Sure! Please provide your ticket ID, and I'll help you check the details.
+Can I see my ticket|Sure! Please provide your ticket ID, and I'll help you check the details.
+I'd like to check my ticket status|Sure! Please provide your ticket ID, and I'll help you check the details.
+Show me my ticket|Sure! Please provide your ticket ID, and I'll help you check the details.
+How do I view my ticket|Sure! Please provide your ticket ID, and I'll help you check the details.
+Please help me check my ticket|Sure! Please provide your ticket ID, and I'll help you check the details.
+I need to look at my ticket|Sure! Please provide your ticket ID, and I'll help you check the details.
+Can you tell me about my ticket|Sure! Please provide your ticket ID, and I'll help you check the details.
+I'd like to see my ticket details|Sure! Please provide your ticket ID, and I'll help you check the details.
+What’s the status of my ticket|Sure! Please provide your ticket ID, and I'll help you check the details.
+
+***Responses for Ticket Booking***
+
+I want to book a ticket|Sure! Please provide the details of your journey here.
+Can you help me book a ticket|Sure! Please provide the details of your journey here.
+I'd like to reserve a ticket|Sure! Please provide the details of your journey here.
+How do I purchase a ticket|Sure! Please provide the details of your journey here.
+Please help me with ticket booking|Sure! Please provide the details of your journey here.
+I need to book a flight|Sure! Please provide the details of your journey here.
+Show me how to book a ticket|Sure! Please provide the details of your journey here.
+I want to make a reservation|Sure! Please provide the details of your journey here.
+Can I book a ticket right now|Sure! Please provide the details of your journey here.
+I'd like to buy a ticket|Sure! Please provide the details of your journey here.
+
+***Responses for Ticket Cancellation***
+
+I want to cancel ticket|
+
+
