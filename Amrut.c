@@ -1,23 +1,26 @@
+// Created by amrut on 28-10-2024.
 #include <stdio.h>
-#include <ctype.h>
 #include <string.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <math.h>
-
-char* cleaner(char text[]) {
+#include <ctype.h>
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+char* cleaner(char text[100])
+{
     int j = 0;
-    char lowercase_output[100];
-    char cleaned_output[100] = "";
+    char lowercase_output[100], cleaned_output[100];
+    cleaned_output[0] = '\0';
 
     for (int i = 0; text[i] != '\0'; i++) {
-        if (isalpha(text[i]) || text[i] == ' ') {
+        if (isalpha(text[i]) ) {
             lowercase_output[j++] = tolower(text[i]);
         }
     }
     lowercase_output[j] = '\0';
-
-    const char* stop_words[] = {
+    //printf("%s\n", lowercase_output);
+    /*
+    const char stop_words[] = {
         "i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "you're",
         "you've", "you'll", "you'd", "your", "yours", "yourself", "yourselves", "he",
         "him", "his", "himself", "she", "she's", "her", "hers", "herself", "it", "it's",
@@ -40,43 +43,53 @@ char* cleaner(char text[]) {
     };
     int stopword_count = sizeof(stop_words) / sizeof(stop_words[0]);
 
-    char* token = strtok(lowercase_output, " ");
-    while (token != NULL) {
-        bool is_stop_word = false;
+    char token = strtok(lowercase_output, " ");
+    while (token != NULL)
+    {
+        bool stop_word = false;
 
-        for (int i = 0; i < stopword_count; i++) {
-            if (strcmp(token, stop_words[i]) == 0) {
-                is_stop_word = true;
+        for (int i = 0; i < stopword_count; i++)
+        {
+            if (strcmp(token, stop_words[i]) == 0)
+            {
+                stop_word = true;
                 break;
             }
         }
 
-        if (!is_stop_word) {
+        if (!stop_word)
+        {
             strcat(cleaned_output, token);
             strcat(cleaned_output, " ");
         }
 
         token = strtok(NULL, " ");
     }
+    */
+    return lowercase_output;
 
-    cleaned_output[strlen(cleaned_output) - 1] = '\0';  // Remove trailing space
 
-    static char final_output[100];
-    strcpy(final_output, cleaned_output);
-    return final_output;
 }
-int* vectorize(char text[]) {
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+int* vectorize(const char text[100]) {
+    char alphabets[27] = "abcdefghijklmnopqrstuvwxyz";
     int* vector = (int*)calloc(26, sizeof(int));
-    for (int j = 0; text[j] != '\0'; j++) {
-        if (text[j] >= 'a' && text[j] <= 'z') {
-            vector[text[j] - 'a']++;
+
+    for (int i = 0; i < strlen(text); i++) {
+        for (int j = 0; j < 26; j++) {
+            if (text[i] == alphabets[j]) {
+                vector[j] = 1;
+                break;
+            }
         }
     }
     return vector;
 }
 
-double similarity(const int vector1[26], const int vector2[26]) {
-    int dot_product = 0, mag_v1 = 0, mag_v2 = 0;
+double matchmaker(const int vector1[26], const int vector2[26]) {
+    int dot_product = 0;
+    int mag_v1 = 0, mag_v2 = 0;
 
     for (int i = 0; i < 26; i++) {
         dot_product += vector1[i] * vector2[i];
@@ -86,49 +99,44 @@ double similarity(const int vector1[26], const int vector2[26]) {
 
     double magnitude1 = sqrt(mag_v1);
     double magnitude2 = sqrt(mag_v2);
-    return (magnitude1 == 0 || magnitude2 == 0) ? 0.0 : dot_product / (magnitude1 * magnitude2);
+
+    if (magnitude1 == 0 || magnitude2 == 0) {
+        return 0;
+    }
+
+    return (double)dot_product / (magnitude1 * magnitude2);
 }
 
-char* find_keyword(char cleaned_output[], char keywords_list[][100], int keywords_count) {
-    double max_similarity = 0.0;
-    char* keyword = (char*)calloc(100, sizeof(char));
-    char cleaned_copy[100];
-    strcpy(cleaned_copy, cleaned_output);
+void responder(char cleaned_output[], char keywords[][20], int keyword_count) {
+    int similarity = 0;
+    char best_keyword[20] = "";
 
-    char* token = strtok(cleaned_copy, " ");
+    char *token = strtok(cleaned_output, " ");
     while (token != NULL) {
-        int* vector1 = vectorize(token);
-        for (int i = 0; i < keywords_count; i++) {
-            int* vector2 = vectorize(keywords_list[i]);
-            double sim = similarity(vector1, vector2);
-            if (sim > max_similarity) {
-                max_similarity = sim;
-                strncpy(keyword, keywords_list[i], 100);
+        int* token_vector = vectorize(token); // Vector for the current token
+        for (int i = 0; i < keyword_count; i++) {
+            int* keyword_vector = vectorize(keywords[i]); // Vector for the keyword
+            int current_similarity = matchmaker(token_vector, keyword_vector);
+
+            if (current_similarity > similarity) {
+                similarity = current_similarity;
+                strcpy(best_keyword, keywords[i]); // Copy the best keyword
             }
-            free(vector2);
+
+            free(keyword_vector); // Free memory for keyword vector
         }
-        free(vector1);
+        printf("Token: %s Keyword: %s Similarity: %d\n", token, best_keyword, similarity);
+
+        free(token_vector); // Free memory for token vector
         token = strtok(NULL, " ");
     }
-    return keyword;
 }
 
 
 
-int main() {
-    char text[100] = "Can i talk to the customer support?";
-    char* cleaned_value = cleaner(text);
-    char keywords_list[][100] = {
-        "cancel cancellation abort", "status confirmation", "baggage allowance weight carry luggage",
-        "refund reimbursement", "payment billing charge receipt", "feedback complaint review issue",
-        "customer contact support help assistance", "hello hi greetings hey", "book booking reserve",
-        "status flight arrival departure delay"
-    };
-    int keywords_count = sizeof(keywords_list) / sizeof(keywords_list[0]);
-    char* matched_keyword = find_keyword(cleaned_value, keywords_list, keywords_count);
-    printf("For the user input: %s\n", text);
-    printf("Best matching keyword: %s\n", matched_keyword);
-    free(matched_keyword);
 
-    return 0;
-}
+
+
+
+
+

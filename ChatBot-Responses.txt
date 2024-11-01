@@ -1,93 +1,52 @@
-***Ticket Booking***
+
+
+
+
+***Booking***
+book booking reserve ticket
+Response by Chatbot
+
 
 ***Flight Status***
+status flight arrival departure delay
+Response by Chatbot
 
-***Ticket Cancellation***
 
-***Check-In Information***
+***Cancellation***
+cancel cancellation ticket abort
+Response by Chatbot
 
-***Baggage Allowance and Policies***
+
+***Ticket Status***
+status ticket confirmation
+Response by Chatbot
+
+
+***Baggage Allowance***
+baggage allowance weight carry luggage
+Response by Chatbot
+
 
 ***Refund***
+refund reimbursement
+Response by Chatbot
 
-***Travel Alerts and Notifications***
-
-***Seat Selection***
-
-***Frequent Flyer Program***
-
-***Travel Guide***
-
-***In-Flight Services***
-
-***Airport Security Regulations***
-
-***Connecting Flights***
-
-***Airport Transfers***
 
 ***Payment and Billing***
+payment billing charge receipt
+Response by Chatbot
 
-***Travel Insurance***
-
-***Pet Travel Policies***
-
-***Special Assistance***
-
-***Lost and Found***
-
-***Lounge Access***
-
-***Group Bookings***
-
-***Weather Updates at Destination***
-
-***Lost or Damaged Baggage Claims***
-
-***Visa and Immigration Information***
 
 ***Customer Feedback and Complaints***
+feedback complaint review issue
+Response by Chatbot
 
-***Customer Loyalty Tiers***
-
-***Upgrade Options***
-
-***Non-Refundable Ticket Policy***
-
-***Travel Time Estimation***
-
-***Multi-City Travel***
-
-***Digital Boarding Pass Usage***
-
-***Seasonal Offers and Discounts***
-
-***Early Check-In Options***
-
-***Delayed or Rescheduled Flights***
-
-***Duty-Free Shopping***
-
-***Medical Requirements for Air Travel***
-
-***Noise-Cancelling Headphones and Comfort Packs***
-
-***Layover Services***
-
-***Aircraft Information***
-
-***Airline Alliance Benefits***
-
-***Destination-Specific Advice***
-
-***Cabin Crew and Pilot Details***
 
 ***Contact Information and Support***
+contact support help assistance
+Response by Chatbot
 
-***Information on Airline News***
-
-***Airline Policies on Refunds due to Health Reasons***
-
-***On-Time Performance***
 
 ***Greetings***
+hello hi greetings hey
+Response by Chatbot

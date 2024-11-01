@@ -3,8 +3,7 @@ project(Airlines C)
 
 set(CMAKE_C_STANDARD 17)
 
-add_executable(Airlines main.c
-        mycode.h
-        keywords.c
-        keywords.h
+add_executable(
+        Airlines
+        main.c
 )
