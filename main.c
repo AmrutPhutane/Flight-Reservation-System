@@ -9,7 +9,6 @@ char* cleaner(char text[]) {
     int j = 0;
     char lowercase_output[100];
     char cleaned_output[100] = "";
-
     for (int i = 0; text[i] != '\0'; i++) {
         if (isalpha(text[i]) || text[i] == ' ') {
             lowercase_output[j++] = tolower(text[i]);
@@ -18,6 +17,7 @@ char* cleaner(char text[]) {
     lowercase_output[j] = '\0';
 
     const char* stop_words[] = {
+        // List of stop words
         "i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "you're",
         "you've", "you'll", "you'd", "your", "yours", "yourself", "yourselves", "he",
         "him", "his", "himself", "she", "she's", "her", "hers", "herself", "it", "it's",
@@ -40,6 +40,7 @@ char* cleaner(char text[]) {
     };
     int stopword_count = sizeof(stop_words) / sizeof(stop_words[0]);
 
+
     char* token = strtok(lowercase_output, " ");
     while (token != NULL) {
         bool is_stop_word = false;
@@ -59,12 +60,13 @@ char* cleaner(char text[]) {
         token = strtok(NULL, " ");
     }
 
-    cleaned_output[strlen(cleaned_output) - 1] = '\0';  // Remove trailing space
+    cleaned_output[strlen(cleaned_output) - 1] = '\0';
 
     static char final_output[100];
     strcpy(final_output, cleaned_output);
     return final_output;
 }
+
 int* vectorize(char text[]) {
     int* vector = (int*)calloc(26, sizeof(int));
     for (int j = 0; text[j] != '\0'; j++) {
@@ -86,12 +88,22 @@ double similarity(const int vector1[26], const int vector2[26]) {
 
     double magnitude1 = sqrt(mag_v1);
     double magnitude2 = sqrt(mag_v2);
-    return (magnitude1 == 0 || magnitude2 == 0) ? 0.0 : dot_product / (magnitude1 * magnitude2);
+
+    // Calculate the similarity
+    double similarity_value = (magnitude1 == 0 || magnitude2 == 0) ? 0.0 : (double)dot_product / (magnitude1 * magnitude2);
+
+    // Return similarity only if it's 0.5 or more, otherwise return 0
+    return (similarity_value >= 0.6) ? similarity_value : 0.0;
 }
 
-char* find_keyword(char cleaned_output[], char keywords_list[][100], int keywords_count) {
+struct chadbot {
+    char* keyword_string;
+    int txt_reference;
+};
+
+int find_keyword(char cleaned_output[], struct chadbot services[], int keywords_count) {
     double max_similarity = 0.0;
-    char* keyword = (char*)calloc(100, sizeof(char));
+    int best_index = -1; // Initialize to -1 to indicate no match found
     char cleaned_copy[100];
     strcpy(cleaned_copy, cleaned_output);
 
@@ -99,36 +111,101 @@ char* find_keyword(char cleaned_output[], char keywords_list[][100], int keyword
     while (token != NULL) {
         int* vector1 = vectorize(token);
         for (int i = 0; i < keywords_count; i++) {
-            int* vector2 = vectorize(keywords_list[i]);
+            int* vector2 = vectorize(services[i].keyword_string);
             double sim = similarity(vector1, vector2);
             if (sim > max_similarity) {
                 max_similarity = sim;
-                strncpy(keyword, keywords_list[i], 100);
+                best_index = i; // Store the index of the best match
             }
             free(vector2);
         }
         free(vector1);
         token = strtok(NULL, " ");
     }
-    return keyword;
+
+    return best_index; // Return the index of the best match, or -1 if no match found
+}
+
+int update(struct chadbot services[], int services_count) {
+    const char* path = "C:\\Users\\amrut\\OneDrive\\Documents\\GitHub\\Flight-Reservation-System\\Responses.txt";
+    FILE* file = fopen(path, "r");
+    if (file == NULL) {
+        perror("Error opening file");
+        return -1;
+    }
+
+    char line[1000];
+    int i = 0;
+    int line_number = 0;
+
+    // Read keywords into services
+    while (fgets(line, sizeof(line), file) != NULL) {
+        line_number++;
+
+        // Check if the line number is a multiple of 5
+        if (line_number % 5 == 0 && i < services_count) {
+            line[strcspn(line, "\n")] = '\0';
+            services[i].keyword_string = strdup(line);
+            services[i].txt_reference = line_number;
+            i++;
+        }
+    }
+    fclose(file);
+    return i;
 }
 
 
+char* replier(int line_number) {
+    const char* path = "C:\\Users\\amrut\\OneDrive\\Documents\\GitHub\\Flight-Reservation-System\\Responses.txt";
+    FILE* file = fopen(path, "r");
+    if (file == NULL) {
+        perror("Error opening file");
+        return NULL;  // Return NULL on failure to open the file
+    }
+
+    char line[256];  // Buffer to hold each line
+    int current_line = 0;
+
+    while (fgets(line, sizeof(line), file) != NULL) {
+        current_line++;
+
+        // Check if the current line matches the requested line number
+        if (current_line == line_number) {
+            line[strcspn(line, "\n")] = '\0';  // Remove newline character
+            fclose(file);  // Close the file before returning
+            return strdup(line);  // Return a dynamically allocated copy of the line
+        }
+    }
+
+    fclose(file);
+    return strdup("Can you rephrase?");  // Return a default reply if not found
+}
 
 int main() {
-    char text[100] = "Can i talk to the customer support?";
+    char text[100] = "hahahahahha";
     char* cleaned_value = cleaner(text);
-    char keywords_list[][100] = {
-        "cancel cancellation abort", "status confirmation", "baggage allowance weight carry luggage",
-        "refund reimbursement", "payment billing charge receipt", "feedback complaint review issue",
-        "customer contact support help assistance", "hello hi greetings hey", "book booking reserve",
-        "status flight arrival departure delay"
-    };
-    int keywords_count = sizeof(keywords_list) / sizeof(keywords_list[0]);
-    char* matched_keyword = find_keyword(cleaned_value, keywords_list, keywords_count);
+    int services_count = 10;
+
+    struct chadbot services[10];
+    int loaded_services = update(services, services_count);
+    if (loaded_services == -1) {
+        return 1;
+    }
+
+    for (int i = 0; i < loaded_services; i++) {
+        printf("Service %d Keywords: %s\n", i + 1, services[i].keyword_string);
+    }
+
+    int keyword_index = find_keyword(cleaned_value, services, loaded_services);
     printf("For the user input: %s\n", text);
-    printf("Best matching keyword: %s\n", matched_keyword);
-    free(matched_keyword);
+    printf("Best matching keyword: %d\n", keyword_index);
+
+
+    int line_number = services[keyword_index].txt_reference + 1;
+    char* reply = replier(line_number);
+    printf("Reply from chatbot: %s\n", reply);
+
+    free(keyword_index);
 
     return 0;
 }
