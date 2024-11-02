@@ -2,50 +2,50 @@ Hi, I am your chadbot....
 
 
 ***Booking***
-book booking reserve ticket
-Response by Chatbot
+book booking reserve
+Are you asking about booking?
 
 
 ***Flight Status***
 status flight arrival departure delay
-Response by Chatbot
+Are you asking about flight status?
 
 
 ***Cancellation***
-cancel cancellation ticket abort
-Response by Chatbot
+cancel cancellation abort
+Are you asking about cancellation?
 
 
 ***Ticket Status***
-status ticket confirmation
-Response by Chatbot
+status confirmation
+Are you asking about ticket status?
 
 
 ***Baggage Allowance***
 baggage allowance weight carry luggage
-Response by Chatbot
+Are you asking about baggage?
 
 
 ***Refund***
 refund reimbursement
-Response by Chatbot
+Are you asking about refund?
 
 
 ***Payment and Billing***
 payment billing charge receipt
-Response by Chatbot
+Are you asking about payments?
 
 
 ***Customer Feedback and Complaints***
 feedback complaint review issue
-Response by Chatbot
+Are you asking about customer contact?
 
 
 ***Contact Information and Support***
 contact support help assistance
-Response by Chatbot
+Are you asking about assistance?
 
 
 ***Greetings***
 hello hi greetings hey
-Response by Chatbot
+Hey bro, lesssss fking enjoy your bot...

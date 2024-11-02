@@ -1,26 +1,24 @@
-// Created by amrut on 28-10-2024.
 #include <stdio.h>
+#include <ctype.h>
 #include <string.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <math.h>
-#include <ctype.h>
-///////////////////////////////////////////////////////////////////////////////////////////////////////
-char* cleaner(char text[100])
-{
+
+
+char* cleaner(const char text[]) {
     int j = 0;
-    char lowercase_output[100], cleaned_output[100];
-    cleaned_output[0] = '\0';
+    int text_len = strlen(text);
+    char* lowercase_output = (char*)malloc((text_len + 1) * sizeof(char));
 
     for (int i = 0; text[i] != '\0'; i++) {
-        if (isalpha(text[i]) ) {
+        if (isalpha(text[i]) || text[i] == ' ') {
             lowercase_output[j++] = tolower(text[i]);
         }
     }
     lowercase_output[j] = '\0';
-    //printf("%s\n", lowercase_output);
-    /*
-    const char stop_words[] = {
+
+    const char* stop_words[] = {
         "i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "you're",
         "you've", "you'll", "you'd", "your", "yours", "yourself", "yourselves", "he",
         "him", "his", "himself", "she", "she's", "her", "hers", "herself", "it", "it's",
@@ -43,53 +41,43 @@ char* cleaner(char text[100])
     };
     int stopword_count = sizeof(stop_words) / sizeof(stop_words[0]);
 
-    char token = strtok(lowercase_output, " ");
-    while (token != NULL)
-    {
-        bool stop_word = false;
+    char* cleaned_output = (char*)calloc(text_len + 1, sizeof(char));
+    if (cleaned_output == NULL) {
+        free(lowercase_output);
+        return NULL; // Allocation check
+    }
 
-        for (int i = 0; i < stopword_count; i++)
-        {
-            if (strcmp(token, stop_words[i]) == 0)
-            {
-                stop_word = true;
+    char* token = strtok(lowercase_output, " ");
+    while (token != NULL) {
+        bool is_stop_word = false;
+        for (int i = 0; i < stopword_count; i++) {
+            if (strcmp(token, stop_words[i]) == 0) {
+                is_stop_word = true;
                 break;
             }
         }
-
-        if (!stop_word)
-        {
+        if (!is_stop_word) {
             strcat(cleaned_output, token);
             strcat(cleaned_output, " ");
         }
-
         token = strtok(NULL, " ");
     }
-    */
-    return lowercase_output;
-
-
+    free(lowercase_output);
+    return cleaned_output;
 }
-/*
-///////////////////////////////////////////////////////////////////////////////////////////////////////
-int* vectorize(const char text[100]) {
-    char alphabets[27] = "abcdefghijklmnopqrstuvwxyz";
-    int* vector = (int*)calloc(26, sizeof(int));
 
-    for (int i = 0; i < strlen(text); i++) {
-        for (int j = 0; j < 26; j++) {
-            if (text[i] == alphabets[j]) {
-                vector[j] = 1;
-                break;
-            }
+int* vectorize(char text[]) {
+    int* vector = (int*)calloc(26, sizeof(int));
+    for (int j = 0; text[j] != '\0'; j++) {
+        if (text[j] >= 'a' && text[j] <= 'z') {
+            vector[text[j] - 'a']++;
         }
     }
     return vector;
 }
 
-double matchmaker(const int vector1[26], const int vector2[26]) {
-    int dot_product = 0;
-    int mag_v1 = 0, mag_v2 = 0;
+double similarity(const int vector1[26], const int vector2[26]) {
+    int dot_product = 0, mag_v1 = 0, mag_v2 = 0;
 
     for (int i = 0; i < 26; i++) {
         dot_product += vector1[i] * vector2[i];
@@ -99,44 +87,100 @@ double matchmaker(const int vector1[26], const int vector2[26]) {
 
     double magnitude1 = sqrt(mag_v1);
     double magnitude2 = sqrt(mag_v2);
-
-    if (magnitude1 == 0 || magnitude2 == 0) {
-        return 0;
-    }
-
-    return (double)dot_product / (magnitude1 * magnitude2);
+    double similarity_value = (magnitude1 == 0 || magnitude2 == 0) ? 0.0 : (double)dot_product / (magnitude1 * magnitude2);
+    return (similarity_value >= 0.6) ? similarity_value : 0.0;
 }
 
-void responder(char cleaned_output[], char keywords[][20], int keyword_count) {
-    int similarity = 0;
-    char best_keyword[20] = "";
+int find_keyword(char cleaned_output[], struct chadbot services[], int keywords_count) {
+    double max_similarity = 0.0;
+    int best_index = -1;
+    char cleaned_copy[100];
+    strcpy(cleaned_copy, cleaned_output);
 
-    char *token = strtok(cleaned_output, " ");
+    char* token = strtok(cleaned_copy, " ");
     while (token != NULL) {
-        int* token_vector = vectorize(token); // Vector for the current token
-        for (int i = 0; i < keyword_count; i++) {
-            int* keyword_vector = vectorize(keywords[i]); // Vector for the keyword
-            int current_similarity = matchmaker(token_vector, keyword_vector);
-
-            if (current_similarity > similarity) {
-                similarity = current_similarity;
-                strcpy(best_keyword, keywords[i]); // Copy the best keyword
+        int* vector1 = vectorize(token);
+        for (int i = 0; i < keywords_count; i++) {
+            int* vector2 = vectorize(services[i].keyword_string);
+            double sim = similarity(vector1, vector2);
+            if (sim > max_similarity) {
+                max_similarity = sim;
+                best_index = i;
             }
-
-            free(keyword_vector); // Free memory for keyword vector
+            free(vector2);
         }
-        printf("Token: %s Keyword: %s Similarity: %d\n", token, best_keyword, similarity);
-
-        free(token_vector); // Free memory for token vector
+        free(vector1);
         token = strtok(NULL, " ");
     }
+    return best_index;
 }
 
+int update(struct chadbot services[], int services_count) {
+    const char* path = "C:\\Users\\amrut\\OneDrive\\Documents\\GitHub\\Flight-Reservation-System\\Responses.txt";
+    FILE* file = fopen(path, "r");
+
+    if (file == NULL) {
+        perror("Error opening file");
+        return -1;
+    }
+
+    char line[1000];
+    int i = 0;
+    int line_number = 0;
+
+    while (fgets(line, sizeof(line), file) != NULL) {
+        line_number++;
+        if (line_number % 5 == 0 && i < services_count) {
+            line[strcspn(line, "\n")] = '\0';
+            services[i].keyword_string = strdup(line);
+            services[i].txt_reference = line_number;
+            i++;
+        }
+    }
+    fclose(file);
+    return i;
+}
+
+char* replier(int line_number) {
+    const char* path = "C:\\Users\\amrut\\OneDrive\\Documents\\GitHub\\Flight-Reservation-System\\Responses.txt";
+    FILE* file = fopen(path, "r");
+    char line[256];
+    int current_line = 0;
+
+    while (fgets(line, sizeof(line), file) != NULL) {
+        current_line++;
+        if (current_line == line_number) {
+            line[strcspn(line, "\n")] = '\0';
+            fclose(file);
+            return strdup(line);
+        }
+    }
+    fclose(file);
+    return strdup("Can you rephrase?");
+}
+
+int main() {
+    char text[100] = "hahahahahha";
+    char* cleaned_value = cleaner(text);
+    int services_count = 10;
+
+    struct chadbot services[10];
+    int loaded_services = update(services, services_count);
+
+    for (int i = 0; i < loaded_services; i++) {
+        printf("Service %d Keywords: %s\n", i + 1, services[i].keyword_string);
+    }
+
+    int keyword_index = find_keyword(cleaned_value, services, loaded_services);
+    printf("User Input: %s\n", text);
+    printf("Matching Index: %d\n", keyword_index);
 
 
+    int line_number = services[keyword_index].txt_reference + 1;
+    char* reply = replier(line_number);
+    printf("Reply from chatbot: %s\n", reply);
 
+    free(keyword_index);
 
-
-
-
-
+    return 0;
+}
