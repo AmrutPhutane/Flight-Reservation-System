@@ -5,7 +5,30 @@
 #include <stdlib.h>
 #include <math.h>
 
+#define MAX_INPUT_LENGTH 100
+#define PATH "C:\\Users\\amrut\\OneDrive\\Documents\\GitHub\\Flight-Reservation-System\\Responses.txt"
+
+
+//Structure to store the Keywords
+struct chadbot {
+    char* keyword_string;
+    int txt_reference;
+};
+//List of Functions Used
+char* cleaner(const char text[]);
+int* vectorize(char text[]);
+double similarity(const int vector1[26], const int vector2[26]);
+int find_keyword(char cleaned_output[], struct chadbot services[], int keywords_count);
+int update(struct chadbot services[], int services_count);
+char* replier(int line_number);
+void betabot(int service_type);
+void cleanup(struct chadbot services[], int loaded_services);
+
+// Cleaner-> Cleans the input string...
 char* cleaner(const char text[]) {
+
+    if (!text) return NULL;
+
     int j = 0;
     int text_len = strlen(text);
     char* lowercase_output = (char*)malloc((text_len + 1) * sizeof(char));
@@ -60,8 +83,12 @@ char* cleaner(const char text[]) {
     return cleaned_output;
 }
 
+// Vectorize-> Convert the given input in 26D vector...
 int* vectorize(char text[]) {
+    if (!text) return NULL;
+
     int* vector = (int*)calloc(26, sizeof(int));
+    if (!vector) return NULL;
 
     for (int j = 0; text[j] != '\0'; j++) {
         if (text[j] >= 'a' && text[j] <= 'z') {
@@ -71,6 +98,7 @@ int* vectorize(char text[]) {
     return vector;
 }
 
+//Similarity-> Calculates the cosine value of given vectors...
 double similarity(const int vector1[26 ], const int vector2[26]) {
     int dot_product = 0, mag_v1 = 0, mag_v2 = 0;
 
@@ -83,17 +111,13 @@ double similarity(const int vector1[26 ], const int vector2[26]) {
     double magnitude1 = sqrt(mag_v1);
     double magnitude2 = sqrt(mag_v2);
     double similarity_value = (magnitude1 == 0 || magnitude2 == 0) ? 0.0 : (double)dot_product / (magnitude1 * magnitude2);
-    return (similarity_value >= 0.6) ? similarity_value : 0.0;
+    return similarity_value;
 }
 
-struct chadbot {
-    char* keyword_string;
-    int txt_reference;
-};
-
+//Function that return the index of the best matched keyword...
 int find_keyword(char cleaned_output[], struct chadbot services[], int keywords_count) {
     double max_similarity = 0.0;
-    int best_index;
+    int best_index=-1;
     char cleaned_copy[100];
     strcpy(cleaned_copy, cleaned_output);
 
@@ -111,13 +135,19 @@ int find_keyword(char cleaned_output[], struct chadbot services[], int keywords_
         }
         free(vector1);
         token = strtok(NULL, " ");
+
+        if(max_similarity > 0.70)
+        {
+            return best_index;
+
+        }
     }
 
-    return best_index;
+    return -1;
 }
 
 int update(struct chadbot services[], int services_count) {
-    const char* path = "C:\\Users\\amrut\\OneDrive\\Documents\\GitHub\\Flight-Reservation-System\\Responses.txt";
+    const char* path = PATH;
     FILE* file = fopen(path, "r");
     char line[1000];
     int i = 0;
@@ -137,7 +167,7 @@ int update(struct chadbot services[], int services_count) {
 }
 
 char* replier(int line_number) {
-    const char* path = "C:\\Users\\amrut\\OneDrive\\Documents\\GitHub\\Flight-Reservation-System\\Responses.txt";
+    const char* path = PATH;
     FILE* file = fopen(path, "r");
     char line[256];
     char* Default = "I am here to help you!!! Can you rephrase your question?";
@@ -155,43 +185,105 @@ char* replier(int line_number) {
     return strdup(Default);
 }
 
+
+//Handling y/n responses...
+void betabot(int service_type) {
+    char response[MAX_INPUT_LENGTH];
+
+    switch (service_type) {
+        case 0://If user agrees to book tiket...
+            printf("\nChadbot:Ayush Has Not Defined Booking Function.\n");
+            break;
+
+        case 1://If user want to see flights...
+            printf("\n=== Ticket Booking Process ===\n");
+            printf("Destination: ");
+            fgets(response, sizeof(response), stdin);
+            printf("Boarding Airport: ");
+            fgets(response, sizeof(response), stdin);
+            printf("Travel Date (DD/MM/YYYY): ");
+            fgets(response, sizeof(response), stdin);
+            printf("\nSearching for available flights...\n");
+            printf("Sample flights will be displayed here->\n");
+            break;
+
+        case 2: // If user want to cancel ticket...
+            printf("\n=== Ticket Cancellation ===\n");
+            printf("Enter ticket number: ");
+            fgets(response, sizeof(response), stdin);
+            printf("Processing cancellation request...\n");
+            break;
+    }
+}
+
+//Frees the appended Struct...
+void cleanup(struct chadbot services[], int loaded_services) {
+    for (int i = 0; i < loaded_services; i++) {
+        free(services[i].keyword_string);
+    }
+}
+
 int main() {
-    char input[100];
-    int services_count = 10;
+    char input[MAX_INPUT_LENGTH];
     struct chadbot services[10];
-    int loaded_services = update(services, services_count);
+    int loaded_services = update(services, 10);
+    bool awaiting_response = false;
+    int current_service = -1;
 
     if (loaded_services == -1) {
+        printf("Error: Failed to load services.\n");
         return 1;
     }
 
-    for (int i = 0; i < loaded_services; i++) {
-        printf("Service %d Keywords: %s\n", i + 1, services[i].keyword_string);
-    }
+    printf("=== Welcome to Airline Chatbot ===\n");
+    printf("\nType 'exit' to quit the program.\n");
 
     do {
-        printf("User: ");
-        //fflush(stdin);
-        fgets(input, sizeof(input), stdin);
+        printf("\nUser: ");
+        if (!fgets(input, sizeof(input), stdin)) {
+            printf("Error reading input. Please try again.\n");
+            continue;
+        }
         input[strcspn(input, "\n")] = '\0';
 
         if (strcmp(input, "exit") == 0) {
+            printf("Thank you for using our service. Goodbye!\n");
             break;
+        }
+
+        if (awaiting_response) {
+            if (strcasecmp(input, "y") == 0 || strcasecmp(input, "yes") == 0) {
+                betabot(current_service);
+            }
+            else if (strcasecmp(input, "n") == 0 || strcasecmp(input, "no") == 0) {
+                printf("Chadbot:Is there anything else I can help you with?\n");
+            }
+            else {
+                printf("Chadbot:Please respond with 'yes' or 'no'.\n");
+                continue;
+            }
+            awaiting_response = false;
+            current_service = -1;
+            continue;
         }
 
         char* cleaned_value = cleaner(input);
         int keyword_index = find_keyword(cleaned_value, services, loaded_services);
-        int line_number = services[keyword_index].txt_reference + 1;
-        char* reply = replier(line_number);
-        printf("Chadbot: %s\n", reply);
 
+        if (keyword_index >= 0) {
+            int line_number = services[keyword_index].txt_reference + 1;
+            char* reply = replier(line_number);
+            printf("Chadbot: %s\n", reply);
+            awaiting_response = true;
+            current_service = keyword_index;
+            free(reply);
+        } else {
+            printf("Chadbot: I'm not sure I understand. Could you please rephrase that?\n");
+            printf("Sometimes I fail to understand Natural Language. Please try with keywords:\n");
+        }
         free(cleaned_value);
-        free(reply);
     } while (1);
 
-    for (int i = 0; i < loaded_services; i++) {
-        free(services[i].keyword_string);
-    }
-
+    cleanup(services, loaded_services);
     return 0;
 }

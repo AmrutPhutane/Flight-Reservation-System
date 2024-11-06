@@ -1,51 +1,51 @@
-Hi, I am your chadbot....
+Can you rephrase the question?
 
 
 ***Booking***
-book booking reserve
-Are you asking about booking?
+book booking reserve buy
+To book a flight ticket you need to have some basic requirements. Your personal information along with Passport id etc. Do you have any other question? or want to redirect to booking page[y/n]?
 
 
 ***Flight Status***
-status flight arrival departure delay
-Are you asking about flight status?
+available flight status
+Type yes/no [y/n] to continue...
 
 
 ***Cancellation***
 cancel cancellation abort
-Are you asking about cancellation?
-
-
-***Ticket Status***
-status confirmation
-Are you asking about ticket status?
+Do you have your ticket id with you[y/n]?
 
 
 ***Baggage Allowance***
-baggage allowance weight carry luggage
-Are you asking about baggage?
+baggage weight carry luggage
+Baggage allowance depends on the type of your ticket. While booking the ticket you will be asked for the baggage information and that will determine you ticket price.
 
 
 ***Refund***
 refund reimbursement
-Are you asking about refund?
+All the cancellation refunds or any service refunds usually take upto 3-5 working days, excluding holidays. If still you have not received the refund, please contact to the customer support. The officials will definitely you!
 
 
 ***Payment and Billing***
 payment billing charge receipt
-Are you asking about payments?
+We have multiple modes of payment, such as UPI, Debit card, Internet banking etc. Make sure to not share the OTPs to anyone while making the payment.
 
 
 ***Customer Feedback and Complaints***
 feedback complaint review issue
-Are you asking about customer contact?
+If you want to give any feedback, which may be bad or good, please type below. If you are not wished to type, just press ENTER.
 
 
 ***Contact Information and Support***
 contact support help assistance
-Are you asking about assistance?
+Apart from me, there are officials who can help you! This is the contact information where you can contact to resolve your query.
 
 
 ***Greetings***
-hello hi greetings hey
-Hey bro, lesssss fking enjoy your bot...
+thank you bye
+Hope you like my services! If you have any other query, never hesitate :)
+
+
+***Services***
+services
+I can provide many services such as Flight Ticket Booking, Ticket Cancellation, Baggage Allowance Information, Pending Refunds, Payment and Billing Information etc. Have you decided your query?

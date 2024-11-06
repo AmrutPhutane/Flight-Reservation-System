@@ -1,0 +1,652 @@
+Daily Indian Domestic Flight Timetable
+========================================================================================================================
+
+Flight   From  Departure City                      To    Arrival City                        Dep    Arr    Duration
+------------------------------------------------------------------------------------------------------------------------
+6E2250   MAA   Chennai                             VTZ   Visakhapatnam                       05:15  08:04  2h 49m
+SG906    MAA   Chennai                             CNN   Kannur                              05:15  08:35  3h 20m
+SG280    MAA   Chennai                             IMF   Imphal                              06:15  08:16  2h 1m
+SG998    MAA   Chennai                             PNQ   Pune                                06:30  09:35  3h 5m
+AI2591   MAA   Chennai                             IXC   Chandigarh                          07:00  10:57  3h 57m
+AI4727   MAA   Chennai                             JAI   Jaipur                              07:00  10:06  3h 6m
+AI5727   MAA   Chennai                             IXE   Mangalore                           07:00  09:24  2h 24m
+6E2405   MAA   Chennai                             CJB   Coimbatore                          07:15  08:24  1h 9m
+G84596   MAA   Chennai                             CNN   Kannur                              07:15  08:51  1h 36m
+UK9808   MAA   Chennai                             IMF   Imphal                              07:15  08:42  1h 27m
+SG937    MAA   Chennai                             TRV   Thiruvananthapuram                  07:45  09:28  1h 43m
+6E8609   MAA   Chennai                             IXE   Mangalore                           08:00  10:02  2h 2m
+AI8385   MAA   Chennai                             IXC   Chandigarh                          08:00  09:41  1h 41m
+UK5090   MAA   Chennai                             IMF   Imphal                              08:45  12:28  3h 43m
+6E2583   MAA   Chennai                             TRV   Thiruvananthapuram                  10:15  13:47  3h 32m
+SG5692   MAA   Chennai                             STV   Surat                               10:45  13:52  3h 7m
+6E6589   MAA   Chennai                             IXC   Chandigarh                          12:00  13:43  1h 43m
+AI1776   MAA   Chennai                             JAI   Jaipur                              12:00  13:19  1h 19m
+SG2261   MAA   Chennai                             CJB   Coimbatore                          13:45  15:31  1h 46m
+G88663   MAA   Chennai                             TRZ   Tiruchirappalli                     14:30  15:38  1h 8m
+UK4855   MAA   Chennai                             IMF   Imphal                              15:45  18:31  2h 46m
+UK5857   MAA   Chennai                             CJB   Coimbatore                          16:15  17:13  0h 58m
+UK9528   MAA   Chennai                             IXM   Madurai                             16:15  18:58  2h 43m
+6E4198   MAA   Chennai                             TRV   Thiruvananthapuram                  16:30  17:43  1h 13m
+G83114   MAA   Chennai                             IXM   Madurai                             16:30  17:48  1h 18m
+UK898    MAA   Chennai                             STV   Surat                               16:45  17:30  0h 45m
+AI8561   MAA   Chennai                             VTZ   Visakhapatnam                       17:00  20:43  3h 43m
+6E6575   MAA   Chennai                             JAI   Jaipur                              17:45  18:39  0h 54m
+SG8378   MAA   Chennai                             CJB   Coimbatore                          18:30  20:21  1h 51m
+6E4444   MAA   Chennai                             CNN   Kannur                              18:45  21:36  2h 51m
+6E707    MAA   Chennai                             CCJ   Calicut                             18:45  21:38  2h 53m
+6E9294   MAA   Chennai                             IXE   Mangalore                           19:15  20:26  1h 11m
+AI2892   PNQ   Pune                                VTZ   Visakhapatnam                       19:30  20:21  0h 51m
+AI2697   MAA   Chennai                             TRV   Thiruvananthapuram                  20:00  22:18  2h 18m
+AI1857   MAA   Chennai                             CNN   Kannur                              20:15  00:06  3h 51m
+G81950   MAA   Chennai                             CCJ   Calicut                             21:00  22:04  1h 4m
+UK2355   MAA   Chennai                             TRZ   Tiruchirappalli                     21:00  23:32  2h 32m
+6E3720   MAA   Chennai                             PNQ   Pune                                22:30  23:25  0h 55m
+UK8810   BOM   Mumbai (Chhatrapati Shivaji)        CJB   Coimbatore                          05:30  06:42  1h 12m
+6E8354   BOM   Mumbai (Chhatrapati Shivaji)        TRZ   Tiruchirappalli                     06:30  08:48  2h 18m
+6E278    BOM   Mumbai (Chhatrapati Shivaji)        VTZ   Visakhapatnam                       06:45  08:12  1h 27m
+UK5639   BOM   Mumbai (Chhatrapati Shivaji)        JAI   Jaipur                              06:45  10:41  3h 56m
+6E3758   BOM   Mumbai (Chhatrapati Shivaji)        IXE   Mangalore                           07:00  08:16  1h 16m
+UK6766   BOM   Mumbai (Chhatrapati Shivaji)        CJB   Coimbatore                          07:00  09:17  2h 17m
+SG9218   BOM   Mumbai (Chhatrapati Shivaji)        TRV   Thiruvananthapuram                  07:15  09:01  1h 46m
+6E7399   BOM   Mumbai (Chhatrapati Shivaji)        VTZ   Visakhapatnam                       07:30  10:41  3h 11m
+AI3798   BOM   Mumbai (Chhatrapati Shivaji)        PNQ   Pune                                07:30  08:24  0h 54m
+SG1449   BOM   Mumbai (Chhatrapati Shivaji)        IXM   Madurai                             07:30  10:42  3h 12m
+AI4989   BOM   Mumbai (Chhatrapati Shivaji)        IXC   Chandigarh                          08:00  10:44  2h 44m
+6E4686   BOM   Mumbai (Chhatrapati Shivaji)        MAA   Chennai                             08:15  10:37  2h 22m
+AI9707   BOM   Mumbai (Chhatrapati Shivaji)        CNN   Kannur                              08:30  10:31  2h 1m
+G86626   BOM   Mumbai (Chhatrapati Shivaji)        IMF   Imphal                              09:00  12:18  3h 18m
+G88543   BOM   Mumbai (Chhatrapati Shivaji)        IMF   Imphal                              10:00  11:06  1h 6m
+AI5911   BOM   Mumbai (Chhatrapati Shivaji)        IXC   Chandigarh                          11:00  13:41  2h 41m
+AI1075   BOM   Mumbai (Chhatrapati Shivaji)        TRV   Thiruvananthapuram                  11:30  13:30  2h 0m
+6E1022   BOM   Mumbai (Chhatrapati Shivaji)        CNN   Kannur                              12:00  15:01  3h 1m
+6E2171   BOM   Mumbai (Chhatrapati Shivaji)        IXM   Madurai                             13:45  15:23  1h 38m
+AI2537   BOM   Mumbai (Chhatrapati Shivaji)        IXM   Madurai                             13:45  14:58  1h 13m
+AI6899   BOM   Mumbai (Chhatrapati Shivaji)        CNN   Kannur                              13:45  16:20  2h 35m
+UK4714   BOM   Mumbai (Chhatrapati Shivaji)        MAA   Chennai                             14:15  16:03  1h 48m
+AI8991   BOM   Mumbai (Chhatrapati Shivaji)        MAA   Chennai                             15:15  17:03  1h 48m
+6E4801   BOM   Mumbai (Chhatrapati Shivaji)        CCJ   Calicut                             15:30  19:22  3h 52m
+AI747    BOM   Mumbai (Chhatrapati Shivaji)        MAA   Chennai                             15:30  18:22  2h 52m
+SG4100   BOM   Mumbai (Chhatrapati Shivaji)        JAI   Jaipur                              16:15  17:41  1h 26m
+G85832   BOM   Mumbai (Chhatrapati Shivaji)        VTZ   Visakhapatnam                       16:30  20:18  3h 48m
+AI6150   BOM   Mumbai (Chhatrapati Shivaji)        PNQ   Pune                                17:00  20:04  3h 4m
+AI3373   BOM   Mumbai (Chhatrapati Shivaji)        MAA   Chennai                             17:15  20:01  2h 46m
+AI4922   BOM   Mumbai (Chhatrapati Shivaji)        CNN   Kannur                              17:30  20:36  3h 6m
+UK6415   BOM   Mumbai (Chhatrapati Shivaji)        STV   Surat                               18:15  19:38  1h 23m
+6E6357   BOM   Mumbai (Chhatrapati Shivaji)        CCJ   Calicut                             18:30  20:58  2h 28m
+SG1512   BOM   Mumbai (Chhatrapati Shivaji)        MAA   Chennai                             18:30  20:15  1h 45m
+6E7964   BOM   Mumbai (Chhatrapati Shivaji)        JAI   Jaipur                              19:15  22:28  3h 13m
+SG9159   BOM   Mumbai (Chhatrapati Shivaji)        IMF   Imphal                              19:30  20:31  1h 1m
+AI573    BOM   Mumbai (Chhatrapati Shivaji)        TRZ   Tiruchirappalli                     19:45  21:05  1h 20m
+6E430    BOM   Mumbai (Chhatrapati Shivaji)        VTZ   Visakhapatnam                       20:00  20:59  0h 59m
+AI7573   BOM   Mumbai (Chhatrapati Shivaji)        TRV   Thiruvananthapuram                  20:15  23:04  2h 49m
+UK5727   BOM   Mumbai (Chhatrapati Shivaji)        TRV   Thiruvananthapuram                  20:15  21:32  1h 17m
+6E7678   BOM   Mumbai (Chhatrapati Shivaji)        STV   Surat                               20:30  00:27  3h 57m
+AI8088   BOM   Mumbai (Chhatrapati Shivaji)        IMF   Imphal                              20:30  22:24  1h 54m
+6E7987   BOM   Mumbai (Chhatrapati Shivaji)        IXE   Mangalore                           21:00  00:01  3h 1m
+AI8115   BOM   Mumbai (Chhatrapati Shivaji)        JAI   Jaipur                              21:15  22:04  0h 49m
+AI4438   BOM   Mumbai (Chhatrapati Shivaji)        STV   Surat                               21:30  22:25  0h 55m
+SG9962   BOM   Mumbai (Chhatrapati Shivaji)        PNQ   Pune                                22:00  00:11  2h 11m
+AI7495   BOM   Mumbai (Chhatrapati Shivaji)        MAA   Chennai                             22:45  01:36  2h 51m
+6E975    BOM   Mumbai (Chhatrapati Shivaji)        AMD   Ahmedabad (Sardar Vallabhbhai Pat   05:30  08:30  3h 0m
+6E4853   BOM   Mumbai (Chhatrapati Shivaji)        AMD   Ahmedabad (Sardar Vallabhbhai Pat   05:45  09:16  3h 31m
+SG9116   BOM   Mumbai (Chhatrapati Shivaji)        ATQ   Amritsar (Sri Guru Ram Dass Jee)    05:15  07:59  2h 44m
+6E4206   BOM   Mumbai (Chhatrapati Shivaji)        ATQ   Amritsar (Sri Guru Ram Dass Jee)    08:45  10:18  1h 33m
+AI7363   BOM   Mumbai (Chhatrapati Shivaji)        ATQ   Amritsar (Sri Guru Ram Dass Jee)    11:45  14:35  2h 50m
+UK9072   BOM   Mumbai (Chhatrapati Shivaji)        ATQ   Amritsar (Sri Guru Ram Dass Jee)    21:00  22:43  1h 43m
+G8168    BOM   Mumbai (Chhatrapati Shivaji)        BBI   Bhubaneswar (Biju Patnaik)          05:00  08:12  3h 12m
+AI3629   BOM   Mumbai (Chhatrapati Shivaji)        BBI   Bhubaneswar (Biju Patnaik)          06:45  09:16  2h 31m
+6E4681   BOM   Mumbai (Chhatrapati Shivaji)        BBI   Bhubaneswar (Biju Patnaik)          11:15  12:22  1h 7m
+UK122    BOM   Mumbai (Chhatrapati Shivaji)        BBI   Bhubaneswar (Biju Patnaik)          13:45  17:03  3h 18m
+AI1612   BOM   Mumbai (Chhatrapati Shivaji)        BLR   Bangalore (Kempegowda)              05:15  07:23  2h 8m
+G88340   BOM   Mumbai (Chhatrapati Shivaji)        BLR   Bangalore (Kempegowda)              07:30  09:06  1h 36m
+AI5550   BOM   Mumbai (Chhatrapati Shivaji)        BLR   Bangalore (Kempegowda)              09:30  11:07  1h 37m
+AI5228   BOM   Mumbai (Chhatrapati Shivaji)        BLR   Bangalore (Kempegowda)              14:15  16:26  2h 11m
+UK9021   BOM   Mumbai (Chhatrapati Shivaji)        BLR   Bangalore (Kempegowda)              19:45  21:45  2h 0m
+6E8773   BOM   Mumbai (Chhatrapati Shivaji)        BLR   Bangalore (Kempegowda)              20:45  22:29  1h 44m
+UK3889   BOM   Mumbai (Chhatrapati Shivaji)        BLR   Bangalore (Kempegowda)              22:15  01:13  2h 58m
+UK3778   BOM   Mumbai (Chhatrapati Shivaji)        BLR   Bangalore (Kempegowda)              23:00  01:04  2h 4m
+6E2243   BOM   Mumbai (Chhatrapati Shivaji)        CCU   Kolkata (Netaji Subhas Chandra Bo   05:30  07:21  1h 51m
+6E9125   BOM   Mumbai (Chhatrapati Shivaji)        CCU   Kolkata (Netaji Subhas Chandra Bo   07:45  10:39  2h 54m
+6E5335   BOM   Mumbai (Chhatrapati Shivaji)        CCU   Kolkata (Netaji Subhas Chandra Bo   08:15  11:01  2h 46m
+6E8190   BOM   Mumbai (Chhatrapati Shivaji)        CCU   Kolkata (Netaji Subhas Chandra Bo   08:45  11:28  2h 43m
+UK1454   BOM   Mumbai (Chhatrapati Shivaji)        CCU   Kolkata (Netaji Subhas Chandra Bo   13:00  15:51  2h 51m
+SG6028   BOM   Mumbai (Chhatrapati Shivaji)        CCU   Kolkata (Netaji Subhas Chandra Bo   17:00  19:43  2h 43m
+G89521   BOM   Mumbai (Chhatrapati Shivaji)        CCU   Kolkata (Netaji Subhas Chandra Bo   20:30  22:01  1h 31m
+AI578    BOM   Mumbai (Chhatrapati Shivaji)        COK   Kochi (Cochin)                      11:30  13:08  1h 38m
+6E2217   BOM   Mumbai (Chhatrapati Shivaji)        COK   Kochi (Cochin)                      12:30  13:15  0h 45m
+6E9397   BOM   Mumbai (Chhatrapati Shivaji)        COK   Kochi (Cochin)                      12:30  14:36  2h 6m
+6E5795   BOM   Mumbai (Chhatrapati Shivaji)        COK   Kochi (Cochin)                      20:45  23:51  3h 6m
+AI5580   BOM   Mumbai (Chhatrapati Shivaji)        DEL   Delhi (Indira Gandhi)               05:00  07:19  2h 19m
+6E8956   BOM   Mumbai (Chhatrapati Shivaji)        DEL   Delhi (Indira Gandhi)               07:45  10:38  2h 53m
+6E7482   BOM   Mumbai (Chhatrapati Shivaji)        DEL   Delhi (Indira Gandhi)               13:00  15:23  2h 23m
+UK2066   BOM   Mumbai (Chhatrapati Shivaji)        DEL   Delhi (Indira Gandhi)               13:00  15:25  2h 25m
+UK781    BOM   Mumbai (Chhatrapati Shivaji)        DEL   Delhi (Indira Gandhi)               20:30  23:30  3h 0m
+SG202    BOM   Mumbai (Chhatrapati Shivaji)        GAU   Guwahati (Lokpriya Gopinath Bordo   05:00  07:03  2h 3m
+UK6480   BOM   Mumbai (Chhatrapati Shivaji)        GAU   Guwahati (Lokpriya Gopinath Bordo   14:15  15:01  0h 46m
+UK7363   BOM   Mumbai (Chhatrapati Shivaji)        GOI   Goa (Dabolim)                       06:45  10:44  3h 59m
+SG7202   BOM   Mumbai (Chhatrapati Shivaji)        GOI   Goa (Dabolim)                       07:15  10:33  3h 18m
+G83836   BOM   Mumbai (Chhatrapati Shivaji)        HYD   Hyderabad (Rajiv Gandhi)            05:30  08:26  2h 56m
+6E5228   BOM   Mumbai (Chhatrapati Shivaji)        HYD   Hyderabad (Rajiv Gandhi)            10:00  12:53  2h 53m
+AI4860   BOM   Mumbai (Chhatrapati Shivaji)        HYD   Hyderabad (Rajiv Gandhi)            17:30  19:50  2h 20m
+6E7861   BOM   Mumbai (Chhatrapati Shivaji)        HYD   Hyderabad (Rajiv Gandhi)            22:30  01:23  2h 53m
+AI9864   BOM   Mumbai (Chhatrapati Shivaji)        IDR   Indore (Devi Ahilya Bai Holkar)     06:30  08:23  1h 53m
+G82715   BOM   Mumbai (Chhatrapati Shivaji)        IDR   Indore (Devi Ahilya Bai Holkar)     17:00  17:54  0h 54m
+SG1953   BOM   Mumbai (Chhatrapati Shivaji)        IXB   Siliguri (Bagdogra)                 06:45  10:05  3h 20m
+UK7203   BOM   Mumbai (Chhatrapati Shivaji)        IXB   Siliguri (Bagdogra)                 08:00  11:29  3h 29m
+G86122   BOM   Mumbai (Chhatrapati Shivaji)        IXB   Siliguri (Bagdogra)                 11:30  15:00  3h 30m
+SG8474   BOM   Mumbai (Chhatrapati Shivaji)        IXB   Siliguri (Bagdogra)                 16:15  17:51  1h 36m
+UK1792   BOM   Mumbai (Chhatrapati Shivaji)        LKO   Lucknow (Chaudhary Charan Singh)    12:30  15:08  2h 38m
+G84060   BOM   Mumbai (Chhatrapati Shivaji)        LKO   Lucknow (Chaudhary Charan Singh)    18:00  19:28  1h 28m
+6E8739   BOM   Mumbai (Chhatrapati Shivaji)        LKO   Lucknow (Chaudhary Charan Singh)    18:45  21:27  2h 42m
+G83541   BOM   Mumbai (Chhatrapati Shivaji)        NAG   Nagpur (Dr. Babasaheb Ambedkar)     11:00  14:41  3h 41m
+UK7304   BOM   Mumbai (Chhatrapati Shivaji)        NAG   Nagpur (Dr. Babasaheb Ambedkar)     14:00  17:57  3h 57m
+AI2312   BOM   Mumbai (Chhatrapati Shivaji)        NAG   Nagpur (Dr. Babasaheb Ambedkar)     20:30  23:12  2h 42m
+6E6616   BOM   Mumbai (Chhatrapati Shivaji)        PAT   Patna (Jay Prakash Narayan)         06:00  08:35  2h 35m
+AI8537   BOM   Mumbai (Chhatrapati Shivaji)        PAT   Patna (Jay Prakash Narayan)         06:00  07:13  1h 13m
+6E8565   BOM   Mumbai (Chhatrapati Shivaji)        PAT   Patna (Jay Prakash Narayan)         20:30  22:16  1h 46m
+G86224   BOM   Mumbai (Chhatrapati Shivaji)        SXR   Srinagar (Sheikhul Aalam)           12:30  16:08  3h 38m
+SG6044   BOM   Mumbai (Chhatrapati Shivaji)        SXR   Srinagar (Sheikhul Aalam)           18:15  21:27  3h 12m
+AI729    BOM   Mumbai (Chhatrapati Shivaji)        SXR   Srinagar (Sheikhul Aalam)           22:30  02:11  3h 41m
+6E3073   BOM   Mumbai (Chhatrapati Shivaji)        VNS   Varanasi (Lal Bahadur Shastri)      06:45  10:12  3h 27m
+UK1288   BOM   Mumbai (Chhatrapati Shivaji)        VNS   Varanasi (Lal Bahadur Shastri)      10:15  11:54  1h 39m
+SG3784   DEL   Delhi (Indira Gandhi)               MAA   Chennai                             05:00  06:49  1h 49m
+6E5315   DEL   Delhi (Indira Gandhi)               CCJ   Calicut                             05:30  06:53  1h 23m
+UK3275   DEL   Delhi (Indira Gandhi)               TRZ   Tiruchirappalli                     05:45  07:25  1h 40m
+G87392   DEL   Delhi (Indira Gandhi)               IXE   Mangalore                           06:15  10:05  3h 50m
+UK9277   DEL   Delhi (Indira Gandhi)               TRV   Thiruvananthapuram                  07:00  10:52  3h 52m
+AI4962   DEL   Delhi (Indira Gandhi)               STV   Surat                               07:45  09:46  2h 1m
+6E7786   DEL   Delhi (Indira Gandhi)               IXC   Chandigarh                          08:15  11:52  3h 37m
+6E3059   DEL   Delhi (Indira Gandhi)               IXC   Chandigarh                          08:30  11:16  2h 46m
+6E4331   DEL   Delhi (Indira Gandhi)               IMF   Imphal                              09:45  11:40  1h 55m
+SG5458   DEL   Delhi (Indira Gandhi)               MAA   Chennai                             09:45  11:24  1h 39m
+AI6172   DEL   Delhi (Indira Gandhi)               MAA   Chennai                             10:00  11:42  1h 42m
+UK5595   DEL   Delhi (Indira Gandhi)               IXM   Madurai                             10:30  13:01  2h 31m
+AI9764   DEL   Delhi (Indira Gandhi)               CNN   Kannur                              10:45  12:08  1h 23m
+6E5424   DEL   Delhi (Indira Gandhi)               CJB   Coimbatore                          11:00  13:42  2h 42m
+AI675    DEL   Delhi (Indira Gandhi)               IXC   Chandigarh                          11:00  14:23  3h 23m
+AI5246   DEL   Delhi (Indira Gandhi)               STV   Surat                               11:45  13:07  1h 22m
+AI9154   DEL   Delhi (Indira Gandhi)               IXM   Madurai                             11:45  12:51  1h 6m
+6E604    DEL   Delhi (Indira Gandhi)               JAI   Jaipur                              12:00  14:12  2h 12m
+6E1701   DEL   Delhi (Indira Gandhi)               CNN   Kannur                              12:30  15:18  2h 48m
+6E9360   DEL   Delhi (Indira Gandhi)               JAI   Jaipur                              12:30  13:47  1h 17m
+6E8313   DEL   Delhi (Indira Gandhi)               IXE   Mangalore                           12:45  14:10  1h 25m
+6E3553   DEL   Delhi (Indira Gandhi)               VTZ   Visakhapatnam                       13:15  16:25  3h 10m
+UK2314   DEL   Delhi (Indira Gandhi)               JAI   Jaipur                              14:45  18:34  3h 49m
+6E1068   DEL   Delhi (Indira Gandhi)               IMF   Imphal                              15:00  15:50  0h 50m
+6E7829   DEL   Delhi (Indira Gandhi)               PNQ   Pune                                15:00  16:47  1h 47m
+SG652    DEL   Delhi (Indira Gandhi)               VTZ   Visakhapatnam                       15:15  17:36  2h 21m
+6E5226   DEL   Delhi (Indira Gandhi)               CJB   Coimbatore                          15:30  18:22  2h 52m
+6E1042   DEL   Delhi (Indira Gandhi)               MAA   Chennai                             15:45  17:31  1h 46m
+AI1666   DEL   Delhi (Indira Gandhi)               TRV   Thiruvananthapuram                  15:45  17:25  1h 40m
+AI4335   DEL   Delhi (Indira Gandhi)               TRV   Thiruvananthapuram                  16:00  17:15  1h 15m
+UK7541   DEL   Delhi (Indira Gandhi)               IXM   Madurai                             16:00  19:13  3h 13m
+AI2406   DEL   Delhi (Indira Gandhi)               MAA   Chennai                             16:15  18:14  1h 59m
+AI6083   DEL   Delhi (Indira Gandhi)               IMF   Imphal                              16:30  18:57  2h 27m
+6E6164   DEL   Delhi (Indira Gandhi)               CCJ   Calicut                             16:45  20:08  3h 23m
+6E8762   DEL   Delhi (Indira Gandhi)               TRV   Thiruvananthapuram                  17:15  18:26  1h 11m
+AI1103   DEL   Delhi (Indira Gandhi)               MAA   Chennai                             17:30  19:05  1h 35m
+UK5695   DEL   Delhi (Indira Gandhi)               MAA   Chennai                             19:15  21:25  2h 10m
+6E2918   DEL   Delhi (Indira Gandhi)               PNQ   Pune                                20:30  23:28  2h 58m
+6E965    DEL   Delhi (Indira Gandhi)               TRZ   Tiruchirappalli                     20:45  00:09  3h 24m
+G88273   DEL   Delhi (Indira Gandhi)               CCJ   Calicut                             20:45  22:37  1h 52m
+AI772    DEL   Delhi (Indira Gandhi)               TRZ   Tiruchirappalli                     21:00  23:23  2h 23m
+AI8094   DEL   Delhi (Indira Gandhi)               IXE   Mangalore                           21:15  23:11  1h 56m
+6E3141   DEL   Delhi (Indira Gandhi)               STV   Surat                               21:30  22:25  0h 55m
+6E5639   DEL   Delhi (Indira Gandhi)               CNN   Kannur                              21:30  00:00  2h 30m
+UK8478   DEL   Delhi (Indira Gandhi)               IXC   Chandigarh                          21:30  22:55  1h 25m
+AI9296   DEL   Delhi (Indira Gandhi)               JAI   Jaipur                              22:00  00:35  2h 35m
+UK5784   DEL   Delhi (Indira Gandhi)               CJB   Coimbatore                          22:30  00:44  2h 14m
+G89694   DEL   Delhi (Indira Gandhi)               AMD   Ahmedabad (Sardar Vallabhbhai Pat   21:45  23:53  2h 8m
+SG830    DEL   Delhi (Indira Gandhi)               AMD   Ahmedabad (Sardar Vallabhbhai Pat   23:00  01:27  2h 27m
+AI5304   DEL   Delhi (Indira Gandhi)               ATQ   Amritsar (Sri Guru Ram Dass Jee)    10:15  11:54  1h 39m
+G87839   DEL   Delhi (Indira Gandhi)               ATQ   Amritsar (Sri Guru Ram Dass Jee)    14:45  18:37  3h 52m
+AI2484   DEL   Delhi (Indira Gandhi)               ATQ   Amritsar (Sri Guru Ram Dass Jee)    16:00  19:10  3h 10m
+AI6486   DEL   Delhi (Indira Gandhi)               ATQ   Amritsar (Sri Guru Ram Dass Jee)    19:15  20:54  1h 39m
+AI8544   DEL   Delhi (Indira Gandhi)               BBI   Bhubaneswar (Biju Patnaik)          12:45  16:13  3h 28m
+6E2049   DEL   Delhi (Indira Gandhi)               BBI   Bhubaneswar (Biju Patnaik)          14:00  15:22  1h 22m
+SG2983   DEL   Delhi (Indira Gandhi)               BBI   Bhubaneswar (Biju Patnaik)          16:00  19:17  3h 17m
+AI8664   DEL   Delhi (Indira Gandhi)               BLR   Bangalore (Kempegowda)              10:00  12:21  2h 21m
+SG6814   DEL   Delhi (Indira Gandhi)               BLR   Bangalore (Kempegowda)              10:15  12:08  1h 53m
+UK9202   DEL   Delhi (Indira Gandhi)               BLR   Bangalore (Kempegowda)              10:45  13:09  2h 24m
+AI2086   DEL   Delhi (Indira Gandhi)               BLR   Bangalore (Kempegowda)              15:30  17:17  1h 47m
+G89237   DEL   Delhi (Indira Gandhi)               BLR   Bangalore (Kempegowda)              17:45  19:52  2h 7m
+SG181    DEL   Delhi (Indira Gandhi)               BLR   Bangalore (Kempegowda)              19:45  21:58  2h 13m
+6E3118   DEL   Delhi (Indira Gandhi)               BOM   Mumbai (Chhatrapati Shivaji)        10:30  13:26  2h 56m
+G86249   DEL   Delhi (Indira Gandhi)               BOM   Mumbai (Chhatrapati Shivaji)        11:00  13:12  2h 12m
+6E1774   DEL   Delhi (Indira Gandhi)               BOM   Mumbai (Chhatrapati Shivaji)        16:15  18:48  2h 33m
+UK7323   DEL   Delhi (Indira Gandhi)               BOM   Mumbai (Chhatrapati Shivaji)        17:00  19:41  2h 41m
+UK469    DEL   Delhi (Indira Gandhi)               BOM   Mumbai (Chhatrapati Shivaji)        17:30  19:40  2h 10m
+UK7817   DEL   Delhi (Indira Gandhi)               BOM   Mumbai (Chhatrapati Shivaji)        19:30  21:55  2h 25m
+SG2076   DEL   Delhi (Indira Gandhi)               BOM   Mumbai (Chhatrapati Shivaji)        20:15  22:50  2h 35m
+G87941   DEL   Delhi (Indira Gandhi)               BOM   Mumbai (Chhatrapati Shivaji)        22:45  01:27  2h 42m
+6E7898   DEL   Delhi (Indira Gandhi)               CCU   Kolkata (Netaji Subhas Chandra Bo   12:45  14:28  1h 43m
+UK4084   DEL   Delhi (Indira Gandhi)               CCU   Kolkata (Netaji Subhas Chandra Bo   13:00  15:33  2h 33m
+6E665    DEL   Delhi (Indira Gandhi)               CCU   Kolkata (Netaji Subhas Chandra Bo   13:15  16:05  2h 50m
+UK8045   DEL   Delhi (Indira Gandhi)               CCU   Kolkata (Netaji Subhas Chandra Bo   15:00  17:23  2h 23m
+UK7877   DEL   Delhi (Indira Gandhi)               CCU   Kolkata (Netaji Subhas Chandra Bo   19:00  21:30  2h 30m
+6E6727   DEL   Delhi (Indira Gandhi)               COK   Kochi (Cochin)                      05:45  09:13  3h 28m
+G81674   DEL   Delhi (Indira Gandhi)               COK   Kochi (Cochin)                      12:15  14:12  1h 57m
+AI9367   DEL   Delhi (Indira Gandhi)               COK   Kochi (Cochin)                      19:00  21:09  2h 9m
+6E5390   DEL   Delhi (Indira Gandhi)               GAU   Guwahati (Lokpriya Gopinath Bordo   13:15  17:02  3h 47m
+6E2712   DEL   Delhi (Indira Gandhi)               GAU   Guwahati (Lokpriya Gopinath Bordo   14:30  15:24  0h 54m
+6E1872   DEL   Delhi (Indira Gandhi)               GAU   Guwahati (Lokpriya Gopinath Bordo   22:00  22:52  0h 52m
+6E1091   DEL   Delhi (Indira Gandhi)               GOI   Goa (Dabolim)                       07:15  09:32  2h 17m
+AI612    DEL   Delhi (Indira Gandhi)               GOI   Goa (Dabolim)                       13:45  16:13  2h 28m
+6E6393   DEL   Delhi (Indira Gandhi)               GOI   Goa (Dabolim)                       17:00  18:00  1h 0m
+SG3704   DEL   Delhi (Indira Gandhi)               GOI   Goa (Dabolim)                       20:30  23:38  3h 8m
+6E1690   DEL   Delhi (Indira Gandhi)               HYD   Hyderabad (Rajiv Gandhi)            09:00  11:45  2h 45m
+6E4999   DEL   Delhi (Indira Gandhi)               HYD   Hyderabad (Rajiv Gandhi)            09:30  11:15  1h 45m
+AI2106   DEL   Delhi (Indira Gandhi)               HYD   Hyderabad (Rajiv Gandhi)            10:45  12:31  1h 46m
+AI9999   DEL   Delhi (Indira Gandhi)               HYD   Hyderabad (Rajiv Gandhi)            11:45  14:05  2h 20m
+AI5604   DEL   Delhi (Indira Gandhi)               HYD   Hyderabad (Rajiv Gandhi)            14:00  16:43  2h 43m
+UK3427   DEL   Delhi (Indira Gandhi)               HYD   Hyderabad (Rajiv Gandhi)            17:15  19:25  2h 10m
+AI3643   DEL   Delhi (Indira Gandhi)               HYD   Hyderabad (Rajiv Gandhi)            20:15  22:37  2h 22m
+UK9324   DEL   Delhi (Indira Gandhi)               HYD   Hyderabad (Rajiv Gandhi)            22:00  00:17  2h 17m
+6E7312   DEL   Delhi (Indira Gandhi)               IDR   Indore (Devi Ahilya Bai Holkar)     08:15  10:21  2h 6m
+AI6647   DEL   Delhi (Indira Gandhi)               IDR   Indore (Devi Ahilya Bai Holkar)     11:00  14:25  3h 25m
+6E6511   DEL   Delhi (Indira Gandhi)               IXB   Siliguri (Bagdogra)                 12:00  15:26  3h 26m
+SG3110   DEL   Delhi (Indira Gandhi)               IXB   Siliguri (Bagdogra)                 13:30  17:03  3h 33m
+SG8498   DEL   Delhi (Indira Gandhi)               IXB   Siliguri (Bagdogra)                 21:45  22:36  0h 51m
+6E5612   DEL   Delhi (Indira Gandhi)               LKO   Lucknow (Chaudhary Charan Singh)    07:15  10:28  3h 13m
+AI8142   DEL   Delhi (Indira Gandhi)               LKO   Lucknow (Chaudhary Charan Singh)    14:45  15:58  1h 13m
+AI1390   DEL   Delhi (Indira Gandhi)               LKO   Lucknow (Chaudhary Charan Singh)    15:15  19:13  3h 58m
+6E5607   DEL   Delhi (Indira Gandhi)               LKO   Lucknow (Chaudhary Charan Singh)    16:15  18:48  2h 33m
+6E4294   DEL   Delhi (Indira Gandhi)               NAG   Nagpur (Dr. Babasaheb Ambedkar)     07:00  08:22  1h 22m
+G89482   DEL   Delhi (Indira Gandhi)               NAG   Nagpur (Dr. Babasaheb Ambedkar)     10:30  12:49  2h 19m
+AI4429   DEL   Delhi (Indira Gandhi)               NAG   Nagpur (Dr. Babasaheb Ambedkar)     21:00  23:01  2h 1m
+6E1230   DEL   Delhi (Indira Gandhi)               NAG   Nagpur (Dr. Babasaheb Ambedkar)     22:15  01:42  3h 27m
+G82331   DEL   Delhi (Indira Gandhi)               PAT   Patna (Jay Prakash Narayan)         08:30  10:48  2h 18m
+SG9134   DEL   Delhi (Indira Gandhi)               PAT   Patna (Jay Prakash Narayan)         11:15  13:47  2h 32m
+AI1947   DEL   Delhi (Indira Gandhi)               PAT   Patna (Jay Prakash Narayan)         15:30  16:38  1h 8m
+6E8424   DEL   Delhi (Indira Gandhi)               PAT   Patna (Jay Prakash Narayan)         18:15  20:23  2h 8m
+6E310    DEL   Delhi (Indira Gandhi)               SXR   Srinagar (Sheikhul Aalam)           06:30  07:28  0h 58m
+SG1339   DEL   Delhi (Indira Gandhi)               SXR   Srinagar (Sheikhul Aalam)           07:45  09:44  1h 59m
+UK4799   DEL   Delhi (Indira Gandhi)               SXR   Srinagar (Sheikhul Aalam)           17:45  19:27  1h 42m
+UK3814   DEL   Delhi (Indira Gandhi)               SXR   Srinagar (Sheikhul Aalam)           20:00  21:25  1h 25m
+6E2223   DEL   Delhi (Indira Gandhi)               VNS   Varanasi (Lal Bahadur Shastri)      09:15  12:22  3h 7m
+AI9124   DEL   Delhi (Indira Gandhi)               VNS   Varanasi (Lal Bahadur Shastri)      14:15  18:13  3h 58m
+AI374    DEL   Delhi (Indira Gandhi)               VNS   Varanasi (Lal Bahadur Shastri)      17:15  20:35  3h 20m
+G8754    BLR   Bangalore (Kempegowda)              IXM   Madurai                             05:00  07:04  2h 4m
+6E3316   BLR   Bangalore (Kempegowda)              MAA   Chennai                             05:45  08:08  2h 23m
+UK2020   BLR   Bangalore (Kempegowda)              MAA   Chennai                             06:30  09:27  2h 57m
+G89388   BLR   Bangalore (Kempegowda)              CCJ   Calicut                             07:00  10:29  3h 29m
+G83492   BLR   Bangalore (Kempegowda)              TRZ   Tiruchirappalli                     07:15  09:33  2h 18m
+SG1803   BLR   Bangalore (Kempegowda)              JAI   Jaipur                              07:15  10:08  2h 53m
+G88960   BLR   Bangalore (Kempegowda)              MAA   Chennai                             07:45  10:10  2h 25m
+6E6106   BLR   Bangalore (Kempegowda)              STV   Surat                               08:15  11:12  2h 57m
+AI2936   BLR   Bangalore (Kempegowda)              JAI   Jaipur                              09:00  10:28  1h 28m
+UK7323   BLR   Bangalore (Kempegowda)              IXC   Chandigarh                          09:30  11:18  1h 48m
+G85139   BLR   Bangalore (Kempegowda)              TRV   Thiruvananthapuram                  09:45  10:34  0h 49m
+6E1315   BLR   Bangalore (Kempegowda)              CNN   Kannur                              10:15  11:29  1h 14m
+G82331   BLR   Bangalore (Kempegowda)              IXE   Mangalore                           10:15  11:08  0h 53m
+6E7724   BLR   Bangalore (Kempegowda)              TRV   Thiruvananthapuram                  10:45  14:18  3h 33m
+G81262   BLR   Bangalore (Kempegowda)              IXC   Chandigarh                          11:15  14:20  3h 5m
+6E2612   BLR   Bangalore (Kempegowda)              PNQ   Pune                                11:30  14:26  2h 56m
+G82318   BLR   Bangalore (Kempegowda)              TRV   Thiruvananthapuram                  11:30  14:18  2h 48m
+6E2853   BLR   Bangalore (Kempegowda)              MAA   Chennai                             12:00  13:35  1h 35m
+G88074   BLR   Bangalore (Kempegowda)              CCJ   Calicut                             12:15  15:52  3h 37m
+6E5304   BLR   Bangalore (Kempegowda)              TRV   Thiruvananthapuram                  12:30  13:20  0h 50m
+AI1996   BLR   Bangalore (Kempegowda)              TRZ   Tiruchirappalli                     12:30  13:30  1h 0m
+6E1892   BLR   Bangalore (Kempegowda)              IMF   Imphal                              12:45  15:58  3h 13m
+G89873   BLR   Bangalore (Kempegowda)              VTZ   Visakhapatnam                       13:00  16:12  3h 12m
+AI7859   BLR   Bangalore (Kempegowda)              IMF   Imphal                              13:15  16:06  2h 51m
+AI3924   BLR   Bangalore (Kempegowda)              CJB   Coimbatore                          14:00  16:20  2h 20m
+G8296    BLR   Bangalore (Kempegowda)              IXE   Mangalore                           14:00  15:57  1h 57m
+6E3988   BLR   Bangalore (Kempegowda)              MAA   Chennai                             14:30  16:58  2h 28m
+UK4633   BLR   Bangalore (Kempegowda)              IXE   Mangalore                           14:30  17:10  2h 40m
+SG9304   BLR   Bangalore (Kempegowda)              PNQ   Pune                                15:00  18:37  3h 37m
+G8510    BLR   Bangalore (Kempegowda)              JAI   Jaipur                              16:00  17:25  1h 25m
+AI6063   BLR   Bangalore (Kempegowda)              VTZ   Visakhapatnam                       16:15  19:43  3h 28m
+6E3210   BLR   Bangalore (Kempegowda)              IXM   Madurai                             17:00  20:08  3h 8m
+G82851   BLR   Bangalore (Kempegowda)              VTZ   Visakhapatnam                       17:15  19:16  2h 1m
+AI1329   BLR   Bangalore (Kempegowda)              STV   Surat                               17:30  19:32  2h 2m
+6E5217   BLR   Bangalore (Kempegowda)              MAA   Chennai                             18:00  19:48  1h 48m
+6E969    BLR   Bangalore (Kempegowda)              CNN   Kannur                              19:30  22:29  2h 59m
+6E115    BLR   Bangalore (Kempegowda)              IXE   Mangalore                           19:45  20:57  1h 12m
+UK5794   BLR   Bangalore (Kempegowda)              CCJ   Calicut                             20:00  21:21  1h 21m
+6E2796   BLR   Bangalore (Kempegowda)              IXM   Madurai                             20:15  22:53  2h 38m
+UK8981   BLR   Bangalore (Kempegowda)              CJB   Coimbatore                          20:15  21:34  1h 19m
+6E9908   BLR   Bangalore (Kempegowda)              VTZ   Visakhapatnam                       20:45  22:17  1h 32m
+G83964   BLR   Bangalore (Kempegowda)              IMF   Imphal                              22:00  01:55  3h 55m
+G82469   BLR   Bangalore (Kempegowda)              IXM   Madurai                             22:15  23:52  1h 37m
+UK6205   BLR   Bangalore (Kempegowda)              IXC   Chandigarh                          22:15  23:59  1h 44m
+6E2850   BLR   Bangalore (Kempegowda)              AMD   Ahmedabad (Sardar Vallabhbhai Pat   16:00  18:29  2h 29m
+AI6861   BLR   Bangalore (Kempegowda)              AMD   Ahmedabad (Sardar Vallabhbhai Pat   16:00  19:31  3h 31m
+UK6391   BLR   Bangalore (Kempegowda)              AMD   Ahmedabad (Sardar Vallabhbhai Pat   21:45  00:51  3h 6m
+6E6968   BLR   Bangalore (Kempegowda)              AMD   Ahmedabad (Sardar Vallabhbhai Pat   22:15  01:14  2h 59m
+6E3803   BLR   Bangalore (Kempegowda)              ATQ   Amritsar (Sri Guru Ram Dass Jee)    11:30  12:50  1h 20m
+G88023   BLR   Bangalore (Kempegowda)              ATQ   Amritsar (Sri Guru Ram Dass Jee)    19:00  20:42  1h 42m
+6E8305   BLR   Bangalore (Kempegowda)              ATQ   Amritsar (Sri Guru Ram Dass Jee)    20:45  23:52  3h 7m
+SG4067   BLR   Bangalore (Kempegowda)              BBI   Bhubaneswar (Biju Patnaik)          13:00  14:33  1h 33m
+G85820   BLR   Bangalore (Kempegowda)              BBI   Bhubaneswar (Biju Patnaik)          16:30  20:12  3h 42m
+UK8975   BLR   Bangalore (Kempegowda)              BOM   Mumbai (Chhatrapati Shivaji)        06:45  09:22  2h 37m
+AI1482   BLR   Bangalore (Kempegowda)              BOM   Mumbai (Chhatrapati Shivaji)        07:00  08:46  1h 46m
+SG7431   BLR   Bangalore (Kempegowda)              BOM   Mumbai (Chhatrapati Shivaji)        10:00  12:06  2h 6m
+6E6004   BLR   Bangalore (Kempegowda)              BOM   Mumbai (Chhatrapati Shivaji)        13:15  15:20  2h 5m
+SG8331   BLR   Bangalore (Kempegowda)              BOM   Mumbai (Chhatrapati Shivaji)        17:30  19:56  2h 26m
+UK8343   BLR   Bangalore (Kempegowda)              BOM   Mumbai (Chhatrapati Shivaji)        18:00  19:54  1h 54m
+G84557   BLR   Bangalore (Kempegowda)              CCU   Kolkata (Netaji Subhas Chandra Bo   05:45  07:41  1h 56m
+AI1741   BLR   Bangalore (Kempegowda)              CCU   Kolkata (Netaji Subhas Chandra Bo   10:15  12:54  2h 39m
+UK9859   BLR   Bangalore (Kempegowda)              CCU   Kolkata (Netaji Subhas Chandra Bo   16:45  19:25  2h 40m
+G88996   BLR   Bangalore (Kempegowda)              CCU   Kolkata (Netaji Subhas Chandra Bo   18:45  21:41  2h 56m
+AI7145   BLR   Bangalore (Kempegowda)              CCU   Kolkata (Netaji Subhas Chandra Bo   20:15  22:01  1h 46m
+SG1698   BLR   Bangalore (Kempegowda)              CCU   Kolkata (Netaji Subhas Chandra Bo   22:45  00:52  2h 7m
+SG5768   BLR   Bangalore (Kempegowda)              CCU   Kolkata (Netaji Subhas Chandra Bo   22:45  01:37  2h 52m
+UK9811   BLR   Bangalore (Kempegowda)              CCU   Kolkata (Netaji Subhas Chandra Bo   22:45  01:26  2h 41m
+G87383   BLR   Bangalore (Kempegowda)              COK   Kochi (Cochin)                      16:30  18:11  1h 41m
+6E8407   BLR   Bangalore (Kempegowda)              COK   Kochi (Cochin)                      17:00  20:52  3h 52m
+6E8598   BLR   Bangalore (Kempegowda)              COK   Kochi (Cochin)                      18:15  21:33  3h 18m
+6E9888   BLR   Bangalore (Kempegowda)              DEL   Delhi (Indira Gandhi)               06:15  08:32  2h 17m
+AI4601   BLR   Bangalore (Kempegowda)              DEL   Delhi (Indira Gandhi)               07:30  09:55  2h 25m
+6E5240   BLR   Bangalore (Kempegowda)              DEL   Delhi (Indira Gandhi)               12:15  14:33  2h 18m
+6E5682   BLR   Bangalore (Kempegowda)              DEL   Delhi (Indira Gandhi)               14:00  15:32  1h 32m
+UK7655   BLR   Bangalore (Kempegowda)              DEL   Delhi (Indira Gandhi)               18:45  20:38  1h 53m
+SG5291   BLR   Bangalore (Kempegowda)              DEL   Delhi (Indira Gandhi)               20:45  22:34  1h 49m
+SG5902   BLR   Bangalore (Kempegowda)              DEL   Delhi (Indira Gandhi)               21:15  00:09  2h 54m
+AI5166   BLR   Bangalore (Kempegowda)              DEL   Delhi (Indira Gandhi)               22:30  00:05  1h 35m
+G83837   BLR   Bangalore (Kempegowda)              GAU   Guwahati (Lokpriya Gopinath Bordo   08:15  09:01  0h 46m
+G81530   BLR   Bangalore (Kempegowda)              GAU   Guwahati (Lokpriya Gopinath Bordo   10:00  10:48  0h 48m
+6E7883   BLR   Bangalore (Kempegowda)              GAU   Guwahati (Lokpriya Gopinath Bordo   14:00  17:15  3h 15m
+6E1306   BLR   Bangalore (Kempegowda)              GAU   Guwahati (Lokpriya Gopinath Bordo   20:30  22:16  1h 46m
+6E1310   BLR   Bangalore (Kempegowda)              GOI   Goa (Dabolim)                       08:15  09:18  1h 3m
+6E5811   BLR   Bangalore (Kempegowda)              GOI   Goa (Dabolim)                       13:30  16:29  2h 59m
+SG5443   BLR   Bangalore (Kempegowda)              HYD   Hyderabad (Rajiv Gandhi)            06:30  09:04  2h 34m
+UK2551   BLR   Bangalore (Kempegowda)              HYD   Hyderabad (Rajiv Gandhi)            09:45  12:08  2h 23m
+6E6945   BLR   Bangalore (Kempegowda)              HYD   Hyderabad (Rajiv Gandhi)            15:45  18:27  2h 42m
+AI2370   BLR   Bangalore (Kempegowda)              HYD   Hyderabad (Rajiv Gandhi)            19:45  21:43  1h 58m
+UK805    BLR   Bangalore (Kempegowda)              IDR   Indore (Devi Ahilya Bai Holkar)     15:30  19:07  3h 37m
+6E3320   BLR   Bangalore (Kempegowda)              IDR   Indore (Devi Ahilya Bai Holkar)     15:45  18:00  2h 15m
+G89199   BLR   Bangalore (Kempegowda)              IXB   Siliguri (Bagdogra)                 11:30  15:14  3h 44m
+SG4740   BLR   Bangalore (Kempegowda)              IXB   Siliguri (Bagdogra)                 17:30  19:18  1h 48m
+UK8148   BLR   Bangalore (Kempegowda)              IXB   Siliguri (Bagdogra)                 18:30  20:05  1h 35m
+6E8336   BLR   Bangalore (Kempegowda)              IXB   Siliguri (Bagdogra)                 21:00  22:46  1h 46m
+AI3958   BLR   Bangalore (Kempegowda)              LKO   Lucknow (Chaudhary Charan Singh)    09:30  10:59  1h 29m
+UK6507   BLR   Bangalore (Kempegowda)              LKO   Lucknow (Chaudhary Charan Singh)    14:30  16:42  2h 12m
+6E6605   BLR   Bangalore (Kempegowda)              LKO   Lucknow (Chaudhary Charan Singh)    15:00  17:12  2h 12m
+SG2918   BLR   Bangalore (Kempegowda)              NAG   Nagpur (Dr. Babasaheb Ambedkar)     05:15  06:20  1h 5m
+AI5730   BLR   Bangalore (Kempegowda)              NAG   Nagpur (Dr. Babasaheb Ambedkar)     10:00  13:41  3h 41m
+SG266    BLR   Bangalore (Kempegowda)              PAT   Patna (Jay Prakash Narayan)         08:15  11:12  2h 57m
+UK5364   BLR   Bangalore (Kempegowda)              PAT   Patna (Jay Prakash Narayan)         11:45  12:32  0h 47m
+UK485    BLR   Bangalore (Kempegowda)              SXR   Srinagar (Sheikhul Aalam)           05:30  07:43  2h 13m
+6E6889   BLR   Bangalore (Kempegowda)              SXR   Srinagar (Sheikhul Aalam)           15:30  16:29  0h 59m
+AI1520   BLR   Bangalore (Kempegowda)              SXR   Srinagar (Sheikhul Aalam)           17:15  18:30  1h 15m
+AI1097   BLR   Bangalore (Kempegowda)              VNS   Varanasi (Lal Bahadur Shastri)      09:00  11:16  2h 16m
+6E7850   BLR   Bangalore (Kempegowda)              VNS   Varanasi (Lal Bahadur Shastri)      12:45  15:07  2h 22m
+AI6377   CCU   Kolkata (Netaji Subhas Chandra Bo   IXE   Mangalore                           05:00  06:08  1h 8m
+G85113   CCU   Kolkata (Netaji Subhas Chandra Bo   JAI   Jaipur                              05:15  07:40  2h 25m
+AI2615   CCU   Kolkata (Netaji Subhas Chandra Bo   PNQ   Pune                                05:45  08:59  3h 14m
+UK5706   CCU   Kolkata (Netaji Subhas Chandra Bo   TRV   Thiruvananthapuram                  05:45  09:15  3h 30m
+AI5406   CCU   Kolkata (Netaji Subhas Chandra Bo   MAA   Chennai                             06:15  08:27  2h 12m
+SG7658   CCU   Kolkata (Netaji Subhas Chandra Bo   IXE   Mangalore                           06:45  09:01  2h 16m
+G87581   CCU   Kolkata (Netaji Subhas Chandra Bo   VTZ   Visakhapatnam                       07:00  08:06  1h 6m
+6E3958   CCU   Kolkata (Netaji Subhas Chandra Bo   CCJ   Calicut                             08:00  09:09  1h 9m
+AI5418   CCU   Kolkata (Netaji Subhas Chandra Bo   CJB   Coimbatore                          08:15  10:44  2h 29m
+6E9033   CCU   Kolkata (Netaji Subhas Chandra Bo   PNQ   Pune                                09:30  10:51  1h 21m
+G85927   CCU   Kolkata (Netaji Subhas Chandra Bo   CJB   Coimbatore                          09:30  10:15  0h 45m
+SG3204   CCU   Kolkata (Netaji Subhas Chandra Bo   TRV   Thiruvananthapuram                  10:00  12:42  2h 42m
+UK6165   CCU   Kolkata (Netaji Subhas Chandra Bo   CNN   Kannur                              10:30  13:35  3h 5m
+6E8617   CCU   Kolkata (Netaji Subhas Chandra Bo   MAA   Chennai                             11:00  13:03  2h 3m
+6E5583   CCU   Kolkata (Netaji Subhas Chandra Bo   CCJ   Calicut                             11:15  13:38  2h 23m
+AI8242   CCU   Kolkata (Netaji Subhas Chandra Bo   MAA   Chennai                             11:15  13:27  2h 12m
+AI5369   CCU   Kolkata (Netaji Subhas Chandra Bo   IXC   Chandigarh                          11:45  15:24  3h 39m
+AI7559   CCU   Kolkata (Netaji Subhas Chandra Bo   STV   Surat                               11:45  15:42  3h 57m
+SG641    CCU   Kolkata (Netaji Subhas Chandra Bo   IXM   Madurai                             12:15  15:13  2h 58m
+AI2364   CCU   Kolkata (Netaji Subhas Chandra Bo   MAA   Chennai                             13:00  15:08  2h 8m
+6E151    CCU   Kolkata (Netaji Subhas Chandra Bo   TRZ   Tiruchirappalli                     13:30  15:18  1h 48m
+AI7026   CCU   Kolkata (Netaji Subhas Chandra Bo   CCJ   Calicut                             14:15  15:50  1h 35m
+6E2798   CCU   Kolkata (Netaji Subhas Chandra Bo   IMF   Imphal                              14:45  17:14  2h 29m
+6E9952   CCU   Kolkata (Netaji Subhas Chandra Bo   MAA   Chennai                             15:30  17:00  1h 30m
+AI1610   CCU   Kolkata (Netaji Subhas Chandra Bo   IXE   Mangalore                           15:30  19:25  3h 55m
+6E1033   CCU   Kolkata (Netaji Subhas Chandra Bo   VTZ   Visakhapatnam                       15:45  19:29  3h 44m
+AI5001   CCU   Kolkata (Netaji Subhas Chandra Bo   CNN   Kannur                              16:00  18:13  2h 13m
+SG5503   CCU   Kolkata (Netaji Subhas Chandra Bo   STV   Surat                               16:00  19:59  3h 59m
+AI2778   CCU   Kolkata (Netaji Subhas Chandra Bo   CNN   Kannur                              16:15  19:10  2h 55m
+SG4633   CCU   Kolkata (Netaji Subhas Chandra Bo   IXC   Chandigarh                          16:15  18:44  2h 29m
+6E908    CCU   Kolkata (Netaji Subhas Chandra Bo   JAI   Jaipur                              17:45  18:53  1h 8m
+G84767   CCU   Kolkata (Netaji Subhas Chandra Bo   STV   Surat                               18:15  21:23  3h 8m
+AI1151   CCU   Kolkata (Netaji Subhas Chandra Bo   IXE   Mangalore                           19:15  20:43  1h 28m
+G89687   CCU   Kolkata (Netaji Subhas Chandra Bo   TRZ   Tiruchirappalli                     19:15  21:20  2h 5m
+G81792   CCU   Kolkata (Netaji Subhas Chandra Bo   IXM   Madurai                             21:15  00:57  3h 42m
+SG9959   CCU   Kolkata (Netaji Subhas Chandra Bo   IXC   Chandigarh                          21:15  22:03  0h 48m
+AI8263   CCU   Kolkata (Netaji Subhas Chandra Bo   CNN   Kannur                              21:30  01:20  3h 50m
+6E5739   CCU   Kolkata (Netaji Subhas Chandra Bo   CJB   Coimbatore                          21:45  00:48  3h 3m
+UK7526   CCU   Kolkata (Netaji Subhas Chandra Bo   IMF   Imphal                              21:45  00:05  2h 20m
+UK4559   CCU   Kolkata (Netaji Subhas Chandra Bo   PNQ   Pune                                22:30  01:36  3h 6m
+UK392    CCU   Kolkata (Netaji Subhas Chandra Bo   CCJ   Calicut                             22:45  00:26  1h 41m
+6E9343   CCU   Kolkata (Netaji Subhas Chandra Bo   TRV   Thiruvananthapuram                  23:00  00:06  1h 6m
+AI3724   CCU   Kolkata (Netaji Subhas Chandra Bo   AMD   Ahmedabad (Sardar Vallabhbhai Pat   06:15  10:01  3h 46m
+AI9460   CCU   Kolkata (Netaji Subhas Chandra Bo   AMD   Ahmedabad (Sardar Vallabhbhai Pat   13:30  16:24  2h 54m
+6E3321   CCU   Kolkata (Netaji Subhas Chandra Bo   AMD   Ahmedabad (Sardar Vallabhbhai Pat   21:45  00:53  3h 8m
+G84119   CCU   Kolkata (Netaji Subhas Chandra Bo   AMD   Ahmedabad (Sardar Vallabhbhai Pat   22:00  23:59  1h 59m
+SG467    CCU   Kolkata (Netaji Subhas Chandra Bo   ATQ   Amritsar (Sri Guru Ram Dass Jee)    17:15  18:59  1h 44m
+G85777   CCU   Kolkata (Netaji Subhas Chandra Bo   ATQ   Amritsar (Sri Guru Ram Dass Jee)    20:15  22:38  2h 23m
+AI2648   CCU   Kolkata (Netaji Subhas Chandra Bo   BBI   Bhubaneswar (Biju Patnaik)          08:30  11:32  3h 2m
+G85131   CCU   Kolkata (Netaji Subhas Chandra Bo   BBI   Bhubaneswar (Biju Patnaik)          11:30  15:18  3h 48m
+6E155    CCU   Kolkata (Netaji Subhas Chandra Bo   BBI   Bhubaneswar (Biju Patnaik)          21:00  22:54  1h 54m
+UK5121   CCU   Kolkata (Netaji Subhas Chandra Bo   BLR   Bangalore (Kempegowda)              05:45  08:05  2h 20m
+AI6813   CCU   Kolkata (Netaji Subhas Chandra Bo   BLR   Bangalore (Kempegowda)              06:15  09:02  2h 47m
+SG2865   CCU   Kolkata (Netaji Subhas Chandra Bo   BLR   Bangalore (Kempegowda)              15:45  18:11  2h 26m
+6E4912   CCU   Kolkata (Netaji Subhas Chandra Bo   BLR   Bangalore (Kempegowda)              17:15  20:14  2h 59m
+SG323    CCU   Kolkata (Netaji Subhas Chandra Bo   BLR   Bangalore (Kempegowda)              19:00  21:47  2h 47m
+UK314    CCU   Kolkata (Netaji Subhas Chandra Bo   BLR   Bangalore (Kempegowda)              22:00  00:04  2h 4m
+AI548    CCU   Kolkata (Netaji Subhas Chandra Bo   BOM   Mumbai (Chhatrapati Shivaji)        09:00  11:42  2h 42m
+UK3544   CCU   Kolkata (Netaji Subhas Chandra Bo   BOM   Mumbai (Chhatrapati Shivaji)        13:15  15:26  2h 11m
+6E5762   CCU   Kolkata (Netaji Subhas Chandra Bo   BOM   Mumbai (Chhatrapati Shivaji)        15:00  17:05  2h 5m
+AI5382   CCU   Kolkata (Netaji Subhas Chandra Bo   BOM   Mumbai (Chhatrapati Shivaji)        22:30  00:31  2h 1m
+SG9345   CCU   Kolkata (Netaji Subhas Chandra Bo   BOM   Mumbai (Chhatrapati Shivaji)        22:45  00:43  1h 58m
+AI6783   CCU   Kolkata (Netaji Subhas Chandra Bo   COK   Kochi (Cochin)                      20:30  22:53  2h 23m
+SG8595   CCU   Kolkata (Netaji Subhas Chandra Bo   COK   Kochi (Cochin)                      21:30  22:16  0h 46m
+6E7153   CCU   Kolkata (Netaji Subhas Chandra Bo   DEL   Delhi (Indira Gandhi)               06:15  07:51  1h 36m
+AI3589   CCU   Kolkata (Netaji Subhas Chandra Bo   DEL   Delhi (Indira Gandhi)               18:00  19:38  1h 38m
+SG2247   CCU   Kolkata (Netaji Subhas Chandra Bo   DEL   Delhi (Indira Gandhi)               19:15  21:28  2h 13m
+UK130    CCU   Kolkata (Netaji Subhas Chandra Bo   DEL   Delhi (Indira Gandhi)               21:00  23:16  2h 16m
+UK7616   CCU   Kolkata (Netaji Subhas Chandra Bo   GAU   Guwahati (Lokpriya Gopinath Bordo   19:00  20:43  1h 43m
+SG1443   CCU   Kolkata (Netaji Subhas Chandra Bo   GAU   Guwahati (Lokpriya Gopinath Bordo   21:15  22:49  1h 34m
+SG7053   CCU   Kolkata (Netaji Subhas Chandra Bo   GOI   Goa (Dabolim)                       13:45  17:35  3h 50m
+SG8010   CCU   Kolkata (Netaji Subhas Chandra Bo   GOI   Goa (Dabolim)                       16:45  18:26  1h 41m
+G85274   CCU   Kolkata (Netaji Subhas Chandra Bo   GOI   Goa (Dabolim)                       19:45  23:28  3h 43m
+6E7397   CCU   Kolkata (Netaji Subhas Chandra Bo   GOI   Goa (Dabolim)                       23:00  02:02  3h 2m
+UK9889   CCU   Kolkata (Netaji Subhas Chandra Bo   HYD   Hyderabad (Rajiv Gandhi)            08:30  10:55  2h 25m
+G87462   CCU   Kolkata (Netaji Subhas Chandra Bo   HYD   Hyderabad (Rajiv Gandhi)            10:45  12:34  1h 49m
+6E4262   CCU   Kolkata (Netaji Subhas Chandra Bo   HYD   Hyderabad (Rajiv Gandhi)            17:45  20:08  2h 23m
+UK8320   CCU   Kolkata (Netaji Subhas Chandra Bo   HYD   Hyderabad (Rajiv Gandhi)            18:30  20:26  1h 56m
+6E1097   CCU   Kolkata (Netaji Subhas Chandra Bo   HYD   Hyderabad (Rajiv Gandhi)            21:15  22:57  1h 42m
+6E1898   CCU   Kolkata (Netaji Subhas Chandra Bo   IDR   Indore (Devi Ahilya Bai Holkar)     11:45  15:35  3h 50m
+G83029   CCU   Kolkata (Netaji Subhas Chandra Bo   IDR   Indore (Devi Ahilya Bai Holkar)     12:15  14:17  2h 2m
+SG2204   CCU   Kolkata (Netaji Subhas Chandra Bo   IDR   Indore (Devi Ahilya Bai Holkar)     19:45  23:28  3h 43m
+SG5435   CCU   Kolkata (Netaji Subhas Chandra Bo   IDR   Indore (Devi Ahilya Bai Holkar)     22:30  00:22  1h 52m
+AI2210   CCU   Kolkata (Netaji Subhas Chandra Bo   IXB   Siliguri (Bagdogra)                 22:00  23:39  1h 39m
+6E5697   CCU   Kolkata (Netaji Subhas Chandra Bo   IXB   Siliguri (Bagdogra)                 22:15  23:00  0h 45m
+G82784   CCU   Kolkata (Netaji Subhas Chandra Bo   LKO   Lucknow (Chaudhary Charan Singh)    07:00  10:14  3h 14m
+SG1203   CCU   Kolkata (Netaji Subhas Chandra Bo   LKO   Lucknow (Chaudhary Charan Singh)    11:45  13:21  1h 36m
+6E4903   CCU   Kolkata (Netaji Subhas Chandra Bo   LKO   Lucknow (Chaudhary Charan Singh)    21:30  22:30  1h 0m
+G85022   CCU   Kolkata (Netaji Subhas Chandra Bo   NAG   Nagpur (Dr. Babasaheb Ambedkar)     06:30  07:24  0h 54m
+6E923    CCU   Kolkata (Netaji Subhas Chandra Bo   NAG   Nagpur (Dr. Babasaheb Ambedkar)     07:30  10:17  2h 47m
+6E5721   CCU   Kolkata (Netaji Subhas Chandra Bo   NAG   Nagpur (Dr. Babasaheb Ambedkar)     14:30  16:12  1h 42m
+SG1279   CCU   Kolkata (Netaji Subhas Chandra Bo   PAT   Patna (Jay Prakash Narayan)         09:45  13:05  3h 20m
+UK1748   CCU   Kolkata (Netaji Subhas Chandra Bo   PAT   Patna (Jay Prakash Narayan)         17:15  19:09  1h 54m
+G84310   CCU   Kolkata (Netaji Subhas Chandra Bo   PAT   Patna (Jay Prakash Narayan)         17:30  18:44  1h 14m
+6E3093   CCU   Kolkata (Netaji Subhas Chandra Bo   SXR   Srinagar (Sheikhul Aalam)           11:45  15:38  3h 53m
+UK3667   CCU   Kolkata (Netaji Subhas Chandra Bo   SXR   Srinagar (Sheikhul Aalam)           16:15  20:04  3h 49m
+6E2061   CCU   Kolkata (Netaji Subhas Chandra Bo   SXR   Srinagar (Sheikhul Aalam)           21:15  22:39  1h 24m
+AI1432   CCU   Kolkata (Netaji Subhas Chandra Bo   SXR   Srinagar (Sheikhul Aalam)           21:15  00:45  3h 30m
+6E1724   CCU   Kolkata (Netaji Subhas Chandra Bo   VNS   Varanasi (Lal Bahadur Shastri)      18:30  20:09  1h 39m
+AI9915   CCU   Kolkata (Netaji Subhas Chandra Bo   VNS   Varanasi (Lal Bahadur Shastri)      23:00  00:17  1h 17m
+6E5176   HYD   Hyderabad (Rajiv Gandhi)            JAI   Jaipur                              05:00  07:49  2h 49m
+UK6692   HYD   Hyderabad (Rajiv Gandhi)            IXE   Mangalore                           05:30  08:51  3h 21m
+SG2217   HYD   Hyderabad (Rajiv Gandhi)            CNN   Kannur                              06:00  08:04  2h 4m
+AI1294   HYD   Hyderabad (Rajiv Gandhi)            CJB   Coimbatore                          06:15  10:10  3h 55m
+AI6854   HYD   Hyderabad (Rajiv Gandhi)            STV   Surat                               06:30  07:34  1h 4m
+SG6596   HYD   Hyderabad (Rajiv Gandhi)            IXM   Madurai                             06:30  07:38  1h 8m
+AI4948   HYD   Hyderabad (Rajiv Gandhi)            CJB   Coimbatore                          07:30  09:00  1h 30m
+UK2535   HYD   Hyderabad (Rajiv Gandhi)            MAA   Chennai                             07:30  10:13  2h 43m
+6E3442   HYD   Hyderabad (Rajiv Gandhi)            PNQ   Pune                                08:15  11:39  3h 24m
+6E6717   HYD   Hyderabad (Rajiv Gandhi)            TRZ   Tiruchirappalli                     08:15  10:39  2h 24m
+SG142    HYD   Hyderabad (Rajiv Gandhi)            IMF   Imphal                              08:45  10:03  1h 18m
+G8725    HYD   Hyderabad (Rajiv Gandhi)            CJB   Coimbatore                          09:45  13:10  3h 25m
+6E4794   HYD   Hyderabad (Rajiv Gandhi)            MAA   Chennai                             10:00  12:07  2h 7m
+6E8015   HYD   Hyderabad (Rajiv Gandhi)            IXM   Madurai                             10:00  12:33  2h 33m
+AI7561   HYD   Hyderabad (Rajiv Gandhi)            IMF   Imphal                              10:45  13:44  2h 59m
+AI6423   HYD   Hyderabad (Rajiv Gandhi)            VTZ   Visakhapatnam                       11:15  12:07  0h 52m
+6E3633   HYD   Hyderabad (Rajiv Gandhi)            IXE   Mangalore                           11:45  15:20  3h 35m
+SG1156   HYD   Hyderabad (Rajiv Gandhi)            MAA   Chennai                             12:00  14:57  2h 57m
+SG7576   HYD   Hyderabad (Rajiv Gandhi)            VTZ   Visakhapatnam                       12:00  13:45  1h 45m
+6E8208   HYD   Hyderabad (Rajiv Gandhi)            TRV   Thiruvananthapuram                  12:15  15:04  2h 49m
+6E932    HYD   Hyderabad (Rajiv Gandhi)            IXC   Chandigarh                          12:45  15:29  2h 44m
+SG2318   HYD   Hyderabad (Rajiv Gandhi)            TRV   Thiruvananthapuram                  13:00  14:55  1h 55m
+6E3724   HYD   Hyderabad (Rajiv Gandhi)            TRV   Thiruvananthapuram                  13:30  16:16  2h 46m
+6E6235   HYD   Hyderabad (Rajiv Gandhi)            TRZ   Tiruchirappalli                     13:30  15:46  2h 16m
+UK8869   HYD   Hyderabad (Rajiv Gandhi)            MAA   Chennai                             13:45  15:35  1h 50m
+6E5107   HYD   Hyderabad (Rajiv Gandhi)            IMF   Imphal                              14:30  17:52  3h 22m
+UK3696   HYD   Hyderabad (Rajiv Gandhi)            PNQ   Pune                                14:30  17:27  2h 57m
+UK1660   HYD   Hyderabad (Rajiv Gandhi)            IMF   Imphal                              14:45  17:02  2h 17m
+6E2347   HYD   Hyderabad (Rajiv Gandhi)            STV   Surat                               15:15  18:32  3h 17m
+SG9649   HYD   Hyderabad (Rajiv Gandhi)            IXM   Madurai                             15:15  18:37  3h 22m
+UK362    HYD   Hyderabad (Rajiv Gandhi)            IXE   Mangalore                           15:30  18:57  3h 27m
+SG4093   HYD   Hyderabad (Rajiv Gandhi)            MAA   Chennai                             16:00  18:55  2h 55m
+AI4781   HYD   Hyderabad (Rajiv Gandhi)            TRZ   Tiruchirappalli                     16:45  19:48  3h 3m
+AI1945   HYD   Hyderabad (Rajiv Gandhi)            CCJ   Calicut                             17:15  20:40  3h 25m
+AI2082   HYD   Hyderabad (Rajiv Gandhi)            JAI   Jaipur                              17:15  18:06  0h 51m
+AI5219   HYD   Hyderabad (Rajiv Gandhi)            CCJ   Calicut                             17:30  20:16  2h 46m
+UK7408   HYD   Hyderabad (Rajiv Gandhi)            TRZ   Tiruchirappalli                     17:30  20:59  3h 29m
+6E2895   HYD   Hyderabad (Rajiv Gandhi)            IXM   Madurai                             18:45  22:44  3h 59m
+SG6763   HYD   Hyderabad (Rajiv Gandhi)            IXC   Chandigarh                          21:30  22:15  0h 45m
+AI2164   HYD   Hyderabad (Rajiv Gandhi)            MAA   Chennai                             22:15  00:21  2h 6m
+SG4767   HYD   Hyderabad (Rajiv Gandhi)            CJB   Coimbatore                          22:15  00:01  1h 46m
+SG5196   HYD   Hyderabad (Rajiv Gandhi)            IXC   Chandigarh                          22:30  00:49  2h 19m
+6E8261   HYD   Hyderabad (Rajiv Gandhi)            VTZ   Visakhapatnam                       22:45  02:44  3h 59m
+AI4009   HYD   Hyderabad (Rajiv Gandhi)            CNN   Kannur                              22:45  02:37  3h 52m
+SG4766   HYD   Hyderabad (Rajiv Gandhi)            TRV   Thiruvananthapuram                  22:45  02:05  3h 20m
+AI3284   HYD   Hyderabad (Rajiv Gandhi)            AMD   Ahmedabad (Sardar Vallabhbhai Pat   21:00  21:59  0h 59m
+UK3498   HYD   Hyderabad (Rajiv Gandhi)            AMD   Ahmedabad (Sardar Vallabhbhai Pat   21:15  23:50  2h 35m
+UK3560   HYD   Hyderabad (Rajiv Gandhi)            ATQ   Amritsar (Sri Guru Ram Dass Jee)    08:00  11:48  3h 48m
+AI2569   HYD   Hyderabad (Rajiv Gandhi)            ATQ   Amritsar (Sri Guru Ram Dass Jee)    13:30  14:36  1h 6m
+6E2283   HYD   Hyderabad (Rajiv Gandhi)            BBI   Bhubaneswar (Biju Patnaik)          05:30  07:32  2h 2m
+G88576   HYD   Hyderabad (Rajiv Gandhi)            BBI   Bhubaneswar (Biju Patnaik)          13:15  16:10  2h 55m
+UK264    HYD   Hyderabad (Rajiv Gandhi)            BBI   Bhubaneswar (Biju Patnaik)          13:15  14:20  1h 5m
+6E6926   HYD   Hyderabad (Rajiv Gandhi)            BLR   Bangalore (Kempegowda)              12:15  14:41  2h 26m
+6E8682   HYD   Hyderabad (Rajiv Gandhi)            BLR   Bangalore (Kempegowda)              14:15  16:53  2h 38m
+G86493   HYD   Hyderabad (Rajiv Gandhi)            BLR   Bangalore (Kempegowda)              15:00  17:58  2h 58m
+6E1287   HYD   Hyderabad (Rajiv Gandhi)            BLR   Bangalore (Kempegowda)              15:15  17:50  2h 35m
+6E1097   HYD   Hyderabad (Rajiv Gandhi)            BLR   Bangalore (Kempegowda)              16:15  18:27  2h 12m
+G85865   HYD   Hyderabad (Rajiv Gandhi)            BLR   Bangalore (Kempegowda)              18:30  20:02  1h 32m
+AI926    HYD   Hyderabad (Rajiv Gandhi)            BLR   Bangalore (Kempegowda)              21:45  00:31  2h 46m
+6E3266   HYD   Hyderabad (Rajiv Gandhi)            BLR   Bangalore (Kempegowda)              22:15  00:47  2h 32m
+SG5666   HYD   Hyderabad (Rajiv Gandhi)            BOM   Mumbai (Chhatrapati Shivaji)        09:45  12:13  2h 28m
+6E8468   HYD   Hyderabad (Rajiv Gandhi)            BOM   Mumbai (Chhatrapati Shivaji)        10:45  12:53  2h 8m
+AI7067   HYD   Hyderabad (Rajiv Gandhi)            BOM   Mumbai (Chhatrapati Shivaji)        13:45  16:41  2h 56m
+6E3479   HYD   Hyderabad (Rajiv Gandhi)            BOM   Mumbai (Chhatrapati Shivaji)        14:00  16:54  2h 54m
+6E2017   HYD   Hyderabad (Rajiv Gandhi)            BOM   Mumbai (Chhatrapati Shivaji)        17:00  19:48  2h 48m
+G86121   HYD   Hyderabad (Rajiv Gandhi)            BOM   Mumbai (Chhatrapati Shivaji)        19:30  21:57  2h 27m
+UK3564   HYD   Hyderabad (Rajiv Gandhi)            BOM   Mumbai (Chhatrapati Shivaji)        19:45  21:59  2h 14m
+G81787   HYD   Hyderabad (Rajiv Gandhi)            BOM   Mumbai (Chhatrapati Shivaji)        20:30  22:36  2h 6m
+6E6933   HYD   Hyderabad (Rajiv Gandhi)            CCU   Kolkata (Netaji Subhas Chandra Bo   06:00  08:17  2h 17m
+UK6766   HYD   Hyderabad (Rajiv Gandhi)            CCU   Kolkata (Netaji Subhas Chandra Bo   06:45  09:23  2h 38m
+AI8392   HYD   Hyderabad (Rajiv Gandhi)            CCU   Kolkata (Netaji Subhas Chandra Bo   09:45  12:13  2h 28m
+6E9959   HYD   Hyderabad (Rajiv Gandhi)            CCU   Kolkata (Netaji Subhas Chandra Bo   13:15  16:13  2h 58m
+G86841   HYD   Hyderabad (Rajiv Gandhi)            CCU   Kolkata (Netaji Subhas Chandra Bo   13:15  16:13  2h 58m
+SG1257   HYD   Hyderabad (Rajiv Gandhi)            COK   Kochi (Cochin)                      13:45  15:03  1h 18m
+UK2441   HYD   Hyderabad (Rajiv Gandhi)            COK   Kochi (Cochin)                      16:15  17:08  0h 53m
+6E6015   HYD   Hyderabad (Rajiv Gandhi)            DEL   Delhi (Indira Gandhi)               08:00  10:00  2h 0m
+AI966    HYD   Hyderabad (Rajiv Gandhi)            DEL   Delhi (Indira Gandhi)               09:45  12:32  2h 47m
+AI5200   HYD   Hyderabad (Rajiv Gandhi)            DEL   Delhi (Indira Gandhi)               15:30  18:08  2h 38m
+AI9249   HYD   Hyderabad (Rajiv Gandhi)            DEL   Delhi (Indira Gandhi)               18:00  20:54  2h 54m
+G87037   HYD   Hyderabad (Rajiv Gandhi)            DEL   Delhi (Indira Gandhi)               18:15  21:07  2h 52m
+SG1918   HYD   Hyderabad (Rajiv Gandhi)            GAU   Guwahati (Lokpriya Gopinath Bordo   05:15  06:22  1h 7m
+UK7451   HYD   Hyderabad (Rajiv Gandhi)            GAU   Guwahati (Lokpriya Gopinath Bordo   16:00  18:53  2h 53m
+G82318   HYD   Hyderabad (Rajiv Gandhi)            GAU   Guwahati (Lokpriya Gopinath Bordo   20:00  21:49  1h 49m
+6E7631   HYD   Hyderabad (Rajiv Gandhi)            GAU   Guwahati (Lokpriya Gopinath Bordo   21:45  00:28  2h 43m
+6E7812   HYD   Hyderabad (Rajiv Gandhi)            GOI   Goa (Dabolim)                       09:30  13:09  3h 39m
+UK3162   HYD   Hyderabad (Rajiv Gandhi)            GOI   Goa (Dabolim)                       11:30  12:36  1h 6m
+6E1095   HYD   Hyderabad (Rajiv Gandhi)            GOI   Goa (Dabolim)                       21:45  23:47  2h 2m
+UK3945   HYD   Hyderabad (Rajiv Gandhi)            GOI   Goa (Dabolim)                       22:00  00:46  2h 46m
+6E139    HYD   Hyderabad (Rajiv Gandhi)            IDR   Indore (Devi Ahilya Bai Holkar)     14:15  16:21  2h 6m
+UK8742   HYD   Hyderabad (Rajiv Gandhi)            IDR   Indore (Devi Ahilya Bai Holkar)     16:00  19:56  3h 56m
+6E5249   HYD   Hyderabad (Rajiv Gandhi)            IDR   Indore (Devi Ahilya Bai Holkar)     16:45  19:39  2h 54m
+UK1269   HYD   Hyderabad (Rajiv Gandhi)            IDR   Indore (Devi Ahilya Bai Holkar)     20:15  23:28  3h 13m
+UK7895   HYD   Hyderabad (Rajiv Gandhi)            IXB   Siliguri (Bagdogra)                 13:00  16:21  3h 21m
+G83193   HYD   Hyderabad (Rajiv Gandhi)            IXB   Siliguri (Bagdogra)                 14:30  16:48  2h 18m
+G81613   HYD   Hyderabad (Rajiv Gandhi)            LKO   Lucknow (Chaudhary Charan Singh)    07:30  09:14  1h 44m
+6E5499   HYD   Hyderabad (Rajiv Gandhi)            LKO   Lucknow (Chaudhary Charan Singh)    12:30  15:40  3h 10m
+6E4769   HYD   Hyderabad (Rajiv Gandhi)            LKO   Lucknow (Chaudhary Charan Singh)    15:00  17:13  2h 13m
+AI9242   HYD   Hyderabad (Rajiv Gandhi)            LKO   Lucknow (Chaudhary Charan Singh)    19:15  23:06  3h 51m
+6E6987   HYD   Hyderabad (Rajiv Gandhi)            NAG   Nagpur (Dr. Babasaheb Ambedkar)     07:30  09:37  2h 7m
+G89160   HYD   Hyderabad (Rajiv Gandhi)            NAG   Nagpur (Dr. Babasaheb Ambedkar)     08:00  10:01  2h 1m
+6E1517   HYD   Hyderabad (Rajiv Gandhi)            NAG   Nagpur (Dr. Babasaheb Ambedkar)     11:00  14:31  3h 31m
+SG7753   HYD   Hyderabad (Rajiv Gandhi)            NAG   Nagpur (Dr. Babasaheb Ambedkar)     16:15  18:59  2h 44m
+G87009   HYD   Hyderabad (Rajiv Gandhi)            PAT   Patna (Jay Prakash Narayan)         08:15  09:28  1h 13m
+UK4935   HYD   Hyderabad (Rajiv Gandhi)            PAT   Patna (Jay Prakash Narayan)         09:00  10:18  1h 18m
+6E1432   HYD   Hyderabad (Rajiv Gandhi)            SXR   Srinagar (Sheikhul Aalam)           13:15  14:48  1h 33m
+6E5804   HYD   Hyderabad (Rajiv Gandhi)            SXR   Srinagar (Sheikhul Aalam)           13:45  15:52  2h 7m
+G83529   HYD   Hyderabad (Rajiv Gandhi)            SXR   Srinagar (Sheikhul Aalam)           16:15  17:39  1h 24m
+G82591   HYD   Hyderabad (Rajiv Gandhi)            SXR   Srinagar (Sheikhul Aalam)           17:45  20:07  2h 22m
+AI6595   HYD   Hyderabad (Rajiv Gandhi)            VNS   Varanasi (Lal Bahadur Shastri)      06:15  09:56  3h 41m
+AI1454   HYD   Hyderabad (Rajiv Gandhi)            VNS   Varanasi (Lal Bahadur Shastri)      19:00  19:53  0h 53m
+UK5298   MAA   Chennai                             AMD   Ahmedabad (Sardar Vallabhbhai Pat   08:45  11:20  2h 35m
+SG3439   MAA   Chennai                             AMD   Ahmedabad (Sardar Vallabhbhai Pat   14:30  18:07  3h 37m
+6E3089   MAA   Chennai                             AMD   Ahmedabad (Sardar Vallabhbhai Pat   18:45  20:11  1h 26m
+SG9128   MAA   Chennai                             AMD   Ahmedabad (Sardar Vallabhbhai Pat   22:45  02:20  3h 35m
+SG552    MAA   Chennai                             ATQ   Amritsar (Sri Guru Ram Dass Jee)    06:15  07:30  1h 15m
+6E1534   MAA   Chennai                             ATQ   Amritsar (Sri Guru Ram Dass Jee)    07:45  08:50  1h 5m
+AI3290   MAA   Chennai                             ATQ   Amritsar (Sri Guru Ram Dass Jee)    12:15  15:35  3h 20m
+SG9546   MAA   Chennai                             BBI   Bhubaneswar (Biju Patnaik)          09:30  10:27  0h 57m
+AI1627   MAA   Chennai                             BBI   Bhubaneswar (Biju Patnaik)          10:00  13:21  3h 21m
+6E4216   MAA   Chennai                             BLR   Bangalore (Kempegowda)              08:00  09:47  1h 47m
+UK2781   MAA   Chennai                             BLR   Bangalore (Kempegowda)              18:30  20:35  2h 5m
+UK8016   MAA   Chennai                             BLR   Bangalore (Kempegowda)              19:30  22:09  2h 39m
+SG784    MAA   Chennai                             BLR   Bangalore (Kempegowda)              22:00  23:32  1h 32m
+UK9176   MAA   Chennai                             BLR   Bangalore (Kempegowda)              23:00  01:29  2h 29m
+G89570   MAA   Chennai                             BOM   Mumbai (Chhatrapati Shivaji)        15:15  17:05  1h 50m
+G84058   MAA   Chennai                             BOM   Mumbai (Chhatrapati Shivaji)        15:45  18:13  2h 28m
+AI4313   MAA   Chennai                             BOM   Mumbai (Chhatrapati Shivaji)        17:15  19:24  2h 9m
+UK1453   MAA   Chennai                             BOM   Mumbai (Chhatrapati Shivaji)        21:00  23:36  2h 36m
+AI6667   MAA   Chennai                             BOM   Mumbai (Chhatrapati Shivaji)        22:15  00:12  1h 57m
+SG1948   MAA   Chennai                             CCU   Kolkata (Netaji Subhas Chandra Bo   06:15  08:32  2h 17m
+G87176   MAA   Chennai                             CCU   Kolkata (Netaji Subhas Chandra Bo   06:45  08:21  1h 36m
+6E8989   MAA   Chennai                             CCU   Kolkata (Netaji Subhas Chandra Bo   09:15  11:21  2h 6m
+6E1702   MAA   Chennai                             CCU   Kolkata (Netaji Subhas Chandra Bo   12:30  15:11  2h 41m
+AI8507   MAA   Chennai                             CCU   Kolkata (Netaji Subhas Chandra Bo   14:15  17:09  2h 54m
+6E6006   MAA   Chennai                             CCU   Kolkata (Netaji Subhas Chandra Bo   23:00  00:44  1h 44m
+AI9364   MAA   Chennai                             COK   Kochi (Cochin)                      18:00  21:43  3h 43m
+AI4398   MAA   Chennai                             COK   Kochi (Cochin)                      21:00  22:35  1h 35m
+6E9717   MAA   Chennai                             DEL   Delhi (Indira Gandhi)               06:00  08:46  2h 46m
+6E5720   MAA   Chennai                             DEL   Delhi (Indira Gandhi)               12:00  14:28  2h 28m
+6E4131   MAA   Chennai                             DEL   Delhi (Indira Gandhi)               12:15  14:59  2h 44m
+6E2162   MAA   Chennai                             DEL   Delhi (Indira Gandhi)               13:00  14:30  1h 30m
+6E9516   MAA   Chennai                             DEL   Delhi (Indira Gandhi)               14:15  16:47  2h 32m
+UK8345   MAA   Chennai                             DEL   Delhi (Indira Gandhi)               16:15  19:07  2h 52m
+AI5944   MAA   Chennai                             DEL   Delhi (Indira Gandhi)               18:00  20:25  2h 25m
+G84076   MAA   Chennai                             GAU   Guwahati (Lokpriya Gopinath Bordo   05:45  08:57  3h 12m
+G8791    MAA   Chennai                             GAU   Guwahati (Lokpriya Gopinath Bordo   17:15  19:48  2h 33m
+AI7335   MAA   Chennai                             GAU   Guwahati (Lokpriya Gopinath Bordo   22:45  01:34  2h 49m
+G82876   MAA   Chennai                             GOI   Goa (Dabolim)                       16:45  18:37  1h 52m
+SG3906   MAA   Chennai                             GOI   Goa (Dabolim)                       20:00  23:55  3h 55m
+G84609   MAA   Chennai                             HYD   Hyderabad (Rajiv Gandhi)            06:15  08:47  2h 32m
+6E3855   MAA   Chennai                             HYD   Hyderabad (Rajiv Gandhi)            12:30  14:50  2h 20m
+UK269    MAA   Chennai                             HYD   Hyderabad (Rajiv Gandhi)            13:15  15:33  2h 18m
+6E8308   MAA   Chennai                             HYD   Hyderabad (Rajiv Gandhi)            17:30  19:10  1h 40m
+6E9556   MAA   Chennai                             HYD   Hyderabad (Rajiv Gandhi)            18:00  20:15  2h 15m
+6E9081   MAA   Chennai                             HYD   Hyderabad (Rajiv Gandhi)            22:15  00:21  2h 6m
+UK6147   MAA   Chennai                             HYD   Hyderabad (Rajiv Gandhi)            23:00  01:13  2h 13m
+SG4625   MAA   Chennai                             IDR   Indore (Devi Ahilya Bai Holkar)     07:15  11:10  3h 55m
+6E4279   MAA   Chennai                             IDR   Indore (Devi Ahilya Bai Holkar)     07:30  10:15  2h 45m
+6E4682   MAA   Chennai                             IDR   Indore (Devi Ahilya Bai Holkar)     18:45  22:30  3h 45m
+G89258   MAA   Chennai                             IXB   Siliguri (Bagdogra)                 14:15  16:36  2h 21m
+AI2197   MAA   Chennai                             IXB   Siliguri (Bagdogra)                 22:00  00:47  2h 47m
+AI9119   MAA   Chennai                             LKO   Lucknow (Chaudhary Charan Singh)    05:15  06:14  0h 59m
+SG9030   MAA   Chennai                             LKO   Lucknow (Chaudhary Charan Singh)    07:45  10:44  2h 59m
+G84745   MAA   Chennai                             LKO   Lucknow (Chaudhary Charan Singh)    19:00  22:39  3h 39m
+AI3682   MAA   Chennai                             NAG   Nagpur (Dr. Babasaheb Ambedkar)     08:15  10:58  2h 43m
+AI7568   MAA   Chennai                             NAG   Nagpur (Dr. Babasaheb Ambedkar)     10:15  13:41  3h 26m
+6E1690   MAA   Chennai                             PAT   Patna (Jay Prakash Narayan)         12:00  13:51  1h 51m
+6E9861   MAA   Chennai                             PAT   Patna (Jay Prakash Narayan)         12:30  14:27  1h 57m
+G86560   MAA   Chennai                             PAT   Patna (Jay Prakash Narayan)         14:00  15:01  1h 1m
+AI4769   MAA   Chennai                             PAT   Patna (Jay Prakash Narayan)         15:30  17:41  2h 11m
+G87710   MAA   Chennai                             SXR   Srinagar (Sheikhul Aalam)           05:15  08:34  3h 19m
+SG4093   MAA   Chennai                             SXR   Srinagar (Sheikhul Aalam)           13:45  14:42  0h 57m
+SG1607   MAA   Chennai                             SXR   Srinagar (Sheikhul Aalam)           19:15  22:18  3h 3m
+6E9437   MAA   Chennai                             SXR   Srinagar (Sheikhul Aalam)           20:15  23:38  3h 23m
+6E3002   MAA   Chennai                             VNS   Varanasi (Lal Bahadur Shastri)      10:45  11:52  1h 7m
+SG9461   MAA   Chennai                             VNS   Varanasi (Lal Bahadur Shastri)      11:15  13:29  2h 14m
+6E3032   MAA   Chennai                             VNS   Varanasi (Lal Bahadur Shastri)      14:45  17:16  2h 31m
+AI4868   MAA   Chennai                             VNS   Varanasi (Lal Bahadur Shastri)      16:30  18:26  1h 56m

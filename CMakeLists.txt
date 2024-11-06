@@ -5,5 +5,9 @@ set(CMAKE_C_STANDARD 17)
 
 add_executable(
         Airlines
-        main.c
+        GeneralSearch.c
+)
+add_executable(
+        Amrut
+        Chadbot.c
 )
