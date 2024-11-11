@@ -1,0 +1,97 @@
+***Greetings
+How can I assist you with your travel plans today?
+What travel-related questions do you have?
+
+***Ticket Booking
+How do I book a ticket?
+Can you help me with ticket booking?
+What is the process for booking a ticket?
+How can I book a flight ticket?
+Where can I book tickets?
+How do I reserve a ticket?
+Can I book a ticket in advance?
+What are the steps to book a ticket?
+How much does it cost to book a ticket?
+I need to book a ticket; can you assist?
+How do I check ticket availability?
+How can I book a train ticket?
+What information is required for ticket booking?
+How do I confirm my ticket booking?
+Can I book a return ticket?
+How do I book a seat on the bus/train/flight?
+Could you guide me to book a ticket?
+Is it possible to book tickets without an account?
+What are the different ways to book a ticket?
+Can I book tickets in bulk?
+Is there a way to book tickets online?
+How soon can I book a ticket?
+
+***Ticket Cancellation
+How do I cancel a booked ticket?
+What is the process for ticket cancellation?
+How can I cancel my ticket?
+What are the charges for ticket cancellation?
+How do I get a refund for a cancelled ticket?
+Can I cancel my ticket online?
+What is the policy for ticket cancellation?
+How late can I cancel my ticket?
+Can I cancel a ticket and rebook it?
+What steps do I need to take to cancel a ticket?
+How do I know if my ticket cancellation is confirmed?
+How soon will I get my refund after cancellation?
+Can I partially cancel my ticket?
+What happens if I cancel my ticket last minute?
+Is there a penalty for cancelling a ticket?
+How can I check the status of my ticket cancellation?
+
+***Flight Status
+How can I check my flight status?
+What is the current status of my flight?
+How do I find out if my flight is on time?
+Where can I check the status of my flight?
+How do I get updates on my flight status?
+Is my flight arriving on time?
+How do I find out if my flight is canceled?
+Are there any delays for my flight?
+How can I track my flight?
+How do I check availability for a return flight?
+
+***Baggage
+What is the baggage allowance for my flight?
+How much luggage can I take on the flight?
+What are the rules for carrying baggage?
+Is there a fee for extra luggage?
+Can I carry oversized baggage?
+What items are allowed in checked baggage?
+Are there any restrictions on carry-on luggage?
+Can I carry fragile items in checked baggage?
+What should I do if my luggage is delayed?
+
+***Feedback/Complaints
+How can I provide feedback on my ticket booking experience?
+What is the process to leave feedback?
+How do I report an issue with my ticket?
+How can I address an issue I faced during my trip?
+Who should I contact to report a problem with my ticket?
+
+***Refunds
+How do I apply for a refund?
+What is the process for getting a ticket refund?
+How long does it take to receive a refund?
+What is the refund policy for my booking?
+Is my ticket eligible for a refund?
+How can I track the progress of my refund?
+
+***Payment
+What payment methods are available for booking?
+How do I make a payment for my ticket?
+Can I pay with a credit card?
+Is it safe to pay online for tickets?
+What should I do if my payment fails?
+
+***Customer Support
+How do I contact customer support?
+Can I talk to a customer service representative?
+What are the customer support hours?
+How can I get assistance with my issue?
+Who can I contact for help?

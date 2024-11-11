@@ -1,10 +1,12 @@
-Booking	                    book booking purchase buy               	                        Would you like to go to the booking page? Just let me know with a quick [y/n].
-Flight Status	            available flights status                            	            Please type yes or no [y/n] to check the latest flight status!
-Cancellation	            cancel cancellation abort                               	        If you have a ticket ID, we can start your cancellation. Do you have it handy [y/n]?
-Baggage Allowance	        baggage weight luggage                              	            Your baggage allowance depends on your ticket type. Let me know if you need help with specifics!
-Refund	                    refund reimbursement                                        	    Refunds are usually processed within 3-5 business days (excluding holidays). If it’s taking longer, please contact support. We're here to help you!
-Payment	                    payment receipt transaction invoice pay	                            We accept various payment methods, including UPI, debit cards, and internet banking. For your security, never share your OTP or personal details with anyone during payment.
-Feedback	                feedback complaint                                  	            We’d love your feedback! Good, bad, or any suggestions—type below. If you prefer not to, just press ENTER.
-Contact Support	            contact support assistance                                  	    I can connect you with our support team! Here’s the contact info for reaching out directly. Feel free to ask!
-Farewell	                thank you bye goodbye see you later take care farewell	            Thanks for using our service! If you have more questions, don't hesitate to reach out anytime!
-General Services	        help menu                                           	            I can assist with booking tickets, cancellations, checking baggage allowances, refunds, payment issues, and more. Just let me know your query, and I’ll help you out!
+Booking	                    book booking purchase       Would you like to go to the booking page? Just let me know with a quick [y/n].
+Flight Status	            available flights           Please type yes or no [y/n] to check the latest flight status!
+Cancellation	            cancel cancellation         If you have a ticket ID, we can start your cancellation. Do you have it handy [y/n]?
+Baggage Allowance	        baggage luggage             Your baggage allowance depends on your ticket type. Let me know if you need help with specifics!
+Refund	                    refund  transaction         Refunds are usually processed within 3-5 business days (excluding holidays). If it’s taking longer, please contact support. We're here to help you!
+Payment	                    payment transaction         We accept various payment methods, including UPI, debit cards, and internet banking. For your security, never share your OTP or personal details with anyone during payment.
+Feedback	                feedback complaint          We’d love your feedback! Good, bad, or any suggestions—type below. If you prefer not to, just press ENTER.
+Contact Support	            contact support             I can connect you with our support team! Here’s the contact info for reaching out directly. Feel free to ask!
+Farewell	                thank	                    Thanks for using our service! If you have more questions, don't hesitate to reach out anytime!
+General Services	        help menu                   I can assist with booking tickets, cancellations, checking baggage allowances, refunds, payment issues, and more. Just let me know your query, and I’ll help you out!
+
+

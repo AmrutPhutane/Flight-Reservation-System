@@ -5,26 +5,28 @@
 #include <stdlib.h>
 #include <math.h>
 
-char* cleaner(char* input) {
+char* toLowercase(const char* input) {
     if (!input) return NULL;
 
     int len = strlen(input);
-    char* temp = (char*)malloc(len + 1);
-    char* output = (char*)calloc((len + 1), sizeof(char));
+    char* output = (char*)malloc(len + 1);
 
-    if (!temp || !output) {
-        free(temp);
-        free(output);
+    if (!output) {
         return NULL;
     }
 
     int j = 0;
-    for (int i = 0; input[i] != '\0'; i++) {
-        if (isalpha(input[i]) || input[i] == ' ') {
-            temp[j++] = tolower(input[i]);
-        }
+    for (int i = 0; input[i] != '\0'; i++)
+    {
+        output[j++] = tolower(input[i]);
     }
-    temp[j] = '\0';
+    output[j] = '\0';
+
+    return output;
+}
+
+char* removeStopwords(const char* input) {
+    if (!input) return NULL;
 
     const char* stop_words[] = {
         "i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "you're",
@@ -48,9 +50,19 @@ char* cleaner(char* input) {
         "wouldn", "wouldn't"
     };
 
+    int len = strlen(input);
+    char* temp = strdup(input);
+    char* output = (char*)calloc(len + 1, sizeof(char));
+
+    if (!temp || !output) {
+        free(temp);
+        free(output);
+        return NULL;
+    }
+
     int stopwords_len = sizeof(stop_words) / sizeof(stop_words[0]);
     char* token = strtok(temp, " ");
-    output[0] = '\0';  // Initialize output string
+    output[0] = '\0';
 
     while (token != NULL) {
         bool found = false;
@@ -67,15 +79,23 @@ char* cleaner(char* input) {
         token = strtok(NULL, " ");
     }
 
-    // Remove trailing space if exists
-    int output_len = strlen(output);
-    if (output_len > 0 && output[output_len - 1] == ' ') {
-        output[output_len - 1] = '\0';
-    }
-
     free(temp);
     return output;
 }
+
+char* cleaner(const char* input) {
+    if (!input) return NULL;
+
+    char* lowercase_text = toLowercase(input);
+    if (!lowercase_text) return NULL;
+
+    char* cleaned_text = removeStopwords(lowercase_text);
+
+    free(lowercase_text);
+
+    return cleaned_text;
+}
+
 
 int* vectorize(char* input) {
     if (!input) return NULL;

@@ -1,289 +1,239 @@
 #include <stdio.h>
-#include <ctype.h>
-#include <string.h>
-#include <stdbool.h>
 #include <stdlib.h>
-#include <math.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdbool.h>
+#include <time.h>
 
-#define MAX_INPUT_LENGTH 100
-#define PATH "C:\\Users\\amrut\\OneDrive\\Documents\\GitHub\\Flight-Reservation-System\\Responses.txt"
+#define MAX_QUESTIONS 1000
+#define MAX_QUESTION_LENGTH 256
+#define MAX_WORD_LENGTH 50
+#define MAX_STOP_WORDS 100
+#define MAX_WEIGHTED_WORDS 100
 
+// Improved error handling with logging
+typedef enum {
+    LOG_INFO,
+    LOG_WARNING,
+    LOG_ERROR
+} LogLevel;
 
-//Structure to store the Keywords
-struct chadbot {
-    char* keyword_string;
-    int txt_reference;
+// Weighted Word Structure
+typedef struct {
+    char word[MAX_WORD_LENGTH];
+    float weight;
+} WeightedWord;
+
+// Configuration Structure
+typedef struct {
+    char** stop_words;
+    int stop_words_count;
+    WeightedWord* weighted_words;
+    int weighted_words_count;
+} ChatbotConfig;
+
+// Match Result Structure
+typedef struct {
+    int index;
+    float score;
+} MatchResult;
+
+// Predefined Stop Words
+const char* STOP_WORDS[] = {
+    "a", "an", "and", "are", "as", "at", "be", "by", "for",
+    "from", "has", "he", "in", "is", "it", "its", "of", "on",
+    "that", "the", "to", "was", "were", "will", "with", "i",
+    "can", "could", "would", "should", "do", "does", "did"
 };
-//List of Functions Used
-char* cleaner(const char text[]);
-int* vectorize(char text[]);
-double similarity(const int vector1[26], const int vector2[26]);
-int find_keyword(char cleaned_output[], struct chadbot services[], int keywords_count);
-int update(struct chadbot services[], int services_count);
-char* replier(int line_number);
-void betabot(int service_type);
-void cleanup(struct chadbot services[], int loaded_services);
+const int STOP_WORDS_COUNT = sizeof(STOP_WORDS) / sizeof(STOP_WORDS[0]);
 
-// Cleaner-> Cleans the input string...
-char* cleaner(const char text[]) {
+// Predefined Weighted Words
+const WeightedWord WEIGHTED_WORDS[] = {
+    {"book", 3.0f},
+    {"flight", 3.0f},
+    {"ticket", 2.5f},
+    {"reservation", 2.5f},
+    {"cancel", 2.5f},
+    {"refund", 2.5f},
+    {"help", 2.5f},
+    {"assist", 2.5f},
+    {"baggage", 2.0f},
+    {"luggage", 2.0f},
+    {"status", 2.0f},
+    {"payment", 2.0f},
+    {"online", 2.0f},
+    {"purchase", 2.0f},
+    {"booking", 2.0f},
+    {"seat", 1.5f},
+    {"class", 1.5f},
+    {"price", 1.5f},
+    {"cost", 1.5f},
+    {"change", 1.5f},
+    {"modify", 1.5f},
+    {"schedule", 1.5f},
+    {"time", 1.0f},
+    {"date", 1.0f},
+    {"destination", 1.0f},
+    {"route", 1.0f}
+};
+const int WEIGHTED_WORDS_COUNT = sizeof(WEIGHTED_WORDS) / sizeof(WEIGHTED_WORDS[0]);
 
-    if (!text) return NULL;
+// Logging Function
+void log_message(LogLevel level, const char* message) {
+    FILE* log_file = fopen("chatbot.log", "a");
+    if (!log_file) return;
+
+    const char* level_str[] = {"INFO", "WARNING", "ERROR"};
+    time_t now;
+    time(&now);
+    char* date = ctime(&now);
+    date[strlen(date) - 1] = '\0';  // Remove newline
+
+    fprintf(log_file, "[%s] %s: %s\n", level_str[level], date, message);
+    fclose(log_file);
+}
+
+// Memory-safe string duplication
+char* safe_strdup(const char* str) {
+    if (!str) return NULL;
+    char* dup = strdup(str);
+    if (!dup) {
+        log_message(LOG_ERROR, "Memory allocation failed in safe_strdup");
+        exit(EXIT_FAILURE);
+    }
+    return dup;
+}
+
+// Improved string cleaning function
+char* clean_string(const char* input) {
+    if (!input) return NULL;
+
+    char* cleaned = calloc(strlen(input) + 1, sizeof(char));
+    if (!cleaned) {
+        log_message(LOG_ERROR, "Memory allocation failed in clean_string");
+        return NULL;
+    }
 
     int j = 0;
-    int text_len = strlen(text);
-    char* lowercase_output = (char*)malloc((text_len + 1) * sizeof(char));
-
-    for (int i = 0; text[i] != '\0'; i++) {
-        if (isalpha(text[i]) || text[i] == ' ') {
-            lowercase_output[j++] = tolower(text[i]);
+    for (int i = 0; input[i]; i++) {
+        if (isalnum(input[i]) || input[i] == ' ') {
+            cleaned[j++] = tolower(input[i]);
+        } else if (ispunct(input[i])) {
+            cleaned[j++] = ' ';
         }
     }
-    lowercase_output[j] = '\0';
+    cleaned[j] = '\0';
+    return cleaned;
+}
 
-    const char* stop_words[] = {
-        "i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "you're",
-        "you've", "you'll", "you'd", "your", "yours", "yourself", "yourselves", "he",
-        "him", "his", "himself", "she", "she's", "her", "hers", "herself", "it", "it's",
-        "its", "itself", "they", "them", "their", "theirs", "themselves", "what", "which",
-        "who", "whom", "this", "that", "that'll", "these", "those", "am", "is", "are",
-        "was", "were", "be", "been", "being", "have", "has", "had", "having", "do", "does",
-        "did", "doing", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until",
-        "while", "of", "at", "by", "for", "with", "about", "against", "between", "into",
-        "through", "during", "before", "after", "above", "below", "to", "from", "up",
-        "down", "in", "out", "on", "off", "over", "under", "again", "further", "then",
-        "once", "here", "there", "when", "where", "why", "how", "all", "any", "both",
-        "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only",
-        "own", "same", "so", "than", "too", "very", "s", "t", "can", "will", "just", "don",
-        "don't", "should", "should've", "now", "d", "ll", "m", "o", "re", "ve", "y", "ain",
-        "aren", "aren't", "couldn", "couldn't", "didn", "didn't", "doesn", "doesn't",
-        "hadn", "hadn't", "hasn", "hasn't", "haven", "haven't", "isn", "isn't", "ma",
-        "mightn", "mightn't", "mustn", "mustn't", "needn", "needn't", "shan", "shan't",
-        "shouldn", "shouldn't", "wasn", "wasn't", "weren", "weren't", "won", "won't",
-        "wouldn", "wouldn't"
-    };
-    int stopword_count = sizeof(stop_words) / sizeof(stop_words[0]);
-    char* cleaned_output = (char*)calloc(text_len + 1, sizeof(char));
-    char* token = strtok(lowercase_output, " ");
+// Load configuration from predefined arrays
+ChatbotConfig load_config(const char* stop_words_file, const char* weighted_words_file) {
+    ChatbotConfig config = {0};
 
-    while (token != NULL) {
-        bool is_stop_word = false;
-        for (int i = 0; i < stopword_count; i++) {
-            if (strcmp(token, stop_words[i]) == 0) {
-                is_stop_word = true;
-                break;
+    // Use predefined stop words
+    config.stop_words = malloc(STOP_WORDS_COUNT * sizeof(char*));
+    for (int i = 0; i < STOP_WORDS_COUNT; i++) {
+        config.stop_words[i] = safe_strdup(STOP_WORDS[i]);
+    }
+    config.stop_words_count = STOP_WORDS_COUNT;
+
+    // Use predefined weighted words
+    config.weighted_words = malloc(WEIGHTED_WORDS_COUNT * sizeof(WeightedWord));
+    memcpy(config.weighted_words, WEIGHTED_WORDS,
+           WEIGHTED_WORDS_COUNT * sizeof(WeightedWord));
+    config.weighted_words_count = WEIGHTED_WORDS_COUNT;
+
+    return config;
+}
+
+// Free configuration resources
+void free_config(ChatbotConfig* config) {
+    for (int i = 0; i < config->stop_words_count; i++) {
+        free(config->stop_words[i]);
+    }
+    free(config->stop_words);
+    free(config->weighted_words);
+}
+
+// Check if word is a stop word
+bool is_stop_word(const char* word, ChatbotConfig* config) {
+    for (int i = 0; i < config->stop_words_count; i++) {
+        if (strcmp(word, config->stop_words[i]) == 0) {
+            return true;
+        }
+    }
+    return false;
+}
+
+// Get weight for a word
+float get_word_weight(const char* word, ChatbotConfig* config) {
+    for (int i = 0; i < config->weighted_words_count; i++) {
+        if (strcmp(word, config->weighted_words[i].word) == 0) {
+            return config->weighted_words[i].weight;
+        }
+    }
+    return 1.0f;  // Default weight
+}
+
+// Calculate weighted similarity score
+float calculate_similarity(const char* input, const char* question, ChatbotConfig* config) {
+    char* clean_input = clean_string(input);
+    char* clean_question = clean_string(question);
+
+    if (!clean_input || !clean_question) {
+        free(clean_input);
+        free(clean_question);
+        return 0.0f;
+    }
+
+    float score = 0.0f;
+    float total_weight = 0.0f;
+
+    char* input_copy = safe_strdup(clean_input);
+    char* input_token = strtok(input_copy, " ");
+
+    while (input_token) {
+        if (!is_stop_word(input_token, config)) {
+            float word_weight = get_word_weight(input_token, config);
+            total_weight += word_weight;
+
+            char* question_copy = safe_strdup(clean_question);
+            char* question_token = strtok(question_copy, " ");
+
+            while (question_token) {
+                if (!is_stop_word(question_token, config)) {
+                    if (strcmp(input_token, question_token) == 0) {
+                        score += word_weight;
+                        break;
+                    } }
+                question_token = strtok(NULL, " ");
             }
+            free(question_copy);
         }
-        if (!is_stop_word) {
-            strcat(cleaned_output, token);
-            strcat(cleaned_output, " ");
-        }
-        token = strtok(NULL, " ");
-    }
-    free(lowercase_output);
-    return cleaned_output;
-}
-
-// Vectorize-> Convert the given input in 26D vector...
-int* vectorize(char text[]) {
-    if (!text) return NULL;
-
-    int* vector = (int*)calloc(26, sizeof(int));
-    if (!vector) return NULL;
-
-    for (int j = 0; text[j] != '\0'; j++) {
-        if (text[j] >= 'a' && text[j] <= 'z') {
-            vector[text[j] - 'a']++;
-        }
-    }
-    return vector;
-}
-
-//Similarity-> Calculates the cosine value of given vectors...
-double similarity(const int vector1[26 ], const int vector2[26]) {
-    int dot_product = 0, mag_v1 = 0, mag_v2 = 0;
-
-    for (int i = 0; i < 26; i++) {
-        dot_product += vector1[i] * vector2[i];
-        mag_v1 += vector1[i] * vector1[i];
-        mag_v2 += vector2[i] * vector2[i];
+        input_token = strtok(NULL, " ");
     }
 
-    double magnitude1 = sqrt(mag_v1);
-    double magnitude2 = sqrt(mag_v2);
-    double similarity_value = (magnitude1 == 0 || magnitude2 == 0) ? 0.0 : (double)dot_product / (magnitude1 * magnitude2);
-    return similarity_value;
+    free(input_copy);
+    free(clean_input);
+    free(clean_question);
+
+    return total_weight > 0 ? score / total_weight : 0.0f;
 }
 
-//Function that return the index of the best matched keyword...
-int find_keyword(char cleaned_output[], struct chadbot services[], int keywords_count) {
-    double max_similarity = 0.0;
-    int best_index=-1;
-    char cleaned_copy[100];
-    strcpy(cleaned_copy, cleaned_output);
-
-    char* token = strtok(cleaned_copy, " ");
-    while (token != NULL) {
-        int* vector1 = vectorize(token);
-        for (int i = 0; i < keywords_count; i++) {
-            int* vector2 = vectorize(services[i].keyword_string);
-            double sim = similarity(vector1, vector2);
-            if (sim > max_similarity) {
-                max_similarity = sim;
-                best_index = i;
-            }
-            free(vector2);
-        }
-        free(vector1);
-        token = strtok(NULL, " ");
-
-        if(max_similarity > 0.70)
-        {
-            return best_index;
-
-        }
-    }
-
-    return -1;
-}
-
-int update(struct chadbot services[], int services_count) {
-    const char* path = PATH;
-    FILE* file = fopen(path, "r");
-    char line[1000];
-    int i = 0;
-    int line_number = 0;
-
-    while (fgets(line, sizeof(line), file) != NULL) {
-        line_number++;
-        if (line_number % 5 == 0 && i < services_count) {
-            line[strcspn(line, "\n")] = '\0';
-            services[i].keyword_string = strdup(line);
-            services[i].txt_reference = line_number;
-            i++;
-        }
-    }
-    fclose(file);
-    return i;
-}
-
-char* replier(int line_number) {
-    const char* path = PATH;
-    FILE* file = fopen(path, "r");
-    char line[256];
-    char* Default = "I am here to help you!!! Can you rephrase your question?";
-    int current_line = 0;
-
-    while (fgets(line, sizeof(line), file) != NULL) {
-        current_line++;
-        if (current_line == line_number) {
-            line[strcspn(line, "\n")] = '\0';
-            fclose(file);
-            return strdup(line);
-        }
-    }
-    fclose(file);
-    return strdup(Default);
-}
-
-
-//Handling y/n responses...
-void betabot(int service_type) {
-    char response[MAX_INPUT_LENGTH];
-
-    switch (service_type) {
-        case 0://If user agrees to book tiket...
-            printf("\nChadbot:Ayush Has Not Defined Booking Function.\n");
-            break;
-
-        case 1://If user want to see flights...
-            printf("\n=== Ticket Booking Process ===\n");
-            printf("Destination: ");
-            fgets(response, sizeof(response), stdin);
-            printf("Boarding Airport: ");
-            fgets(response, sizeof(response), stdin);
-            printf("Travel Date (DD/MM/YYYY): ");
-            fgets(response, sizeof(response), stdin);
-            printf("\nSearching for available flights...\n");
-            printf("Sample flights will be displayed here->\n");
-            break;
-
-        case 2: // If user want to cancel ticket...
-            printf("\n=== Ticket Cancellation ===\n");
-            printf("Enter ticket number: ");
-            fgets(response, sizeof(response), stdin);
-            printf("Processing cancellation request...\n");
-            break;
-    }
-}
-
-//Frees the appended Struct...
-void cleanup(struct chadbot services[], int loaded_services) {
-    for (int i = 0; i < loaded_services; i++) {
-        free(services[i].keyword_string);
-    }
-}
-
+// Main function
 int main() {
-    char input[MAX_INPUT_LENGTH];
-    struct chadbot services[10];
-    int loaded_services = update(services, 10);
-    bool awaiting_response = false;
-    int current_service = -1;
+    // Remove file-based configuration loading
+    // Use the predefined arrays directly
+    ChatbotConfig config = load_config(NULL, NULL);
 
-    if (loaded_services == -1) {
-        printf("Error: Failed to load services.\n");
-        return 1;
-    }
+    // Example usage
+    const char* user_input = "I want to book a flight";
+    const char* question = "How can I book a flight?";
+    float similarity_score = calculate_similarity(user_input, question, &config);
 
-    printf("=== Welcome to Airline Chatbot ===\n");
-    printf("\nType 'exit' to quit the program.\n");
+    printf("Similarity Score: %.2f\n", similarity_score);
 
-    do {
-        printf("\nUser: ");
-        if (!fgets(input, sizeof(input), stdin)) {
-            printf("Error reading input. Please try again.\n");
-            continue;
-        }
-        input[strcspn(input, "\n")] = '\0';
-
-        if (strcmp(input, "exit") == 0) {
-            printf("Thank you for using our service. Goodbye!\n");
-            break;
-        }
-
-        if (awaiting_response) {
-            if (strcasecmp(input, "y") == 0 || strcasecmp(input, "yes") == 0) {
-                betabot(current_service);
-            }
-            else if (strcasecmp(input, "n") == 0 || strcasecmp(input, "no") == 0) {
-                printf("Chadbot:Is there anything else I can help you with?\n");
-            }
-            else {
-                printf("Chadbot:Please respond with 'yes' or 'no'.\n");
-                continue;
-            }
-            awaiting_response = false;
-            current_service = -1;
-            continue;
-        }
-
-        char* cleaned_value = cleaner(input);
-        int keyword_index = find_keyword(cleaned_value, services, loaded_services);
-
-        if (keyword_index >= 0) {
-            int line_number = services[keyword_index].txt_reference + 1;
-            char* reply = replier(line_number);
-            printf("Chadbot: %s\n", reply);
-            awaiting_response = true;
-            current_service = keyword_index;
-            free(reply);
-        } else {
-            printf("Chadbot: I'm not sure I understand. Could you please rephrase that?\n");
-            printf("Sometimes I fail to understand Natural Language. Please try with keywords:\n");
-        }
-        free(cleaned_value);
-    } while (1);
-
-    cleanup(services, loaded_services);
+    // Free resources
+    free_config(&config);
     return 0;
 }

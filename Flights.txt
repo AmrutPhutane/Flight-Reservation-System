@@ -1,0 +1,489 @@
+Indian Domestic Flight Timetable
+============================================================================================================================================
+Flight   From  Departure City       To    Arrival City         Dep    Arr    Duration Operating Days                
+--------------------------------------------------------------------------------------------------------------------------------------------
+6E2318   DEL   Delhi                MAA   Chennai              05:00  06:59  1h 59m   Sat, Sun                      
+6E2434   GOI   Goa                  CCU   Kolkata              05:00  07:59  2h 59m   Mon, Tue, Wed, Thu, Fri       
+6E3561   DEL   Delhi                HYD   Hyderabad            05:00  07:22  2h 22m   Mon, Tue, Wed, Thu, Fri       
+6E5818   HYD   Hyderabad            DEL   Delhi                05:00  06:41  1h 41m   Sat, Sun                      
+AI1617   VNS   Varanasi             MAA   Chennai              05:00  08:08  3h 8m    Daily                         
+AI3252   VTZ   Visakhapatnam        CCU   Kolkata              05:00  05:45  0h 45m   Sat, Sun                      
+AI9038   BOM   Mumbai               HYD   Hyderabad            05:00  07:10  2h 10m   Daily                         
+G86855   BLR   Bangalore            MAA   Chennai              05:00  06:39  1h 39m   Mon, Wed, Fri                 
+G87709   BOM   Mumbai               BLR   Bangalore            05:00  07:05  2h 5m    Mon, Tue, Thu, Fri, Sun       
+SG3825   BLR   Bangalore            BOM   Mumbai               05:00  07:04  2h 4m    Mon, Tue, Wed, Thu, Fri       
+SG4678   BLR   Bangalore            HYD   Hyderabad            05:00  07:51  2h 51m   Mon, Tue, Wed, Thu, Fri       
+UK9107   IXC   Chandigarh           CCU   Kolkata              05:00  08:25  3h 25m   Daily                         
+6E844    BOM   Mumbai               CCU   Kolkata              05:15  06:47  1h 32m   Sat, Sun                      
+6E9785   BOM   Mumbai               HYD   Hyderabad            05:15  07:38  2h 23m   Daily                         
+G8711    JAI   Jaipur               CCU   Kolkata              05:15  07:47  2h 32m   Sat, Sun                      
+SG170    STV   Surat                DEL   Delhi                05:15  08:14  2h 59m   Daily                         
+6E7430   GAU   Guwahati             BOM   Mumbai               05:30  06:43  1h 13m   Daily                         
+6E9597   GAU   Guwahati             MAA   Chennai              05:30  06:52  1h 22m   Mon, Wed, Fri                 
+AI1773   BOM   Mumbai               CCU   Kolkata              05:30  08:07  2h 37m   Tue, Thu, Sat                 
+AI9436   DEL   Delhi                CCU   Kolkata              05:30  08:25  2h 55m   Daily                         
+G88897   CCU   Kolkata              HYD   Hyderabad            05:30  07:12  1h 42m   Mon, Wed, Fri                 
+AI5384   STV   Surat                CCU   Kolkata              05:45  08:59  3h 14m   Tue, Thu, Sat                 
+G86584   GOI   Goa                  MAA   Chennai              05:45  07:41  1h 56m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+SG2949   GAU   Guwahati             CCU   Kolkata              05:45  09:11  3h 26m   Mon, Tue, Thu, Fri, Sun       
+SG6461   AMD   Ahmedabad            DEL   Delhi                05:45  06:49  1h 4m    Mon, Tue, Wed, Thu, Fri       
+UK5061   TRV   Thiruvananthapuram   HYD   Hyderabad            05:45  09:41  3h 56m   Daily                         
+UK8112   BOM   Mumbai               AMD   Ahmedabad            05:45  08:36  2h 51m   Mon, Wed, Fri                 
+6E1272   BLR   Bangalore            VTZ   Visakhapatnam        06:00  06:57  0h 57m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+6E9174   BLR   Bangalore            MAA   Chennai              06:00  08:32  2h 32m   Daily                         
+AI8639   BOM   Mumbai               VNS   Varanasi             06:00  09:07  3h 7m    Daily                         
+G82017   IXC   Chandigarh           CCU   Kolkata              06:00  08:16  2h 16m   Daily                         
+6E5391   IDR   Indore               BOM   Mumbai               06:15  08:15  2h 0m    Tue, Thu, Sat                 
+6E7913   STV   Surat                HYD   Hyderabad            06:15  07:58  1h 43m   Daily                         
+AI6334   TRV   Thiruvananthapuram   CCU   Kolkata              06:15  09:34  3h 19m   Mon, Tue, Wed, Thu, Fri       
+SG2772   HYD   Hyderabad            DEL   Delhi                06:15  08:46  2h 31m   Daily                         
+AI292    BLR   Bangalore            CCU   Kolkata              06:30  08:15  1h 45m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+AI9298   STV   Surat                CCU   Kolkata              06:30  07:51  1h 21m   Mon, Wed, Fri                 
+G82468   HYD   Hyderabad            DEL   Delhi                06:30  08:20  1h 50m   Tue, Thu, Sat                 
+G8894    IXC   Chandigarh           BLR   Bangalore            06:30  07:48  1h 18m   Sat, Sun                      
+UK4340   JAI   Jaipur               MAA   Chennai              06:30  07:55  1h 25m   Daily                         
+UK9443   MAA   Chennai              GOI   Goa                  06:30  07:39  1h 9m    Mon, Wed, Fri                 
+6E9453   IXC   Chandigarh           CCU   Kolkata              06:45  07:41  0h 56m   Mon, Wed, Fri                 
+AI5986   VTZ   Visakhapatnam        HYD   Hyderabad            06:45  07:45  1h 0m    Tue, Thu, Sat                 
+G81122   PNQ   Pune                 DEL   Delhi                06:45  09:22  2h 37m   Tue, Thu, Sat                 
+SG262    BOM   Mumbai               DEL   Delhi                06:45  08:51  2h 6m    Mon, Tue, Wed, Thu, Fri       
+SG2812   HYD   Hyderabad            VNS   Varanasi             06:45  10:21  3h 36m   Sat, Sun                      
+UK2320   BOM   Mumbai               SXR   Srinagar             06:45  10:11  3h 26m   Mon, Wed, Fri                 
+UK5065   IDR   Indore               MAA   Chennai              06:45  09:50  3h 5m    Daily                         
+UK8696   CCU   Kolkata              HYD   Hyderabad            06:45  08:44  1h 59m   Daily                         
+6E8400   MAA   Chennai              BLR   Bangalore            07:00  09:08  2h 8m    Daily                         
+AI6407   BOM   Mumbai               SXR   Srinagar             07:00  07:47  0h 47m   Mon, Tue, Wed, Thu, Fri       
+AI747    MAA   Chennai              CCU   Kolkata              07:00  09:58  2h 58m   Mon, Wed, Fri                 
+AI9704   IDR   Indore               DEL   Delhi                07:00  07:51  0h 51m   Tue, Thu, Sat                 
+SG5541   IDR   Indore               DEL   Delhi                07:00  08:56  1h 56m   Daily                         
+SG5570   TRV   Thiruvananthapuram   IDR   Indore               07:00  08:20  1h 20m   Mon, Tue, Wed, Thu, Fri       
+UK3243   CCU   Kolkata              MAA   Chennai              07:00  08:33  1h 33m   Daily                         
+UK4887   GAU   Guwahati             BLR   Bangalore            07:00  08:17  1h 17m   Mon, Tue, Thu, Fri, Sun       
+UK7207   MAA   Chennai              BOM   Mumbai               07:00  08:38  1h 38m   Sat, Sun                      
+6E2251   CCU   Kolkata              BOM   Mumbai               07:15  09:28  2h 13m   Mon, Wed, Fri                 
+6E4156   SXR   Srinagar             CCU   Kolkata              07:15  10:02  2h 47m   Daily                         
+6E6753   TRV   Thiruvananthapuram   CCU   Kolkata              07:15  10:48  3h 33m   Mon, Wed, Fri                 
+6E8075   SXR   Srinagar             BOM   Mumbai               07:15  08:32  1h 17m   Tue, Thu, Sat                 
+UK1622   PNQ   Pune                 BOM   Mumbai               07:15  09:43  2h 28m   Mon, Wed, Fri                 
+UK8332   BLR   Bangalore            MAA   Chennai              07:15  09:23  2h 8m    Daily                         
+6E2595   CCU   Kolkata              BOM   Mumbai               07:30  09:26  1h 56m   Mon, Tue, Wed, Thu, Fri       
+6E9598   STV   Surat                BOM   Mumbai               07:30  10:52  3h 22m   Daily                         
+AI7503   TRV   Thiruvananthapuram   MAA   Chennai              07:30  10:16  2h 46m   Daily                         
+AI7518   PNQ   Pune                 MAA   Chennai              07:30  10:03  2h 33m   Tue, Thu, Sat                 
+G82052   VNS   Varanasi             BOM   Mumbai               07:30  10:50  3h 20m   Tue, Thu, Sat                 
+G87288   BLR   Bangalore            MAA   Chennai              07:30  09:52  2h 22m   Daily                         
+SG1308   VTZ   Visakhapatnam        MAA   Chennai              07:30  09:07  1h 37m   Tue, Thu, Sat                 
+SG5895   CCU   Kolkata              BOM   Mumbai               07:30  10:04  2h 34m   Daily                         
+UK7481   CCU   Kolkata              BOM   Mumbai               07:30  09:23  1h 53m   Daily                         
+UK9768   BOM   Mumbai               CCU   Kolkata              07:30  10:20  2h 50m   Sat, Sun                      
+G87035   LKO   Lucknow              SXR   Srinagar             07:45  08:34  0h 49m   Daily                         
+SG3297   DEL   Delhi                BLR   Bangalore            07:45  09:37  1h 52m   Tue, Thu, Sat                 
+SG9034   BOM   Mumbai               DEL   Delhi                07:45  09:44  1h 59m   Daily                         
+UK1818   TRV   Thiruvananthapuram   MAA   Chennai              07:45  10:56  3h 11m   Tue, Thu, Sat                 
+UK6686   VNS   Varanasi             MAA   Chennai              07:45  08:30  0h 45m   Mon, Tue, Thu, Fri, Sun       
+6E7741   GOI   Goa                  PNQ   Pune                 08:00  11:30  3h 30m   Mon, Wed, Fri                 
+AI3798   DEL   Delhi                BOM   Mumbai               08:00  09:31  1h 31m   Daily                         
+G87590   IDR   Indore               HYD   Hyderabad            08:00  11:11  3h 11m   Daily                         
+UK1159   CCU   Kolkata              PNQ   Pune                 08:00  08:46  0h 46m   Mon, Wed, Fri                 
+UK4583   PNQ   Pune                 HYD   Hyderabad            08:00  08:46  0h 46m   Tue, Thu, Sat                 
+UK7802   BOM   Mumbai               MAA   Chennai              08:00  10:25  2h 25m   Sat, Sun                      
+6E242    BLR   Bangalore            CCU   Kolkata              08:15  10:04  1h 49m   Mon, Wed, Fri                 
+6E2717   MAA   Chennai              DEL   Delhi                08:15  09:45  1h 30m   Mon, Tue, Wed, Thu, Fri       
+AI3597   IXC   Chandigarh           DEL   Delhi                08:15  10:58  2h 43m   Mon, Wed, Fri                 
+UK3096   AMD   Ahmedabad            CCU   Kolkata              08:15  11:12  2h 57m   Tue, Thu, Sat                 
+UK8151   SXR   Srinagar             HYD   Hyderabad            08:15  10:38  2h 23m   Mon, Tue, Thu, Fri, Sun       
+6E1886   DEL   Delhi                MAA   Chennai              08:30  10:23  1h 53m   Daily                         
+AI2211   HYD   Hyderabad            MAA   Chennai              08:30  10:48  2h 18m   Daily                         
+AI3244   MAA   Chennai              BOM   Mumbai               08:30  11:01  2h 31m   Tue, Thu, Sat                 
+AI5658   MAA   Chennai              HYD   Hyderabad            08:30  10:07  1h 37m   Daily                         
+G84827   VNS   Varanasi             HYD   Hyderabad            08:30  10:28  1h 58m   Sat, Sun                      
+SG3609   GAU   Guwahati             BLR   Bangalore            08:30  09:39  1h 9m    Daily                         
+6E9861   IDR   Indore               BLR   Bangalore            08:45  12:01  3h 16m   Sat, Sun                      
+AI1865   DEL   Delhi                HYD   Hyderabad            08:45  11:12  2h 27m   Daily                         
+AI8652   STV   Surat                BLR   Bangalore            08:45  12:07  3h 22m   Daily                         
+G84430   VTZ   Visakhapatnam        CCU   Kolkata              08:45  09:32  0h 47m   Tue, Thu, Sat                 
+UK4622   IXC   Chandigarh           DEL   Delhi                08:45  12:04  3h 19m   Mon, Tue, Wed, Thu, Fri       
+6E5634   MAA   Chennai              CCU   Kolkata              09:00  11:03  2h 3m    Tue, Thu, Sat                 
+6E6442   JAI   Jaipur               HYD   Hyderabad            09:00  11:33  2h 33m   Tue, Thu, Sat                 
+6E796    SXR   Srinagar             HYD   Hyderabad            09:00  10:47  1h 47m   Daily                         
+SG2049   GAU   Guwahati             HYD   Hyderabad            09:00  11:08  2h 8m    Mon, Wed, Fri                 
+UK2467   GAU   Guwahati             CCU   Kolkata              09:00  10:14  1h 14m   Sat, Sun                      
+UK9105   IXC   Chandigarh           MAA   Chennai              09:00  11:59  2h 59m   Mon, Tue, Wed, Thu, Fri       
+AI2586   HYD   Hyderabad            MAA   Chennai              09:15  11:30  2h 15m   Daily                         
+AI5561   IDR   Indore               BOM   Mumbai               09:15  11:16  2h 1m    Mon, Tue, Wed, Thu, Fri       
+SG9083   HYD   Hyderabad            MAA   Chennai              09:15  11:56  2h 41m   Sat, Sun                      
+6E4528   GOI   Goa                  BOM   Mumbai               09:30  12:48  3h 18m   Daily                         
+6E5157   STV   Surat                BOM   Mumbai               09:30  11:52  2h 22m   Mon, Wed, Fri                 
+6E7032   STV   Surat                DEL   Delhi                09:30  10:21  0h 51m   Mon, Wed, Fri                 
+AI2151   SXR   Srinagar             DEL   Delhi                09:30  11:32  2h 2m    Daily                         
+AI326    GAU   Guwahati             DEL   Delhi                09:30  10:33  1h 3m    Sat, Sun                      
+AI8574   BLR   Bangalore            BOM   Mumbai               09:30  11:32  2h 2m    Tue, Thu, Sat                 
+G89655   BOM   Mumbai               PNQ   Pune                 09:30  12:50  3h 20m   Daily                         
+UK2198   BLR   Bangalore            DEL   Delhi                09:30  11:57  2h 27m   Tue, Thu, Sat                 
+UK6777   SXR   Srinagar             MAA   Chennai              09:30  12:11  2h 41m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+6E2860   DEL   Delhi                MAA   Chennai              09:45  12:40  2h 55m   Daily                         
+6E3311   LKO   Lucknow              HYD   Hyderabad            09:45  13:31  3h 46m   Tue, Thu, Sat                 
+AI8917   DEL   Delhi                BLR   Bangalore            09:45  11:31  1h 46m   Tue, Thu, Sat                 
+SG8798   DEL   Delhi                BOM   Mumbai               09:45  12:10  2h 25m   Daily                         
+6E6666   VNS   Varanasi             BLR   Bangalore            10:00  12:56  2h 56m   Mon, Tue, Wed, Thu, Fri       
+6E7762   GAU   Guwahati             BOM   Mumbai               10:00  11:56  1h 56m   Mon, Wed, Fri                 
+AI193    IXC   Chandigarh           HYD   Hyderabad            10:00  12:47  2h 47m   Tue, Thu, Sat                 
+SG3206   PNQ   Pune                 DEL   Delhi                10:00  13:13  3h 13m   Mon, Wed, Fri                 
+6E3034   STV   Surat                BLR   Bangalore            10:15  14:15  4h 0m    Mon, Tue, Thu, Fri, Sun       
+AI7369   IXC   Chandigarh           MAA   Chennai              10:15  12:59  2h 44m   Daily                         
+AI7767   MAA   Chennai              BLR   Bangalore            10:15  12:02  1h 47m   Daily                         
+SG5912   TRV   Thiruvananthapuram   DEL   Delhi                10:15  11:00  0h 45m   Mon, Wed, Fri                 
+UK1849   BLR   Bangalore            BOM   Mumbai               10:15  12:19  2h 4m    Tue, Thu, Sat                 
+AI798    DEL   Delhi                HYD   Hyderabad            10:30  12:36  2h 6m    Daily                         
+G85153   IDR   Indore               CCU   Kolkata              10:30  11:29  0h 59m   Mon, Tue, Thu, Fri, Sun       
+SG4577   HYD   Hyderabad            BOM   Mumbai               10:30  12:03  1h 33m   Mon, Wed, Fri                 
+6E8647   DEL   Delhi                BOM   Mumbai               10:45  12:59  2h 14m   Daily                         
+AI5251   DEL   Delhi                HYD   Hyderabad            10:45  13:37  2h 52m   Sat, Sun                      
+AI9722   IXC   Chandigarh           BOM   Mumbai               10:45  12:24  1h 39m   Sat, Sun                      
+G8986    DEL   Delhi                CCU   Kolkata              10:45  13:05  2h 20m   Mon, Wed, Fri                 
+UK3641   LKO   Lucknow              BOM   Mumbai               10:45  12:28  1h 43m   Daily                         
+6E2623   STV   Surat                MAA   Chennai              11:00  13:41  2h 41m   Mon, Wed, Fri                 
+AI2754   IXC   Chandigarh           BOM   Mumbai               11:00  12:55  1h 55m   Daily                         
+AI6525   VNS   Varanasi             BOM   Mumbai               11:00  14:36  3h 36m   Sat, Sun                      
+G81351   BOM   Mumbai               DEL   Delhi                11:00  12:54  1h 54m   Daily                         
+SG5142   MAA   Chennai              BOM   Mumbai               11:00  13:22  2h 22m   Mon, Tue, Wed, Thu, Fri       
+UK307    SXR   Srinagar             CCU   Kolkata              11:00  12:08  1h 8m    Mon, Tue, Thu, Fri, Sun       
+UK3957   AMD   Ahmedabad            GOI   Goa                  11:00  14:37  3h 37m   Tue, Thu, Sat                 
+6E123    GAU   Guwahati             IXC   Chandigarh           11:15  12:13  0h 58m   Daily                         
+AI183    LKO   Lucknow              HYD   Hyderabad            11:15  14:57  3h 42m   Daily                         
+AI3665   TRV   Thiruvananthapuram   BOM   Mumbai               11:15  15:15  4h 0m    Tue, Thu, Sat                 
+G85407   IDR   Indore               HYD   Hyderabad            11:15  14:30  3h 15m   Daily                         
+SG2744   BOM   Mumbai               CCU   Kolkata              11:15  14:15  3h 0m    Mon, Tue, Wed, Thu, Fri       
+SG3009   JAI   Jaipur               MAA   Chennai              11:15  14:21  3h 6m    Daily                         
+SG4710   BLR   Bangalore            DEL   Delhi                11:15  14:06  2h 51m   Mon, Wed, Fri                 
+SG8154   BLR   Bangalore            MAA   Chennai              11:15  14:12  2h 57m   Mon, Tue, Thu, Fri, Sun       
+SG8801   GOI   Goa                  MAA   Chennai              11:15  12:07  0h 52m   Mon, Wed, Fri                 
+UK2584   GOI   Goa                  BOM   Mumbai               11:15  12:44  1h 29m   Sat, Sun                      
+UK7085   IXC   Chandigarh           DEL   Delhi                11:15  12:11  0h 56m   Daily                         
+UK8355   CCU   Kolkata              BLR   Bangalore            11:15  14:07  2h 52m   Daily                         
+UK9992   PNQ   Pune                 HYD   Hyderabad            11:15  12:18  1h 3m    Daily                         
+6E1886   HYD   Hyderabad            DEL   Delhi                11:30  14:04  2h 34m   Daily                         
+6E546    HYD   Hyderabad            BLR   Bangalore            11:30  13:01  1h 31m   Daily                         
+6E9984   DEL   Delhi                BOM   Mumbai               11:30  13:52  2h 22m   Mon, Tue, Wed, Thu, Fri       
+AI2017   BLR   Bangalore            CCU   Kolkata              11:30  13:58  2h 28m   Daily                         
+AI9708   DEL   Delhi                BLR   Bangalore            11:30  14:02  2h 32m   Daily                         
+SG4066   BLR   Bangalore            HYD   Hyderabad            11:30  13:31  2h 1m    Mon, Tue, Wed, Thu, Fri       
+6E2616   HYD   Hyderabad            BOM   Mumbai               11:45  14:33  2h 48m   Tue, Thu, Sat                 
+AI2606   DEL   Delhi                CCU   Kolkata              11:45  14:17  2h 32m   Sat, Sun                      
+AI3144   VTZ   Visakhapatnam        BOM   Mumbai               11:45  14:35  2h 50m   Mon, Wed, Fri                 
+AI473    DEL   Delhi                IXC   Chandigarh           11:45  14:53  3h 8m    Tue, Thu, Sat                 
+AI7326   TRV   Thiruvananthapuram   HYD   Hyderabad            11:45  13:02  1h 17m   Mon, Tue, Wed, Thu, Fri       
+AI7937   BOM   Mumbai               CCU   Kolkata              11:45  13:39  1h 54m   Tue, Thu, Sat                 
+AI9212   DEL   Delhi                BLR   Bangalore            11:45  13:59  2h 14m   Mon, Wed, Fri                 
+UK1246   HYD   Hyderabad            MAA   Chennai              11:45  14:27  2h 42m   Mon, Tue, Thu, Fri, Sun       
+UK9768   HYD   Hyderabad            BLR   Bangalore            11:45  13:17  1h 32m   Daily                         
+6E1559   HYD   Hyderabad            CCU   Kolkata              12:00  13:52  1h 52m   Tue, Thu, Sat                 
+6E5851   MAA   Chennai              SXR   Srinagar             12:00  15:00  3h 0m    Tue, Thu, Sat                 
+AI4261   VTZ   Visakhapatnam        CCU   Kolkata              12:00  14:56  2h 56m   Daily                         
+6E3631   IDR   Indore               HYD   Hyderabad            12:15  15:19  3h 4m    Mon, Tue, Wed, Thu, Fri       
+6E7687   PNQ   Pune                 CCU   Kolkata              12:15  15:10  2h 55m   Tue, Thu, Sat                 
+AI2148   JAI   Jaipur               CCU   Kolkata              12:15  15:57  3h 42m   Daily                         
+AI5016   HYD   Hyderabad            BLR   Bangalore            12:15  14:30  2h 15m   Mon, Tue, Wed, Thu, Fri       
+G81863   HYD   Hyderabad            DEL   Delhi                12:15  14:10  1h 55m   Daily                         
+SG6070   VTZ   Visakhapatnam        DEL   Delhi                12:15  14:34  2h 19m   Mon, Tue, Thu, Fri, Sun       
+UK3784   AMD   Ahmedabad            HYD   Hyderabad            12:15  16:09  3h 54m   Mon, Tue, Wed, Thu, Fri       
+UK5994   VNS   Varanasi             CCU   Kolkata              12:15  13:00  0h 45m   Tue, Thu, Sat                 
+UK810    LKO   Lucknow              BLR   Bangalore            12:15  13:59  1h 44m   Daily                         
+6E3753   IDR   Indore               PNQ   Pune                 12:30  13:15  0h 45m   Mon, Tue, Thu, Fri, Sun       
+AI2230   HYD   Hyderabad            BLR   Bangalore            12:30  14:41  2h 11m   Daily                         
+AI6482   BOM   Mumbai               CCU   Kolkata              12:30  14:44  2h 14m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+AI7887   SXR   Srinagar             BOM   Mumbai               12:30  16:12  3h 42m   Sat, Sun                      
+G88432   BLR   Bangalore            CCU   Kolkata              12:30  14:43  2h 13m   Daily                         
+G89343   LKO   Lucknow              DEL   Delhi                12:30  13:32  1h 2m    Tue, Thu, Sat                 
+SG2915   DEL   Delhi                CCU   Kolkata              12:30  14:32  2h 2m    Tue, Thu, Sat                 
+SG4200   BOM   Mumbai               SXR   Srinagar             12:30  14:36  2h 6m    Sat, Sun                      
+UK4835   HYD   Hyderabad            BOM   Mumbai               12:30  15:20  2h 50m   Daily                         
+UK6889   AMD   Ahmedabad            BLR   Bangalore            12:30  16:22  3h 52m   Mon, Wed, Fri                 
+6E3678   VNS   Varanasi             CCU   Kolkata              12:45  16:32  3h 47m   Daily                         
+6E5136   HYD   Hyderabad            CCU   Kolkata              12:45  15:44  2h 59m   Daily                         
+6E7969   IDR   Indore               MAA   Chennai              12:45  14:24  1h 39m   Tue, Thu, Sat                 
+6E9104   TRV   Thiruvananthapuram   BOM   Mumbai               12:45  15:12  2h 27m   Sat, Sun                      
+6E9797   VTZ   Visakhapatnam        DEL   Delhi                12:45  16:12  3h 27m   Sat, Sun                      
+AI165    IDR   Indore               BLR   Bangalore            12:45  13:34  0h 49m   Tue, Thu, Sat                 
+AI9942   LKO   Lucknow              CCU   Kolkata              12:45  14:52  2h 7m    Mon, Tue, Thu, Fri, Sun       
+G86794   HYD   Hyderabad            BLR   Bangalore            12:45  14:26  1h 41m   Daily                         
+SG6121   GOI   Goa                  HYD   Hyderabad            12:45  15:43  2h 58m   Mon, Wed, Fri                 
+6E2819   STV   Surat                BLR   Bangalore            13:00  14:42  1h 42m   Daily                         
+6E7643   BOM   Mumbai               MAA   Chennai              13:00  15:42  2h 42m   Daily                         
+G84140   PNQ   Pune                 BLR   Bangalore            13:00  15:21  2h 21m   Tue, Thu, Sat                 
+UK2671   HYD   Hyderabad            DEL   Delhi                13:00  15:29  2h 29m   Tue, Thu, Sat                 
+6E4488   IDR   Indore               BLR   Bangalore            13:15  15:22  2h 7m    Sat, Sun                      
+6E6239   BOM   Mumbai               DEL   Delhi                13:15  14:57  1h 42m   Tue, Thu, Sat                 
+6E6760   PNQ   Pune                 CCU   Kolkata              13:15  16:41  3h 26m   Mon, Wed, Fri                 
+AI7056   DEL   Delhi                MAA   Chennai              13:15  16:11  2h 56m   Sat, Sun                      
+AI7091   GAU   Guwahati             BLR   Bangalore            13:15  14:11  0h 56m   Daily                         
+UK5882   IDR   Indore               CCU   Kolkata              13:15  17:01  3h 46m   Daily                         
+UK9341   BLR   Bangalore            HYD   Hyderabad            13:15  14:54  1h 39m   Daily                         
+AI8868   VNS   Varanasi             BLR   Bangalore            13:30  14:15  0h 45m   Mon, Wed, Fri                 
+AI1194   IDR   Indore               BOM   Mumbai               13:45  14:39  0h 54m   Sat, Sun                      
+AI3639   GAU   Guwahati             IXC   Chandigarh           13:45  14:59  1h 14m   Daily                         
+AI3704   TRV   Thiruvananthapuram   MAA   Chennai              13:45  17:32  3h 47m   Daily                         
+AI5210   JAI   Jaipur               DEL   Delhi                13:45  14:38  0h 53m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+SG5005   DEL   Delhi                BOM   Mumbai               13:45  16:17  2h 32m   Sat, Sun                      
+SG8157   AMD   Ahmedabad            HYD   Hyderabad            13:45  16:42  2h 57m   Daily                         
+6E6148   GAU   Guwahati             BLR   Bangalore            14:00  16:47  2h 47m   Sat, Sun                      
+6E8804   BLR   Bangalore            DEL   Delhi                14:00  16:27  2h 27m   Mon, Tue, Wed, Thu, Fri       
+AI5439   AMD   Ahmedabad            BOM   Mumbai               14:00  17:22  3h 22m   Mon, Wed, Fri                 
+SG6120   BOM   Mumbai               MAA   Chennai              14:00  16:55  2h 55m   Mon, Tue, Thu, Fri, Sun       
+UK3821   LKO   Lucknow              MAA   Chennai              14:00  17:03  3h 3m    Daily                         
+UK5035   HYD   Hyderabad            CCU   Kolkata              14:00  15:58  1h 58m   Mon, Tue, Wed, Thu, Fri       
+UK942    CCU   Kolkata              DEL   Delhi                14:00  15:48  1h 48m   Daily                         
+6E1153   MAA   Chennai              TRV   Thiruvananthapuram   14:15  17:20  3h 5m    Daily                         
+6E5749   VTZ   Visakhapatnam        BOM   Mumbai               14:15  16:22  2h 7m    Sat, Sun                      
+6E9786   STV   Surat                MAA   Chennai              14:15  17:15  3h 0m    Tue, Thu, Sat                 
+AI3064   CCU   Kolkata              BLR   Bangalore            14:15  16:42  2h 27m   Daily                         
+AI7601   VTZ   Visakhapatnam        MAA   Chennai              14:15  15:40  1h 25m   Mon, Wed, Fri                 
+G81340   HYD   Hyderabad            BOM   Mumbai               14:15  16:04  1h 49m   Daily                         
+UK5166   GAU   Guwahati             MAA   Chennai              14:15  16:10  1h 55m   Mon, Wed, Fri                 
+UK9102   PNQ   Pune                 HYD   Hyderabad            14:15  15:17  1h 2m    Mon, Tue, Wed, Thu, Fri       
+G81636   CCU   Kolkata              VTZ   Visakhapatnam        14:30  15:51  1h 21m   Mon, Wed, Fri                 
+SG3473   VTZ   Visakhapatnam        MAA   Chennai              14:30  17:46  3h 16m   Daily                         
+SG4038   BLR   Bangalore            CCU   Kolkata              14:30  17:11  2h 41m   Daily                         
+6E1765   PNQ   Pune                 HYD   Hyderabad            14:45  16:14  1h 29m   Sat, Sun                      
+6E5381   MAA   Chennai              BOM   Mumbai               14:45  16:44  1h 59m   Tue, Thu, Sat                 
+6E5995   CCU   Kolkata              DEL   Delhi                14:45  16:28  1h 43m   Tue, Thu, Sat                 
+6E7082   HYD   Hyderabad            DEL   Delhi                14:45  17:19  2h 34m   Sat, Sun                      
+AI4246   LKO   Lucknow              SXR   Srinagar             14:45  16:08  1h 23m   Daily                         
+G89199   STV   Surat                HYD   Hyderabad            14:45  18:38  3h 53m   Sat, Sun                      
+6E1064   GOI   Goa                  BLR   Bangalore            15:00  16:35  1h 35m   Daily                         
+6E1453   JAI   Jaipur               DEL   Delhi                15:00  18:11  3h 11m   Mon, Wed, Fri                 
+6E451    SXR   Srinagar             MAA   Chennai              15:00  16:19  1h 19m   Daily                         
+6E5403   SXR   Srinagar             BLR   Bangalore            15:00  16:49  1h 49m   Mon, Tue, Wed, Thu, Fri       
+6E6645   JAI   Jaipur               BLR   Bangalore            15:00  16:02  1h 2m    Sat, Sun                      
+6E7078   AMD   Ahmedabad            DEL   Delhi                15:00  16:42  1h 42m   Daily                         
+AI186    PNQ   Pune                 DEL   Delhi                15:00  17:52  2h 52m   Daily                         
+SG1086   SXR   Srinagar             MAA   Chennai              15:00  18:41  3h 41m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+SG4834   MAA   Chennai              HYD   Hyderabad            15:00  17:23  2h 23m   Tue, Thu, Sat                 
+SG5981   AMD   Ahmedabad            MAA   Chennai              15:00  16:48  1h 48m   Daily                         
+6E7070   JAI   Jaipur               BOM   Mumbai               15:15  17:24  2h 9m    Daily                         
+AI2257   HYD   Hyderabad            CCU   Kolkata              15:15  16:59  1h 44m   Mon, Wed, Fri                 
+G8157    GOI   Goa                  BLR   Bangalore            15:15  18:54  3h 39m   Daily                         
+SG823    AMD   Ahmedabad            MAA   Chennai              15:15  18:56  3h 41m   Mon, Tue, Wed, Thu, Fri       
+AI7107   VNS   Varanasi             DEL   Delhi                15:30  19:06  3h 36m   Daily                         
+G81695   DEL   Delhi                MAA   Chennai              15:30  17:11  1h 41m   Daily                         
+SG3488   VTZ   Visakhapatnam        BLR   Bangalore            15:30  18:21  2h 51m   Sat, Sun                      
+UK1418   CCU   Kolkata              DEL   Delhi                15:30  17:15  1h 45m   Daily                         
+UK3067   BOM   Mumbai               HYD   Hyderabad            15:30  17:45  2h 15m   Mon, Wed, Fri                 
+UK647    IXC   Chandigarh           BOM   Mumbai               15:30  18:10  2h 40m   Tue, Thu, Sat                 
+UK9620   TRV   Thiruvananthapuram   BOM   Mumbai               15:30  18:03  2h 33m   Mon, Wed, Fri                 
+6E2354   GOI   Goa                  HYD   Hyderabad            15:45  16:36  0h 51m   Daily                         
+6E2818   CCU   Kolkata              MAA   Chennai              15:45  17:20  1h 35m   Daily                         
+6E3136   DEL   Delhi                VTZ   Visakhapatnam        15:45  17:50  2h 5m    Sat, Sun                      
+6E4046   CCU   Kolkata              DEL   Delhi                15:45  18:09  2h 24m   Mon, Wed, Fri                 
+AI3772   IXC   Chandigarh           BLR   Bangalore            15:45  17:59  2h 14m   Mon, Wed, Fri                 
+SG5723   BLR   Bangalore            CCU   Kolkata              15:45  18:25  2h 40m   Sat, Sun                      
+SG8471   GOI   Goa                  DEL   Delhi                15:45  18:03  2h 18m   Daily                         
+SG9193   TRV   Thiruvananthapuram   BOM   Mumbai               15:45  19:16  3h 31m   Sat, Sun                      
+UK2644   VTZ   Visakhapatnam        CCU   Kolkata              15:45  18:03  2h 18m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+UK3838   IDR   Indore               CCU   Kolkata              15:45  18:14  2h 29m   Daily                         
+6E1132   LKO   Lucknow              MAA   Chennai              16:00  16:50  0h 50m   Daily                         
+6E6441   MAA   Chennai              VNS   Varanasi             16:00  18:03  2h 3m    Mon, Tue, Wed, Thu, Fri       
+G84547   PNQ   Pune                 MAA   Chennai              16:00  18:13  2h 13m   Sat, Sun                      
+SG5387   BOM   Mumbai               MAA   Chennai              16:00  18:17  2h 17m   Mon, Tue, Wed, Thu, Fri       
+6E4603   CCU   Kolkata              HYD   Hyderabad            16:15  17:48  1h 33m   Daily                         
+6E7707   MAA   Chennai              VTZ   Visakhapatnam        16:15  17:14  0h 59m   Daily                         
+AI5613   GOI   Goa                  MAA   Chennai              16:15  17:33  1h 18m   Mon, Tue, Wed, Thu, Fri       
+G81250   DEL   Delhi                BOM   Mumbai               16:15  18:55  2h 40m   Daily                         
+G8174    LKO   Lucknow              HYD   Hyderabad            16:15  18:52  2h 37m   Daily                         
+UK6252   TRV   Thiruvananthapuram   SXR   Srinagar             16:15  18:02  1h 47m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+UK8420   SXR   Srinagar             MAA   Chennai              16:15  18:03  1h 48m   Tue, Thu, Sat                 
+6E3956   TRV   Thiruvananthapuram   DEL   Delhi                16:30  19:15  2h 45m   Mon, Wed, Fri                 
+6E4339   SXR   Srinagar             BOM   Mumbai               16:30  17:29  0h 59m   Tue, Thu, Sat                 
+6E463    VTZ   Visakhapatnam        BLR   Bangalore            16:30  18:12  1h 42m   Daily                         
+AI7199   CCU   Kolkata              BOM   Mumbai               16:30  18:47  2h 17m   Mon, Tue, Wed, Thu, Fri       
+AI8068   CCU   Kolkata              BLR   Bangalore            16:30  18:49  2h 19m   Tue, Thu, Sat                 
+G82118   CCU   Kolkata              STV   Surat                16:30  20:02  3h 32m   Daily                         
+G87564   TRV   Thiruvananthapuram   MAA   Chennai              16:30  19:10  2h 40m   Daily                         
+SG5617   JAI   Jaipur               BLR   Bangalore            16:30  18:39  2h 9m    Daily                         
+UK320    GOI   Goa                  DEL   Delhi                16:30  19:06  2h 36m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+6E4307   MAA   Chennai              BOM   Mumbai               16:45  18:46  2h 1m    Daily                         
+AI7084   BLR   Bangalore            MAA   Chennai              16:45  18:46  2h 1m    Tue, Thu, Sat                 
+AI9162   IXC   Chandigarh           MAA   Chennai              16:45  20:19  3h 34m   Mon, Wed, Fri                 
+G85675   GOI   Goa                  CCU   Kolkata              16:45  19:56  3h 11m   Daily                         
+UK4046   HYD   Hyderabad            MAA   Chennai              16:45  19:33  2h 48m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+6E1407   SXR   Srinagar             HYD   Hyderabad            17:00  18:06  1h 6m    Mon, Wed, Fri                 
+6E6201   BLR   Bangalore            HYD   Hyderabad            17:00  19:36  2h 36m   Daily                         
+6E6342   AMD   Ahmedabad            BLR   Bangalore            17:00  20:09  3h 9m    Mon, Wed, Fri                 
+6E8688   BLR   Bangalore            BOM   Mumbai               17:00  19:06  2h 6m    Tue, Thu, Sat                 
+6E9243   BOM   Mumbai               LKO   Lucknow              17:00  20:36  3h 36m   Sat, Sun                      
+AI4529   DEL   Delhi                MAA   Chennai              17:00  18:58  1h 58m   Daily                         
+G83926   CCU   Kolkata              BLR   Bangalore            17:00  19:39  2h 39m   Mon, Tue, Wed, Thu, Fri       
+6E3100   IXC   Chandigarh           DEL   Delhi                17:15  18:04  0h 49m   Daily                         
+G88810   LKO   Lucknow              HYD   Hyderabad            17:15  19:17  2h 2m    Sat, Sun                      
+G89339   SXR   Srinagar             CCU   Kolkata              17:15  18:31  1h 16m   Sat, Sun                      
+SG6165   VNS   Varanasi             BOM   Mumbai               17:15  20:18  3h 3m    Mon, Tue, Wed, Thu, Fri, Sat, Sun
+SG9747   LKO   Lucknow              BOM   Mumbai               17:15  20:39  3h 24m   Daily                         
+UK8808   BLR   Bangalore            MAA   Chennai              17:15  18:59  1h 44m   Mon, Wed, Fri                 
+6E4580   SXR   Srinagar             BOM   Mumbai               17:30  20:38  3h 8m    Tue, Thu, Sat                 
+6E7416   GOI   Goa                  CCU   Kolkata              17:30  21:25  3h 55m   Mon, Wed, Fri                 
+AI2879   VNS   Varanasi             CCU   Kolkata              17:30  21:28  3h 58m   Tue, Thu, Sat                 
+UK2869   AMD   Ahmedabad            VNS   Varanasi             17:30  20:07  2h 37m   Sat, Sun                      
+UK5701   DEL   Delhi                MAA   Chennai              17:30  19:48  2h 18m   Mon, Wed, Fri                 
+6E3903   VTZ   Visakhapatnam        MAA   Chennai              17:45  18:34  0h 49m   Daily                         
+6E3933   MAA   Chennai              BOM   Mumbai               17:45  19:18  1h 33m   Tue, Thu, Sat                 
+6E4541   BLR   Bangalore            HYD   Hyderabad            17:45  20:04  2h 19m   Daily                         
+6E6915   TRV   Thiruvananthapuram   GOI   Goa                  17:45  20:55  3h 10m   Daily                         
+6E9154   MAA   Chennai              BLR   Bangalore            17:45  20:19  2h 34m   Tue, Thu, Sat                 
+AI7907   BOM   Mumbai               HYD   Hyderabad            17:45  19:45  2h 0m    Tue, Thu, Sat                 
+AI908    IXC   Chandigarh           BLR   Bangalore            17:45  20:06  2h 21m   Mon, Tue, Wed, Thu, Fri       
+SG6482   VNS   Varanasi             BLR   Bangalore            17:45  19:58  2h 13m   Tue, Thu, Sat                 
+UK8868   BLR   Bangalore            CCU   Kolkata              17:45  19:21  1h 36m   Daily                         
+6E1177   BLR   Bangalore            DEL   Delhi                18:00  20:27  2h 27m   Mon, Wed, Fri                 
+6E1599   GOI   Goa                  MAA   Chennai              18:00  18:56  0h 56m   Mon, Tue, Wed, Thu, Fri       
+6E1800   STV   Surat                BLR   Bangalore            18:00  21:31  3h 31m   Daily                         
+6E4513   BLR   Bangalore            HYD   Hyderabad            18:00  19:40  1h 40m   Mon, Wed, Fri                 
+G88307   BOM   Mumbai               HYD   Hyderabad            18:00  20:50  2h 50m   Sat, Sun                      
+G88591   VNS   Varanasi             HYD   Hyderabad            18:00  21:10  3h 10m   Daily                         
+6E4671   JAI   Jaipur               HYD   Hyderabad            18:15  21:10  2h 55m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+6E5294   MAA   Chennai              DEL   Delhi                18:15  19:54  1h 39m   Daily                         
+6E5616   PNQ   Pune                 MAA   Chennai              18:15  19:25  1h 10m   Daily                         
+6E5785   HYD   Hyderabad            MAA   Chennai              18:15  19:47  1h 32m   Daily                         
+6E9975   BOM   Mumbai               MAA   Chennai              18:15  21:06  2h 51m   Mon, Tue, Wed, Thu, Fri       
+AI3546   CCU   Kolkata              DEL   Delhi                18:15  19:50  1h 35m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+AI9764   BLR   Bangalore            DEL   Delhi                18:15  20:40  2h 25m   Mon, Wed, Fri                 
+G81425   CCU   Kolkata              BLR   Bangalore            18:15  19:57  1h 42m   Daily                         
+G87204   CCU   Kolkata              BOM   Mumbai               18:15  21:14  2h 59m   Mon, Wed, Fri                 
+UK1730   LKO   Lucknow              AMD   Ahmedabad            18:15  21:52  3h 37m   Sat, Sun                      
+6E5741   VNS   Varanasi             HYD   Hyderabad            18:30  19:20  0h 50m   Daily                         
+G85699   STV   Surat                BOM   Mumbai               18:30  20:56  2h 26m   Daily                         
+6E1601   CCU   Kolkata              HYD   Hyderabad            18:45  20:58  2h 13m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+6E7447   BLR   Bangalore            CCU   Kolkata              18:45  20:58  2h 13m   Mon, Tue, Wed, Thu, Fri       
+6E8520   JAI   Jaipur               DEL   Delhi                18:45  21:28  2h 43m   Daily                         
+6E9811   AMD   Ahmedabad            DEL   Delhi                18:45  19:48  1h 3m    Daily                         
+AI3104   AMD   Ahmedabad            DEL   Delhi                18:45  22:10  3h 25m   Daily                         
+AI5723   STV   Surat                BOM   Mumbai               18:45  20:24  1h 39m   Sat, Sun                      
+G84535   TRV   Thiruvananthapuram   BLR   Bangalore            18:45  20:29  1h 44m   Tue, Thu, Sat                 
+G85032   HYD   Hyderabad            CCU   Kolkata              18:45  21:16  2h 31m   Mon, Wed, Fri                 
+G85441   DEL   Delhi                HYD   Hyderabad            18:45  20:49  2h 4m    Mon, Tue, Thu, Fri, Sun       
+SG1744   MAA   Chennai              DEL   Delhi                18:45  21:15  2h 30m   Sat, Sun                      
+6E1636   HYD   Hyderabad            BOM   Mumbai               19:00  20:54  1h 54m   Daily                         
+6E7012   VTZ   Visakhapatnam        HYD   Hyderabad            19:00  21:37  2h 37m   Tue, Thu, Sat                 
+6E8249   BOM   Mumbai               HYD   Hyderabad            19:00  20:30  1h 30m   Daily                         
+G87849   PNQ   Pune                 MAA   Chennai              19:00  19:57  0h 57m   Mon, Tue, Wed, Thu, Fri       
+G89231   SXR   Srinagar             BLR   Bangalore            19:00  22:22  3h 22m   Mon, Tue, Wed, Thu, Fri       
+SG2791   MAA   Chennai              HYD   Hyderabad            19:00  21:17  2h 17m   Tue, Thu, Sat                 
+SG6577   MAA   Chennai              DEL   Delhi                19:00  20:48  1h 48m   Daily                         
+SG6635   GAU   Guwahati             MAA   Chennai              19:00  20:03  1h 3m    Daily                         
+SG9765   SXR   Srinagar             BLR   Bangalore            19:00  21:50  2h 50m   Mon, Tue, Thu, Fri, Sun       
+UK3956   MAA   Chennai              CCU   Kolkata              19:00  21:42  2h 42m   Daily                         
+UK4597   JAI   Jaipur               HYD   Hyderabad            19:00  20:29  1h 29m   Mon, Wed, Fri                 
+UK5868   AMD   Ahmedabad            CCU   Kolkata              19:00  22:34  3h 34m   Mon, Wed, Fri                 
+UK6867   TRV   Thiruvananthapuram   BLR   Bangalore            19:00  22:48  3h 48m   Daily                         
+UK771    BOM   Mumbai               BLR   Bangalore            19:00  20:32  1h 32m   Mon, Tue, Wed, Thu, Fri       
+6E346    CCU   Kolkata              BOM   Mumbai               19:15  21:44  2h 29m   Mon, Tue, Thu, Fri, Sun       
+6E370    BOM   Mumbai               CCU   Kolkata              19:15  22:05  2h 50m   Sat, Sun                      
+6E3930   BOM   Mumbai               MAA   Chennai              19:15  21:30  2h 15m   Mon, Wed, Fri                 
+6E5497   HYD   Hyderabad            BOM   Mumbai               19:15  21:52  2h 37m   Sat, Sun                      
+AI2265   JAI   Jaipur               PNQ   Pune                 19:15  22:47  3h 32m   Mon, Tue, Thu, Fri, Sun       
+AI2674   STV   Surat                CCU   Kolkata              19:15  22:26  3h 11m   Daily                         
+SG4717   BOM   Mumbai               BLR   Bangalore            19:15  20:55  1h 40m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+UK4019   VNS   Varanasi             DEL   Delhi                19:15  20:52  1h 37m   Mon, Wed, Fri                 
+6E2113   CCU   Kolkata              DEL   Delhi                19:30  21:25  1h 55m   Mon, Tue, Wed, Thu, Fri       
+6E6010   PNQ   Pune                 CCU   Kolkata              19:30  22:19  2h 49m   Mon, Wed, Fri                 
+6E6045   BLR   Bangalore            MAA   Chennai              19:30  22:03  2h 33m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+SG1291   GAU   Guwahati             BLR   Bangalore            19:30  20:50  1h 20m   Mon, Tue, Wed, Thu, Fri       
+SG9878   MAA   Chennai              CCU   Kolkata              19:30  21:03  1h 33m   Daily                         
+UK7497   VNS   Varanasi             DEL   Delhi                19:30  21:18  1h 48m   Daily                         
+6E509    PNQ   Pune                 BLR   Bangalore            19:45  22:29  2h 44m   Daily                         
+AI1119   STV   Surat                MAA   Chennai              19:45  21:34  1h 49m   Tue, Thu, Sat                 
+SG8088   GOI   Goa                  HYD   Hyderabad            19:45  22:20  2h 35m   Daily                         
+6E3281   GAU   Guwahati             MAA   Chennai              20:00  21:35  1h 35m   Daily                         
+6E8673   MAA   Chennai              BLR   Bangalore            20:00  22:22  2h 22m   Tue, Thu, Sat                 
+6E907    CCU   Kolkata              MAA   Chennai              20:00  21:37  1h 37m   Sat, Sun                      
+6E9597   BOM   Mumbai               DEL   Delhi                20:00  21:37  1h 37m   Daily                         
+G83125   IXC   Chandigarh           HYD   Hyderabad            20:00  23:32  3h 32m   Mon, Tue, Wed, Thu, Fri       
+G88777   HYD   Hyderabad            MAA   Chennai              20:00  21:32  1h 32m   Tue, Thu, Sat                 
+G89583   IXC   Chandigarh           BLR   Bangalore            20:00  21:18  1h 18m   Mon, Tue, Wed, Thu, Fri       
+SG128    CCU   Kolkata              MAA   Chennai              20:00  22:36  2h 36m   Daily                         
+6E4435   JAI   Jaipur               HYD   Hyderabad            20:15  21:15  1h 0m    Daily                         
+6E8132   DEL   Delhi                HYD   Hyderabad            20:15  22:56  2h 41m   Mon, Tue, Thu, Fri, Sun       
+6E8977   GAU   Guwahati             HYD   Hyderabad            20:15  22:58  2h 43m   Sat, Sun                      
+6E9284   BLR   Bangalore            HYD   Hyderabad            20:15  22:11  1h 56m   Daily                         
+AI1874   VNS   Varanasi             CCU   Kolkata              20:15  22:43  2h 28m   Daily                         
+AI2216   CCU   Kolkata              DEL   Delhi                20:15  22:08  1h 53m   Mon, Tue, Wed, Thu, Fri       
+AI3763   BOM   Mumbai               HYD   Hyderabad            20:15  21:57  1h 42m   Daily                         
+AI4329   LKO   Lucknow              CCU   Kolkata              20:15  22:21  2h 6m    Mon, Wed, Fri                 
+AI7418   HYD   Hyderabad            BLR   Bangalore            20:15  22:35  2h 20m   Daily                         
+G81911   BLR   Bangalore            DEL   Delhi                20:15  22:30  2h 15m   Mon, Tue, Wed, Thu, Fri       
+G87434   VNS   Varanasi             DEL   Delhi                20:15  22:43  2h 28m   Daily                         
+SG1475   MAA   Chennai              HYD   Hyderabad            20:15  21:59  1h 44m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+SG3260   MAA   Chennai              CCU   Kolkata              20:15  22:23  2h 8m    Daily                         
+SG9924   DEL   Delhi                BLR   Bangalore            20:15  22:33  2h 18m   Mon, Tue, Wed, Thu, Fri       
+UK1430   BLR   Bangalore            BOM   Mumbai               20:15  21:58  1h 43m   Mon, Wed, Fri                 
+UK9937   PNQ   Pune                 BLR   Bangalore            20:15  21:38  1h 23m   Mon, Tue, Thu, Fri, Sun       
+G85375   JAI   Jaipur               DEL   Delhi                20:30  00:25  3h 55m   Daily                         
+SG6560   CCU   Kolkata              BLR   Bangalore            20:30  23:15  2h 45m   Daily                         
+UK5805   STV   Surat                CCU   Kolkata              20:30  21:58  1h 28m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+6E8687   DEL   Delhi                PNQ   Pune                 20:45  22:10  1h 25m   Daily                         
+6E9703   MAA   Chennai              HYD   Hyderabad            20:45  23:31  2h 46m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+AI9244   IDR   Indore               VNS   Varanasi             20:45  21:56  1h 11m   Tue, Thu, Sat                 
+G89963   STV   Surat                MAA   Chennai              20:45  23:17  2h 32m   Tue, Thu, Sat                 
+SG2075   AMD   Ahmedabad            MAA   Chennai              20:45  00:35  3h 50m   Mon, Tue, Wed, Thu, Fri       
+SG2360   VNS   Varanasi             HYD   Hyderabad            20:45  23:21  2h 36m   Mon, Wed, Fri                 
+SG3746   VTZ   Visakhapatnam        HYD   Hyderabad            20:45  22:06  1h 21m   Mon, Wed, Fri                 
+SG5713   VTZ   Visakhapatnam        BOM   Mumbai               20:45  22:21  1h 36m   Daily                         
+SG7512   PNQ   Pune                 BOM   Mumbai               20:45  00:05  3h 20m   Tue, Thu, Sat                 
+UK9839   HYD   Hyderabad            CCU   Kolkata              20:45  23:18  2h 33m   Mon, Wed, Fri                 
+6E1841   MAA   Chennai              BOM   Mumbai               21:00  22:44  1h 44m   Daily                         
+6E6646   DEL   Delhi                BLR   Bangalore            21:00  23:43  2h 43m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+AI5789   SXR   Srinagar             DEL   Delhi                21:00  23:57  2h 57m   Daily                         
+UK3766   IDR   Indore               DEL   Delhi                21:00  23:38  2h 38m   Tue, Thu, Sat                 
+UK9791   AMD   Ahmedabad            JAI   Jaipur               21:00  23:57  2h 57m   Mon, Tue, Thu, Fri, Sun       
+6E2650   BOM   Mumbai               CCU   Kolkata              21:15  23:22  2h 7m    Daily                         
+G82960   BLR   Bangalore            BOM   Mumbai               21:15  00:12  2h 57m   Daily                         
+SG5241   VTZ   Visakhapatnam        DEL   Delhi                21:15  23:50  2h 35m   Sat, Sun                      
+SG9492   HYD   Hyderabad            BLR   Bangalore            21:15  23:00  1h 45m   Mon, Tue, Wed, Thu, Fri       
+UK2143   CCU   Kolkata              BOM   Mumbai               21:15  23:52  2h 37m   Mon, Wed, Fri                 
+UK7805   MAA   Chennai              HYD   Hyderabad            21:15  23:33  2h 18m   Mon, Wed, Fri                 
+6E3193   DEL   Delhi                HYD   Hyderabad            21:30  00:05  2h 35m   Daily                         
+6E4377   JAI   Jaipur               LKO   Lucknow              21:30  22:30  1h 0m    Mon, Tue, Wed, Thu, Fri       
+6E8884   JAI   Jaipur               BLR   Bangalore            21:30  22:50  1h 20m   Tue, Thu, Sat                 
+AI3644   BLR   Bangalore            HYD   Hyderabad            21:30  23:37  2h 7m    Daily                         
+AI5401   IXC   Chandigarh           HYD   Hyderabad            21:30  23:05  1h 35m   Daily                         
+SG4563   DEL   Delhi                BOM   Mumbai               21:30  23:54  2h 24m   Mon, Wed, Fri                 
+UK8399   LKO   Lucknow              VNS   Varanasi             21:30  23:24  1h 54m   Tue, Thu, Sat                 
+6E2214   LKO   Lucknow              BOM   Mumbai               21:45  00:25  2h 40m   Mon, Tue, Wed, Thu, Fri       
+6E4463   AMD   Ahmedabad            MAA   Chennai              21:45  00:38  2h 53m   Tue, Thu, Sat                 
+6E466    CCU   Kolkata              DEL   Delhi                21:45  00:08  2h 23m   Daily                         
+6E6008   JAI   Jaipur               BOM   Mumbai               21:45  22:37  0h 52m   Mon, Tue, Thu, Fri, Sun       
+6E6804   DEL   Delhi                MAA   Chennai              21:45  00:27  2h 42m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+6E8373   GAU   Guwahati             DEL   Delhi                21:45  00:47  3h 2m    Tue, Thu, Sat                 
+AI2898   PNQ   Pune                 BOM   Mumbai               21:45  00:10  2h 25m   Daily                         
+AI3472   MAA   Chennai              CCU   Kolkata              21:45  00:28  2h 43m   Mon, Tue, Thu, Fri, Sun       
+UK6528   VTZ   Visakhapatnam        HYD   Hyderabad            21:45  23:04  1h 19m   Daily                         
+UK7410   GOI   Goa                  BLR   Bangalore            21:45  00:53  3h 8m    Daily                         
+UK9451   IDR   Indore               BOM   Mumbai               21:45  23:28  1h 43m   Daily                         
+6E4119   AMD   Ahmedabad            BLR   Bangalore            22:00  00:51  2h 51m   Daily                         
+6E2369   LKO   Lucknow              BLR   Bangalore            22:15  23:14  0h 59m   Mon, Tue, Wed, Thu, Fri       
+6E6855   JAI   Jaipur               BOM   Mumbai               22:15  23:50  1h 35m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+AI2141   GAU   Guwahati             MAA   Chennai              22:15  01:57  3h 42m   Mon, Tue, Wed, Thu, Fri       
+AI4282   GOI   Goa                  BLR   Bangalore            22:15  01:22  3h 7m    Daily                         
+AI7584   VNS   Varanasi             BLR   Bangalore            22:15  00:38  2h 23m   Tue, Thu, Sat                 
+SG2887   MAA   Chennai              BOM   Mumbai               22:15  00:22  2h 7m    Mon, Tue, Wed, Thu, Fri, Sat, Sun
+SG2914   LKO   Lucknow              DEL   Delhi                22:15  01:15  3h 0m    Mon, Tue, Thu, Fri, Sun       
+SG635    MAA   Chennai              BLR   Bangalore            22:15  00:03  1h 48m   Daily                         
+SG8766   MAA   Chennai              DEL   Delhi                22:15  00:52  2h 37m   Daily                         
+AI2538   MAA   Chennai              HYD   Hyderabad            22:30  00:10  1h 40m   Daily                         
+AI8005   HYD   Hyderabad            BOM   Mumbai               22:30  00:58  2h 28m   Mon, Tue, Wed, Thu, Fri, Sat, Sun
+SG3331   VNS   Varanasi             MAA   Chennai              22:30  00:42  2h 12m   Daily                         
+SG713    LKO   Lucknow              BOM   Mumbai               22:30  00:09  1h 39m   Sat, Sun                      
+UK1007   GOI   Goa                  CCU   Kolkata              22:30  02:15  3h 45m   Daily                         
+UK1353   AMD   Ahmedabad            BOM   Mumbai               22:30  00:31  2h 1m    Tue, Thu, Sat                 
+6E4307   BOM   Mumbai               BLR   Bangalore            22:45  01:08  2h 23m   Sat, Sun                      
+6E7610   IXC   Chandigarh           CCU   Kolkata              22:45  02:37  3h 52m   Daily                         
+AI3956   PNQ   Pune                 CCU   Kolkata              22:45  01:09  2h 24m   Mon, Tue, Thu, Fri, Sun       
+AI571    HYD   Hyderabad            MAA   Chennai              22:45  01:17  2h 32m   Mon, Wed, Fri                 
+UK372    TRV   Thiruvananthapuram   BOM   Mumbai               22:45  02:13  3h 28m   Daily                         
+UK8023   HYD   Hyderabad            DEL   Delhi                22:45  00:41  1h 56m   Mon, Tue, Thu, Fri, Sun       
+AI4610   SXR   Srinagar             DEL   Delhi                23:00  01:37  2h 37m   Sat, Sun                      
+AI7839   MAA   Chennai              BLR   Bangalore            23:00  01:51  2h 51m   Mon, Wed, Fri                 
+AI8620   MAA   Chennai              DEL   Delhi                23:00  00:53  1h 53m   Tue, Thu, Sat                 
+G82520   DEL   Delhi                HYD   Hyderabad            23:00  01:00  2h 0m    Tue, Thu, Sat                 
+SG2123   DEL   Delhi                BOM   Mumbai               23:00  00:54  1h 54m   Tue, Thu, Sat                 
+UK8284   VTZ   Visakhapatnam        DEL   Delhi                23:00  00:41  1h 41m   Tue, Thu, Sat                 
+UK8741   VTZ   Visakhapatnam        BLR   Bangalore            23:00  02:52  3h 52m   Sat, Sun                      
